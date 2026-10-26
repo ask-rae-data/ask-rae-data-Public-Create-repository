@@ -13,8 +13,8 @@ const KEEP_DAYS = 60;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // ---------- What counts as an admin-family role ----------
-const INCLUDE = /(executive (assistant|business partner|coordinator|administrator|admin)|administrative (assistant|coordinator|specialist|manager|services|supervisor|associate|professional)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department(al)? assistant|personal assistant|board (liaison|relations)|executive office|business support (specialist|coordinator|manager)|workplace (coordinator|experience)|scheduling coordinator|legal (administrative )?assistant|ea to |ea,|\bea\b)/i;
-const EXCLUDE = /(system(s)? admin|network admin|database admin|\bit admin|salesforce admin|platform admin|linux|windows|sysadmin|devops|engineer|developer|physician|nurse|\brn\b|dental assistant|medical assistant|pharmacy|teacher|teaching assistant|research assistant|lab assistant|veterinar|cashier|warehouse|driver|intern\b|internship|sales associate|caregiver|chief of staff,? (army|navy|air force)|military)/i;
+const INCLUDE = /(executive (assistant|business partner|coordinator|administrator|admin)|administrative (assistant|coordinator|specialist|manager|services|supervisor|associate|professional)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department(al)? assistant|personal assistant|board (liaison|relations)|executive office\b|business support (specialist|coordinator|manager)|workplace (experience )?coordinator|scheduling coordinator|legal (administrative )?assistant|ea to |ea,|\bea\b)/i;
+const EXCLUDE = /(system(s)? admin|network admin|database admin|\bit admin|salesforce admin|platform admin|linux|windows|sysadmin|devops|engineer|developer|physician|nurse|\brn\b|dental assistant|medical assistant|pharmacy|teacher|teaching assistant|research assistant|lab assistant|veterinar|cashier|warehouse|phlebotom|underwriter|account executive|product management|driver|intern\b|internship|sales associate|caregiver|chief of staff,? (army|navy|air force)|military)/i;
 
 function level(title) {
   const t = title.toLowerCase();
@@ -54,7 +54,7 @@ function parseLoc(raw) {
   if (out.remote && !FOREIGN.test(s)) return { ...out, us: true };
   return out;
 }
-function cleanCity(c) { return c.replace(/^(remote|hybrid|on-?site|in-office)\s*[-–:|/]\s*/i, "").split(/[;|/]/).pop().trim(); }
+function cleanCity(c) { return c.replace(/^(usa?|united states|remote|hybrid|on-?site|in-office)\s*[-–:|/]\s*/i, "").replace(/^(usa?|united states)\s*[-–:|/]\s*/i, "").split(/[;|/]/).pop().trim(); }
 function titleCase(c) { return c.replace(/\b\w/g, x => x.toUpperCase()); }
 
 function workplaceFrom(text, explicit) {
@@ -69,10 +69,45 @@ function workplaceFrom(text, explicit) {
 }
 
 // ---------- HTTP ----------
-async function get(url, opts = {}) {
+async function get(url, opts = {}, tries = 2) {
   const res = await fetch(url, { ...opts, headers: { "User-Agent": UA, Accept: "application/json", ...(opts.headers || {}) } });
+  if (res.status >= 500 && tries > 1) { await sleep(1500); return get(url, opts, tries - 1); }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
+}
+
+// ---------- Fixing broken company entries ----------
+// When a company's address is wrong, try the usual variations and keep the first that works.
+function slugs(token, name) {
+  const base = String(name).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "");
+  const b2 = String(name).toLowerCase().replace(/^the /, "").replace(/[^a-z0-9]/g, "");
+  const set = new Set([token.toLowerCase(), base, b2, base + "inc", base + "careers", base + "jobs", base + "hq", base + "usa", base + "us", b2.split(/(?=group|health|systems|technologies|industries)/)[0]]);
+  set.delete(token);
+  return [...set].filter(Boolean);
+}
+async function discoverBoard(kind, token, name) {
+  const urls = {
+    Greenhouse: t => `https://boards-api.greenhouse.io/v1/boards/${t}/jobs`,
+    Lever: t => `https://api.lever.co/v0/postings/${t}?mode=json&limit=1`,
+    Ashby: t => `https://api.ashbyhq.com/posting-api/job-board/${t}`,
+  };
+  for (const t of slugs(token, name)) {
+    try { await get(urls[kind](t), {}, 1); return [t, name]; } catch {}
+    await sleep(150);
+  }
+  return null;
+}
+async function discoverWorkday([host, tenant, site, name], error) {
+  const sites = [site, "External", "Careers", "External_Careers", "ExternalCareers", "careers", "Jobs", "jobs", tenant, `${tenant}careers`, `${tenant}_Careers`, `${tenant}Careers`, "Search", "Ext", "EXTERNAL", "Global", "US", "Corporate", "Professional", "Experienced"];
+  const hosts = error.includes("404") ? ["wd1", "wd3", "wd5", "wd12", "wd103", "wd501"].map(w => `${tenant}.${w}.myworkdayjobs.com`) : [host];
+  for (const h of hosts) for (const st of (error.includes("404") ? [site, "External", "Careers", tenant] : sites)) {
+    try {
+      await get(`https://${h}/wday/cxs/${tenant}/${st}/jobs`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ appliedFacets: {}, limit: 1, offset: 0, searchText: "" }) }, 1);
+      return [h, tenant, st, name];
+    } catch {}
+    await sleep(150);
+  }
+  return null;
 }
 
 // ---------- Sources ----------
@@ -182,6 +217,18 @@ async function runAll(list, fn, label, report, concurrency = 4) {
         results.push(...jobs);
         report.push({ source: label, company: name, ok: true, openJobs: jobs.length });
       } catch (e) {
+        let fixed = null;
+        if (/HTTP 4\d\d/.test(e.message)) {
+          fixed = label === "Workday" ? await discoverWorkday(entry, e.message) : ["Greenhouse", "Lever", "Ashby"].includes(label) ? await discoverBoard(label, entry[0], name) : null;
+        }
+        if (fixed) {
+          try {
+            const jobs = await fn(fixed);
+            results.push(...jobs);
+            report.push({ source: label, company: name, ok: true, openJobs: jobs.length, fixedEntry: fixed });
+            continue;
+          } catch {}
+        }
         report.push({ source: label, company: name, ok: false, error: e.message, entry });
       }
     }
