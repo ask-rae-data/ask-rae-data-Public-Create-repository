@@ -1,152 +1,735 @@
 {
-  "_note": "Employers Ask RAE checks every day. Each entry names the hiring system the company's career site runs on. Entries that stop working show up in public/report.json and can be fixed or removed.",
-  "greenhouse": [
-    ["airbnb", "Airbnb"], ["stripe", "Stripe"], ["dropbox", "Dropbox"], ["pinterest", "Pinterest"],
-    ["reddit", "Reddit"], ["discord", "Discord"], ["coinbase", "Coinbase"], ["robinhood", "Robinhood"],
-    ["gitlab", "GitLab"], ["datadog", "Datadog"], ["cloudflare", "Cloudflare"], ["twilio", "Twilio"],
-    ["instacart", "Instacart"], ["lyft", "Lyft"], ["squarespace", "Squarespace"], ["asana", "Asana"],
-    ["figma", "Figma"], ["duolingo", "Duolingo"], ["elastic", "Elastic"], ["mongodb", "MongoDB"],
-    ["okta", "Okta"], ["affirm", "Affirm"], ["chime", "Chime"], ["brex", "Brex"], ["gusto", "Gusto"],
-    ["anthropic", "Anthropic"], ["databricks", "Databricks"], ["scaleai", "Scale AI"], ["samsara", "Samsara"],
-    ["toast", "Toast"], ["sofi", "SoFi"], ["betterment", "Betterment"], ["roblox", "Roblox"],
-    ["twitch", "Twitch"], ["etsy", "Etsy"], ["carta", "Carta"], ["flexport", "Flexport"], ["waymo", "Waymo"],
-    ["pagerduty", "PagerDuty"], ["hubspotjobs", "HubSpot"], ["doordashusa", "DoorDash"], ["zscaler", "Zscaler"],
-    ["block", "Block"], ["peloton", "Peloton"], ["warbyparker", "Warby Parker"], ["glossier", "Glossier"],
-    ["seatgeek", "SeatGeek"], ["oscar", "Oscar Health"], ["ziprecruiter", "ZipRecruiter"], ["grammarly", "Grammarly"],
-    ["calendly", "Calendly"], ["vimeo", "Vimeo"], ["nerdwallet", "NerdWallet"], ["marqeta", "Marqeta"],
-    ["webflow", "Webflow"], ["airtable", "Airtable"], ["andurilindustries", "Anduril"], ["spacex", "SpaceX"],
-    ["point72", "Point72"], ["janestreet", "Jane Street"], ["twosigma", "Two Sigma"], ["citadel", "Citadel"],
-    ["bridgewater89", "Bridgewater Associates"], ["generalatlantic", "General Atlantic"], ["kkr", "KKR"],
-    ["blackstone", "Blackstone"], ["warburgpincus", "Warburg Pincus"], ["andreessenhorowitz", "Andreessen Horowitz"],
-    ["sequoiacapital", "Sequoia Capital"], ["thrivecapital", "Thrive Capital"], ["generalcatalyst", "General Catalyst"],
-    ["insightpartners", "Insight Partners"], ["tigerglobal", "Tiger Global"], ["vistaequitypartners", "Vista Equity Partners"],
-    ["clearlakecapital", "Clearlake Capital"], ["lazard", "Lazard"], ["evercore", "Evercore"], ["moelis", "Moelis"],
-    ["pjtpartners", "PJT Partners"], ["houlihanlokey", "Houlihan Lokey"], ["bainandcompany", "Bain & Company"],
-    ["bostonconsultinggroup", "Boston Consulting Group"], ["mckinsey", "McKinsey & Company"],
-    ["wealthfront", "Wealthfront"], ["ramp", "Ramp"], ["mercury", "Mercury"], ["plaid", "Plaid"],
-    ["veeva", "Veeva Systems"], ["gemini", "Gemini"], ["rippling", "Rippling"], ["justworks", "Justworks"],
-    ["fanatics", "Fanatics"], ["sweetgreen", "Sweetgreen"], ["allbirds", "Allbirds"], ["away", "Away"],
-    ["harrys", "Harry's"], ["skims", "SKIMS"], ["everlane", "Everlane"], ["renttherunway", "Rent the Runway"],
-    ["thetradedesk", "The Trade Desk"], ["hims", "Hims & Hers"], ["noom", "Noom"], ["headspace", "Headspace"],
-    ["calm", "Calm"], ["classpass", "ClassPass"], ["mindbody", "Mindbody"], ["zocdoc", "Zocdoc"],
-    ["tempus", "Tempus"], ["flatiron", "Flatiron Health"], ["cityblock", "Cityblock Health"], ["onemedical", "One Medical"]
+ "_note": "Employers Ask RAE checks every day. Each entry names the hiring system the company's career site runs on. Entries that stop working show up in public/report.json and can be fixed or removed.",
+ "greenhouse": [
+  [
+   "airbnb",
+   "Airbnb"
   ],
-  "lever": [
-    ["spotify", "Spotify"], ["palantir", "Palantir"], ["atlassian", "Atlassian"], ["zoox", "Zoox"],
-    ["outreach", "Outreach"], ["attentive", "Attentive"], ["kraken", "Kraken"], ["netlify", "Netlify"],
-    ["whoop", "WHOOP"], ["highspot", "Highspot"], ["matchgroup", "Match Group"], ["eventbrite", "Eventbrite"],
-    ["shieldai", "Shield AI"], ["benchling", "Benchling"], ["nium", "Nium"], ["wealthsimple", "Wealthsimple"],
-    ["upgrade", "Upgrade"], ["mixpanel", "Mixpanel"], ["anchorage", "Anchorage Digital"], ["voleon", "Voleon"]
+  [
+   "stripe",
+   "Stripe"
   ],
-  "ashby": [
-    ["openai", "OpenAI"], ["notion", "Notion"], ["linear", "Linear"], ["vercel", "Vercel"],
-    ["deel", "Deel"], ["replit", "Replit"], ["snowflake", "Snowflake"], ["multiverse", "Multiverse"],
-    ["perplexity", "Perplexity"], ["cohere", "Cohere"], ["clay", "Clay"], ["harvey", "Harvey"],
-    ["hebbia", "Hebbia"], ["sierra", "Sierra"], ["glean", "Glean"], ["retool", "Retool"],
-    ["posthog", "PostHog"], ["supabase", "Supabase"], ["modal", "Modal"], ["runway", "Runway"]
+  [
+   "dropbox",
+   "Dropbox"
   ],
-  "smartrecruiters": [
-    ["Visa", "Visa"], ["BoschGroup", "Bosch"], ["Ubisoft2", "Ubisoft"], ["Equinox", "Equinox"],
-    ["ServiceNow", "ServiceNow"], ["Wise", "Wise"], ["Sodexo", "Sodexo"], ["Experian", "Experian"]
+  [
+   "pinterest",
+   "Pinterest"
   ],
-  "workday": [
-    ["salesforce.wd12.myworkdayjobs.com", "salesforce", "External_Career_Site", "Salesforce"],
-    ["nvidia.wd5.myworkdayjobs.com", "nvidia", "NVIDIAExternalCareerSite", "NVIDIA"],
-    ["walmart.wd5.myworkdayjobs.com", "walmart", "WalmartExternal", "Walmart"],
-    ["target.wd5.myworkdayjobs.com", "target", "targetcareers", "Target"],
-    ["adobe.wd5.myworkdayjobs.com", "adobe", "external_experienced", "Adobe"],
-    ["intel.wd1.myworkdayjobs.com", "intel", "External", "Intel"],
-    ["capitalone.wd12.myworkdayjobs.com", "capitalone", "Capital_One", "Capital One"],
-    ["ghr.wd1.myworkdayjobs.com", "ghr", "Lateral-US", "Bank of America"],
-    ["mastercard.wd1.myworkdayjobs.com", "mastercard", "CorporateCareers", "Mastercard"],
-    ["pfizer.wd1.myworkdayjobs.com", "pfizer", "PfizerCareers", "Pfizer"],
-    ["chevron.wd5.myworkdayjobs.com", "chevron", "jobs", "Chevron"],
-    ["boeing.wd1.myworkdayjobs.com", "boeing", "EXTERNAL_CAREERS", "Boeing"],
-    ["cvshealth.wd1.myworkdayjobs.com", "cvshealth", "CVS_Health_Careers", "CVS Health"],
-    ["disney.wd5.myworkdayjobs.com", "disney", "disneycareer", "The Walt Disney Company"],
-    ["dell.wd1.myworkdayjobs.com", "dell", "External", "Dell Technologies"],
-    ["mckesson.wd3.myworkdayjobs.com", "mckesson", "External_Careers", "McKesson"],
-    ["kimberlyclark.wd1.myworkdayjobs.com", "kimberlyclark", "GLOBAL", "Kimberly-Clark"],
-    ["wf.wd1.myworkdayjobs.com", "wf", "WellsFargoJobs", "Wells Fargo"],
-    ["comcast.wd5.myworkdayjobs.com", "comcast", "Comcast_Careers", "Comcast"],
-    ["humana.wd5.myworkdayjobs.com", "humana", "Humana_External_Career_Site", "Humana"],
-    ["cigna.wd5.myworkdayjobs.com", "cigna", "cignacareers", "Cigna"],
-    ["ms.wd5.myworkdayjobs.com", "ms", "External", "Morgan Stanley"],
-    ["fmr.wd1.myworkdayjobs.com", "fmr", "FidelityCareers", "Fidelity Investments"],
-    ["nike.wd1.myworkdayjobs.com", "nke", "nke", "Nike"],
-    ["accenture.wd103.myworkdayjobs.com", "accenture", "AccentureCareers", "Accenture"],
-    ["toyota.wd5.myworkdayjobs.com", "toyota", "TMNA", "Toyota North America"],
-    ["swa.wd1.myworkdayjobs.com", "swa", "External", "Southwest Airlines"],
-    ["aa.wd1.myworkdayjobs.com", "aa", "AAcareers", "American Airlines"],
-    ["schwab.wd1.myworkdayjobs.com", "schwab", "SchwabExternal", "Charles Schwab"],
-    ["tenethealth.wd1.myworkdayjobs.com", "tenethealth", "External", "Tenet Healthcare"],
-    ["bswhealth.wd1.myworkdayjobs.com", "bswhealth", "BSWHealthCareers", "Baylor Scott & White Health"],
-    ["texashealth.wd1.myworkdayjobs.com", "texashealth", "THR", "Texas Health Resources"],
-    ["utsouthwestern.wd1.myworkdayjobs.com", "utsouthwestern", "UTSW_Careers", "UT Southwestern"],
-    ["smu.wd1.myworkdayjobs.com", "smu", "SMU", "Southern Methodist University"],
-    ["jacobs.wd1.myworkdayjobs.com", "jacobs", "External", "Jacobs"],
-    ["vistra.wd5.myworkdayjobs.com", "vistra", "Vistra_Careers", "Vistra"],
-    ["tylertech.wd5.myworkdayjobs.com", "tylertech", "TylerTech", "Tyler Technologies"],
-    ["lennox.wd1.myworkdayjobs.com", "lennox", "External", "Lennox"],
-    ["jcpenney.wd5.myworkdayjobs.com", "jcpenney", "JCPenney", "JCPenney"],
-    ["7eleven.wd1.myworkdayjobs.com", "7eleven", "7-Eleven", "7-Eleven"],
-    ["fluor.wd1.myworkdayjobs.com", "fluor", "Fluor", "Fluor"],
-    ["celanese.wd1.myworkdayjobs.com", "celanese", "Celanese_Careers", "Celanese"],
-    ["exxonmobil.wd5.myworkdayjobs.com", "exxonmobil", "ExxonMobilCareers", "ExxonMobil"],
-    ["att.wd1.myworkdayjobs.com", "att", "ATTGeneral", "AT&T"],
-    ["unitedhealthgroup.wd5.myworkdayjobs.com", "unitedhealthgroup", "External", "UnitedHealth Group"],
-    ["jj.wd5.myworkdayjobs.com", "jj", "JJ", "Johnson & Johnson"],
-    ["merck.wd5.myworkdayjobs.com", "merck", "SearchJobs", "Merck"],
-    ["abbott.wd5.myworkdayjobs.com", "abbott", "abbottcareers", "Abbott"],
-    ["gilead.wd1.myworkdayjobs.com", "gilead", "gileadcareers", "Gilead Sciences"],
-    ["amgen.wd1.myworkdayjobs.com", "amgen", "Careers", "Amgen"],
-    ["statestreet.wd1.myworkdayjobs.com", "statestreet", "Global", "State Street"],
-    ["bnymellon.wd1.myworkdayjobs.com", "bnymellon", "BNY_Careers", "BNY"],
-    ["pnc.wd5.myworkdayjobs.com", "pnc", "External", "PNC"],
-    ["usbank.wd1.myworkdayjobs.com", "usbank", "US_Bank_Careers", "U.S. Bank"],
-    ["truist.wd1.myworkdayjobs.com", "truist", "Careers", "Truist"],
-    ["prudential.wd5.myworkdayjobs.com", "prudential", "Careers", "Prudential"],
-    ["metlife.wd5.myworkdayjobs.com", "metlife", "External", "MetLife"],
-    ["aig.wd1.myworkdayjobs.com", "aig", "aig", "AIG"],
-    ["travelers.wd5.myworkdayjobs.com", "travelers", "External", "Travelers"],
-    ["kpmg.wd1.myworkdayjobs.com", "kpmg", "KPMG_US", "KPMG"],
-    ["pwc.wd3.myworkdayjobs.com", "pwc", "US_Experienced_Careers", "PwC"],
-    ["ey.wd1.myworkdayjobs.com", "ey", "EY_Careers", "EY"],
-    ["deloitte.wd1.myworkdayjobs.com", "deloitte", "Deloitte_US", "Deloitte"],
-    ["gartner.wd5.myworkdayjobs.com", "gartner", "EXT", "Gartner"],
-    ["marriott.wd5.myworkdayjobs.com", "marriott", "MarriottCareers", "Marriott"],
-    ["hilton.wd1.myworkdayjobs.com", "hilton", "Hilton_Careers", "Hilton"],
-    ["paramount.wd5.myworkdayjobs.com", "paramount", "ParamountCareers", "Paramount"],
-    ["warnerbros.wd5.myworkdayjobs.com", "warnerbros", "global", "Warner Bros. Discovery"],
-    ["netflix.wd1.myworkdayjobs.com", "netflix", "Netflix", "Netflix"],
-    ["workday.wd5.myworkdayjobs.com", "workday", "Workday", "Workday"],
-    ["paypal.wd1.myworkdayjobs.com", "paypal", "jobs", "PayPal"],
-    ["cisco.wd5.myworkdayjobs.com", "cisco", "Cisco_Careers", "Cisco"],
-    ["hpe.wd5.myworkdayjobs.com", "hpe", "Jobsathpe", "Hewlett Packard Enterprise"],
-    ["autodesk.wd1.myworkdayjobs.com", "autodesk", "Ext", "Autodesk"],
-    ["crowdstrike.wd5.myworkdayjobs.com", "crowdstrike", "crowdstrikecareers", "CrowdStrike"],
-    ["paloaltonetworks.wd5.myworkdayjobs.com", "paloaltonetworks", "External", "Palo Alto Networks"],
-    ["3m.wd1.myworkdayjobs.com", "3m", "Search", "3M"],
-    ["lockheedmartin.wd1.myworkdayjobs.com", "lockheedmartin", "LMCareers", "Lockheed Martin"],
-    ["rtx.wd5.myworkdayjobs.com", "rtx", "RTX", "RTX"],
-    ["generalmotors.wd5.myworkdayjobs.com", "generalmotors", "Careers_GM", "General Motors"],
-    ["ford.wd1.myworkdayjobs.com", "ford", "FordCareers", "Ford"],
-    ["homedepot.wd5.myworkdayjobs.com", "homedepot", "CareerDepot", "The Home Depot"],
-    ["lowes.wd5.myworkdayjobs.com", "lowes", "LWS_External_CS", "Lowe's"],
-    ["kohls.wd1.myworkdayjobs.com", "kohls", "kohlscareers", "Kohl's"],
-    ["nordstrom.wd501.myworkdayjobs.com", "nordstrom", "nordstrom_careers", "Nordstrom"],
-    ["starbucks.wd1.myworkdayjobs.com", "starbucks", "starbucksjobs", "Starbucks"],
-    ["pepsico.wd1.myworkdayjobs.com", "pepsico", "PepsiCoCareers", "PepsiCo"],
-    ["cocacola.wd1.myworkdayjobs.com", "cocacola", "coca-cola-careers", "The Coca-Cola Company"],
-    ["kraftheinz.wd1.myworkdayjobs.com", "kraftheinz", "KraftHeinz_Careers", "Kraft Heinz"],
-    ["unilever.wd3.myworkdayjobs.com", "unilever", "Unilever_Experienced_Professionals", "Unilever"],
-    ["harvard.wd1.myworkdayjobs.com", "harvard", "Harvard_Staff", "Harvard University"],
-    ["stanford.wd1.myworkdayjobs.com", "stanford", "Stanford_Careers", "Stanford University"],
-    ["yale.wd1.myworkdayjobs.com", "yale", "External", "Yale University"],
-    ["upenn.wd1.myworkdayjobs.com", "upenn", "careers-at-penn", "University of Pennsylvania"],
-    ["nyu.wd1.myworkdayjobs.com", "nyu", "NYU_Careers", "New York University"],
-    ["mayoclinic.wd5.myworkdayjobs.com", "mayoclinic", "mayoclinic", "Mayo Clinic"],
-    ["clevelandclinic.wd1.myworkdayjobs.com", "clevelandclinic", "ClevelandClinicCareers", "Cleveland Clinic"],
-    ["kaiserpermanente.wd5.myworkdayjobs.com", "kaiserpermanente", "KP", "Kaiser Permanente"]
+  [
+   "reddit",
+   "Reddit"
+  ],
+  [
+   "discord",
+   "Discord"
+  ],
+  [
+   "coinbase",
+   "Coinbase"
+  ],
+  [
+   "robinhood",
+   "Robinhood"
+  ],
+  [
+   "gitlab",
+   "GitLab"
+  ],
+  [
+   "datadog",
+   "Datadog"
+  ],
+  [
+   "cloudflare",
+   "Cloudflare"
+  ],
+  [
+   "twilio",
+   "Twilio"
+  ],
+  [
+   "instacart",
+   "Instacart"
+  ],
+  [
+   "lyft",
+   "Lyft"
+  ],
+  [
+   "squarespace",
+   "Squarespace"
+  ],
+  [
+   "asana",
+   "Asana"
+  ],
+  [
+   "figma",
+   "Figma"
+  ],
+  [
+   "duolingo",
+   "Duolingo"
+  ],
+  [
+   "elastic",
+   "Elastic"
+  ],
+  [
+   "mongodb",
+   "MongoDB"
+  ],
+  [
+   "okta",
+   "Okta"
+  ],
+  [
+   "affirm",
+   "Affirm"
+  ],
+  [
+   "chime",
+   "Chime"
+  ],
+  [
+   "brex",
+   "Brex"
+  ],
+  [
+   "gusto",
+   "Gusto"
+  ],
+  [
+   "anthropic",
+   "Anthropic"
+  ],
+  [
+   "databricks",
+   "Databricks"
+  ],
+  [
+   "scaleai",
+   "Scale AI"
+  ],
+  [
+   "samsara",
+   "Samsara"
+  ],
+  [
+   "toast",
+   "Toast"
+  ],
+  [
+   "sofi",
+   "SoFi"
+  ],
+  [
+   "betterment",
+   "Betterment"
+  ],
+  [
+   "roblox",
+   "Roblox"
+  ],
+  [
+   "twitch",
+   "Twitch"
+  ],
+  [
+   "carta",
+   "Carta"
+  ],
+  [
+   "flexport",
+   "Flexport"
+  ],
+  [
+   "waymo",
+   "Waymo"
+  ],
+  [
+   "pagerduty",
+   "PagerDuty"
+  ],
+  [
+   "hubspotjobs",
+   "HubSpot"
+  ],
+  [
+   "doordashusa",
+   "DoorDash"
+  ],
+  [
+   "zscaler",
+   "Zscaler"
+  ],
+  [
+   "block",
+   "Block"
+  ],
+  [
+   "peloton",
+   "Peloton"
+  ],
+  [
+   "glossier",
+   "Glossier"
+  ],
+  [
+   "seatgeek",
+   "SeatGeek"
+  ],
+  [
+   "oscar",
+   "Oscar Health"
+  ],
+  [
+   "ziprecruiter",
+   "ZipRecruiter"
+  ],
+  [
+   "calendly",
+   "Calendly"
+  ],
+  [
+   "webflow",
+   "Webflow"
+  ],
+  [
+   "airtable",
+   "Airtable"
+  ],
+  [
+   "andurilindustries",
+   "Anduril"
+  ],
+  [
+   "spacex",
+   "SpaceX"
+  ],
+  [
+   "point72",
+   "Point72"
+  ],
+  [
+   "janestreet",
+   "Jane Street"
+  ],
+  [
+   "bridgewater89",
+   "Bridgewater Associates"
+  ],
+  [
+   "generalatlantic",
+   "General Atlantic"
+  ],
+  [
+   "generalcatalyst",
+   "General Catalyst"
+  ],
+  [
+   "ramp",
+   "Ramp"
+  ],
+  [
+   "mercury",
+   "Mercury"
+  ],
+  [
+   "gemini",
+   "Gemini"
+  ],
+  [
+   "justworks",
+   "Justworks"
+  ],
+  [
+   "fanaticsinc",
+   "Fanatics"
+  ],
+  [
+   "sweetgreen",
+   "Sweetgreen"
+  ],
+  [
+   "harrys",
+   "Harry's"
+  ],
+  [
+   "everlane",
+   "Everlane"
+  ],
+  [
+   "renttherunway",
+   "Rent the Runway"
+  ],
+  [
+   "thetradedesk",
+   "The Trade Desk"
+  ],
+  [
+   "calm",
+   "Calm"
+  ],
+  [
+   "classpass",
+   "ClassPass"
+  ],
+  [
+   "mindbody",
+   "Mindbody"
+  ],
+  [
+   "zocdoc",
+   "Zocdoc"
+  ],
+  [
+   "flatironhealth",
+   "Flatiron Health"
+  ],
+  [
+   "onemedical",
+   "One Medical"
   ]
+ ],
+ "lever": [
+  [
+   "spotify",
+   "Spotify"
+  ],
+  [
+   "palantir",
+   "Palantir"
+  ],
+  [
+   "zoox",
+   "Zoox"
+  ],
+  [
+   "outreach",
+   "Outreach"
+  ],
+  [
+   "kraken",
+   "Kraken"
+  ],
+  [
+   "whoop",
+   "WHOOP"
+  ],
+  [
+   "highspot",
+   "Highspot"
+  ],
+  [
+   "matchgroup",
+   "Match Group"
+  ],
+  [
+   "shieldai",
+   "Shield AI"
+  ],
+  [
+   "nium",
+   "Nium"
+  ],
+  [
+   "wealthsimple",
+   "Wealthsimple"
+  ],
+  [
+   "anchorage",
+   "Anchorage Digital"
+  ],
+  [
+   "voleon",
+   "Voleon"
+  ]
+ ],
+ "ashby": [
+  [
+   "openai",
+   "OpenAI"
+  ],
+  [
+   "notion",
+   "Notion"
+  ],
+  [
+   "linear",
+   "Linear"
+  ],
+  [
+   "vercel",
+   "Vercel"
+  ],
+  [
+   "deel",
+   "Deel"
+  ],
+  [
+   "replit",
+   "Replit"
+  ],
+  [
+   "snowflake",
+   "Snowflake"
+  ],
+  [
+   "multiverse",
+   "Multiverse"
+  ],
+  [
+   "perplexity",
+   "Perplexity"
+  ],
+  [
+   "cohere",
+   "Cohere"
+  ],
+  [
+   "harvey",
+   "Harvey"
+  ],
+  [
+   "sierra",
+   "Sierra"
+  ],
+  [
+   "posthog",
+   "PostHog"
+  ],
+  [
+   "supabase",
+   "Supabase"
+  ],
+  [
+   "modal",
+   "Modal"
+  ],
+  [
+   "runway",
+   "Runway"
+  ]
+ ],
+ "smartrecruiters": [
+  [
+   "Visa",
+   "Visa"
+  ],
+  [
+   "BoschGroup",
+   "Bosch"
+  ],
+  [
+   "Ubisoft2",
+   "Ubisoft"
+  ],
+  [
+   "Equinox",
+   "Equinox"
+  ],
+  [
+   "ServiceNow",
+   "ServiceNow"
+  ],
+  [
+   "Wise",
+   "Wise"
+  ],
+  [
+   "Sodexo",
+   "Sodexo"
+  ],
+  [
+   "Experian",
+   "Experian"
+  ]
+ ],
+ "workday": [
+  [
+   "salesforce.wd12.myworkdayjobs.com",
+   "salesforce",
+   "External_Career_Site",
+   "Salesforce"
+  ],
+  [
+   "nvidia.wd5.myworkdayjobs.com",
+   "nvidia",
+   "NVIDIAExternalCareerSite",
+   "NVIDIA"
+  ],
+  [
+   "target.wd5.myworkdayjobs.com",
+   "target",
+   "targetcareers",
+   "Target"
+  ],
+  [
+   "adobe.wd5.myworkdayjobs.com",
+   "adobe",
+   "external_experienced",
+   "Adobe"
+  ],
+  [
+   "intel.wd1.myworkdayjobs.com",
+   "intel",
+   "External",
+   "Intel"
+  ],
+  [
+   "capitalone.wd12.myworkdayjobs.com",
+   "capitalone",
+   "Capital_One",
+   "Capital One"
+  ],
+  [
+   "ghr.wd1.myworkdayjobs.com",
+   "ghr",
+   "Lateral-US",
+   "Bank of America"
+  ],
+  [
+   "mastercard.wd1.myworkdayjobs.com",
+   "mastercard",
+   "CorporateCareers",
+   "Mastercard"
+  ],
+  [
+   "pfizer.wd1.myworkdayjobs.com",
+   "pfizer",
+   "PfizerCareers",
+   "Pfizer"
+  ],
+  [
+   "chevron.wd5.myworkdayjobs.com",
+   "chevron",
+   "jobs",
+   "Chevron"
+  ],
+  [
+   "boeing.wd1.myworkdayjobs.com",
+   "boeing",
+   "EXTERNAL_CAREERS",
+   "Boeing"
+  ],
+  [
+   "cvshealth.wd1.myworkdayjobs.com",
+   "cvshealth",
+   "CVS_Health_Careers",
+   "CVS Health"
+  ],
+  [
+   "disney.wd5.myworkdayjobs.com",
+   "disney",
+   "disneycareer",
+   "The Walt Disney Company"
+  ],
+  [
+   "mckesson.wd3.myworkdayjobs.com",
+   "mckesson",
+   "External_Careers",
+   "McKesson"
+  ],
+  [
+   "kimberlyclark.wd1.myworkdayjobs.com",
+   "kimberlyclark",
+   "GLOBAL",
+   "Kimberly-Clark"
+  ],
+  [
+   "wf.wd1.myworkdayjobs.com",
+   "wf",
+   "WellsFargoJobs",
+   "Wells Fargo"
+  ],
+  [
+   "humana.wd5.myworkdayjobs.com",
+   "humana",
+   "Humana_External_Career_Site",
+   "Humana"
+  ],
+  [
+   "cigna.wd5.myworkdayjobs.com",
+   "cigna",
+   "cignacareers",
+   "Cigna"
+  ],
+  [
+   "ms.wd5.myworkdayjobs.com",
+   "ms",
+   "External",
+   "Morgan Stanley"
+  ],
+  [
+   "fmr.wd1.myworkdayjobs.com",
+   "fmr",
+   "FidelityCareers",
+   "Fidelity Investments"
+  ],
+  [
+   "accenture.wd103.myworkdayjobs.com",
+   "accenture",
+   "AccentureCareers",
+   "Accenture"
+  ],
+  [
+   "swa.wd1.myworkdayjobs.com",
+   "swa",
+   "External",
+   "Southwest Airlines"
+  ],
+  [
+   "att.wd1.myworkdayjobs.com",
+   "att",
+   "ATTGeneral",
+   "AT&T"
+  ],
+  [
+   "jj.wd5.myworkdayjobs.com",
+   "jj",
+   "JJ",
+   "Johnson & Johnson"
+  ],
+  [
+   "abbott.wd5.myworkdayjobs.com",
+   "abbott",
+   "abbottcareers",
+   "Abbott"
+  ],
+  [
+   "gilead.wd1.myworkdayjobs.com",
+   "gilead",
+   "gileadcareers",
+   "Gilead Sciences"
+  ],
+  [
+   "amgen.wd1.myworkdayjobs.com",
+   "amgen",
+   "Careers",
+   "Amgen"
+  ],
+  [
+   "statestreet.wd1.myworkdayjobs.com",
+   "statestreet",
+   "Global",
+   "State Street"
+  ],
+  [
+   "pnc.wd5.myworkdayjobs.com",
+   "pnc",
+   "External",
+   "PNC"
+  ],
+  [
+   "usbank.wd1.myworkdayjobs.com",
+   "usbank",
+   "US_Bank_Careers",
+   "U.S. Bank"
+  ],
+  [
+   "aig.wd1.myworkdayjobs.com",
+   "aig",
+   "aig",
+   "AIG"
+  ],
+  [
+   "travelers.wd5.myworkdayjobs.com",
+   "travelers",
+   "External",
+   "Travelers"
+  ],
+  [
+   "pwc.wd3.myworkdayjobs.com",
+   "pwc",
+   "US_Experienced_Careers",
+   "PwC"
+  ],
+  [
+   "gartner.wd5.myworkdayjobs.com",
+   "gartner",
+   "EXT",
+   "Gartner"
+  ],
+  [
+   "warnerbros.wd5.myworkdayjobs.com",
+   "warnerbros",
+   "global",
+   "Warner Bros. Discovery"
+  ],
+  [
+   "workday.wd5.myworkdayjobs.com",
+   "workday",
+   "Workday",
+   "Workday"
+  ],
+  [
+   "paypal.wd1.myworkdayjobs.com",
+   "paypal",
+   "jobs",
+   "PayPal"
+  ],
+  [
+   "cisco.wd5.myworkdayjobs.com",
+   "cisco",
+   "Cisco_Careers",
+   "Cisco"
+  ],
+  [
+   "hpe.wd5.myworkdayjobs.com",
+   "hpe",
+   "Jobsathpe",
+   "Hewlett Packard Enterprise"
+  ],
+  [
+   "autodesk.wd1.myworkdayjobs.com",
+   "autodesk",
+   "Ext",
+   "Autodesk"
+  ],
+  [
+   "crowdstrike.wd5.myworkdayjobs.com",
+   "crowdstrike",
+   "crowdstrikecareers",
+   "CrowdStrike"
+  ],
+  [
+   "3m.wd1.myworkdayjobs.com",
+   "3m",
+   "Search",
+   "3M"
+  ],
+  [
+   "generalmotors.wd5.myworkdayjobs.com",
+   "generalmotors",
+   "Careers_GM",
+   "General Motors"
+  ],
+  [
+   "homedepot.wd5.myworkdayjobs.com",
+   "homedepot",
+   "CareerDepot",
+   "The Home Depot"
+  ],
+  [
+   "lowes.wd5.myworkdayjobs.com",
+   "lowes",
+   "LWS_External_CS",
+   "Lowe's"
+  ],
+  [
+   "unilever.wd3.myworkdayjobs.com",
+   "unilever",
+   "Unilever_Experienced_Professionals",
+   "Unilever"
+  ],
+  [
+   "upenn.wd1.myworkdayjobs.com",
+   "upenn",
+   "careers-at-penn",
+   "University of Pennsylvania"
+  ]
+ ]
 }
