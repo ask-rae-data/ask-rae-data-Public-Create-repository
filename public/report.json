@@ -1,15 +1,15 @@
 {
  "summary": {
-  "generatedAt": "2026-10-26T19:13:03.201Z",
+  "generatedAt": "2026-10-26T19:24:41.956Z",
   "companiesChecked": 257,
-  "companiesWorking": 154,
-  "rawJobs": 28128,
-  "adminJobs": 239,
+  "companiesWorking": 157,
+  "rawJobs": 28369,
+  "adminJobs": 186,
   "dropped": {
-   "notAdmin": 27549,
-   "notUS": 162,
-   "old": 21,
-   "dup": 157
+   "notAdmin": 27880,
+   "notUS": 145,
+   "old": 16,
+   "dup": 142
   }
  },
  "companies": [
@@ -89,7 +89,7 @@
    "source": "Ashby",
    "company": "OpenAI",
    "ok": true,
-   "openJobs": 790
+   "openJobs": 789
   },
   {
    "source": "Ashby",
@@ -129,7 +129,7 @@
    "source": "Ashby",
    "company": "Sierra",
    "ok": true,
-   "openJobs": 211
+   "openJobs": 210
   },
   {
    "source": "Ashby",
@@ -363,7 +363,7 @@
    "source": "Greenhouse",
    "company": "DoorDash",
    "ok": true,
-   "openJobs": 451
+   "openJobs": 452
   },
   {
    "source": "Greenhouse",
@@ -412,10 +412,10 @@
   {
    "source": "Greenhouse",
    "company": "Fanatics",
-   "ok": false,
-   "error": "HTTP 404",
-   "entry": [
-    "fanatics",
+   "ok": true,
+   "openJobs": 24,
+   "fixedEntry": [
+    "fanaticsinc",
     "Fanatics"
    ]
   },
@@ -428,10 +428,10 @@
   {
    "source": "Greenhouse",
    "company": "Flatiron Health",
-   "ok": false,
-   "error": "HTTP 404",
-   "entry": [
-    "flatiron",
+   "ok": true,
+   "openJobs": 22,
+   "fixedEntry": [
+    "flatironhealth",
     "Flatiron Health"
    ]
   },
@@ -723,7 +723,7 @@
    "source": "Greenhouse",
    "company": "Reddit",
    "ok": true,
-   "openJobs": 161
+   "openJobs": 160
   },
   {
    "source": "Greenhouse",
@@ -757,7 +757,7 @@
    "source": "Greenhouse",
    "company": "Samsara",
    "ok": true,
-   "openJobs": 306
+   "openJobs": 321
   },
   {
    "source": "Greenhouse",
@@ -795,7 +795,7 @@
    "source": "Greenhouse",
    "company": "SoFi",
    "ok": true,
-   "openJobs": 57
+   "openJobs": 58
   },
   {
    "source": "Greenhouse",
@@ -1157,7 +1157,7 @@
    "source": "SmartRecruiters",
    "company": "Ubisoft",
    "ok": true,
-   "openJobs": 173
+   "openJobs": 174
   },
   {
    "source": "SmartRecruiters",
@@ -1234,14 +1234,8 @@
   {
    "source": "Workday",
    "company": "AT&T",
-   "ok": false,
-   "error": "HTTP 502",
-   "entry": [
-    "att.wd1.myworkdayjobs.com",
-    "att",
-    "ATTGeneral",
-    "AT&T"
-   ]
+   "ok": true,
+   "openJobs": 176
   },
   {
    "source": "Workday",
@@ -1289,7 +1283,7 @@
    "source": "Workday",
    "company": "Capital One",
    "ok": true,
-   "openJobs": 153
+   "openJobs": 157
   },
   {
    "source": "Workday",
@@ -2003,7 +1997,7 @@
    "source": "Workday",
    "company": "University of Pennsylvania",
    "ok": true,
-   "openJobs": 96
+   "openJobs": 95
   },
   {
    "source": "Workday",
@@ -2051,7 +2045,7 @@
    "source": "Workday",
    "company": "Wells Fargo",
    "ok": true,
-   "openJobs": 180
+   "openJobs": 181
   },
   {
    "source": "Workday",
