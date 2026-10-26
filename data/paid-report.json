@@ -1,0 +1,14 @@
+{
+ "summary": {
+  "mode": "test",
+  "at": "2026-10-26T20:52:38.507Z",
+  "calls": 1,
+  "raw": 0,
+  "keptThisRun": 0,
+  "storeTotal": 0,
+  "errors": [
+   "Executive Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}"
+  ]
+ },
+ "sample": null
+}
