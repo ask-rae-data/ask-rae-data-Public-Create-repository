@@ -1,0 +1,2075 @@
+{
+ "summary": {
+  "generatedAt": "2026-10-26T19:13:03.201Z",
+  "companiesChecked": 257,
+  "companiesWorking": 154,
+  "rawJobs": 28128,
+  "adminJobs": 239,
+  "dropped": {
+   "notAdmin": 27549,
+   "notUS": 162,
+   "old": 21,
+   "dup": 157
+  }
+ },
+ "companies": [
+  {
+   "source": "Ashby",
+   "company": "Clay",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "clay",
+    "Clay"
+   ]
+  },
+  {
+   "source": "Ashby",
+   "company": "Cohere",
+   "ok": true,
+   "openJobs": 116
+  },
+  {
+   "source": "Ashby",
+   "company": "Deel",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Ashby",
+   "company": "Glean",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "glean",
+    "Glean"
+   ]
+  },
+  {
+   "source": "Ashby",
+   "company": "Harvey",
+   "ok": true,
+   "openJobs": 359
+  },
+  {
+   "source": "Ashby",
+   "company": "Hebbia",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "hebbia",
+    "Hebbia"
+   ]
+  },
+  {
+   "source": "Ashby",
+   "company": "Linear",
+   "ok": true,
+   "openJobs": 34
+  },
+  {
+   "source": "Ashby",
+   "company": "Modal",
+   "ok": true,
+   "openJobs": 43
+  },
+  {
+   "source": "Ashby",
+   "company": "Multiverse",
+   "ok": true,
+   "openJobs": 27
+  },
+  {
+   "source": "Ashby",
+   "company": "Notion",
+   "ok": true,
+   "openJobs": 140
+  },
+  {
+   "source": "Ashby",
+   "company": "OpenAI",
+   "ok": true,
+   "openJobs": 790
+  },
+  {
+   "source": "Ashby",
+   "company": "Perplexity",
+   "ok": true,
+   "openJobs": 131
+  },
+  {
+   "source": "Ashby",
+   "company": "PostHog",
+   "ok": true,
+   "openJobs": 11
+  },
+  {
+   "source": "Ashby",
+   "company": "Replit",
+   "ok": true,
+   "openJobs": 37
+  },
+  {
+   "source": "Ashby",
+   "company": "Retool",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "retool",
+    "Retool"
+   ]
+  },
+  {
+   "source": "Ashby",
+   "company": "Runway",
+   "ok": true,
+   "openJobs": 3
+  },
+  {
+   "source": "Ashby",
+   "company": "Sierra",
+   "ok": true,
+   "openJobs": 211
+  },
+  {
+   "source": "Ashby",
+   "company": "Snowflake",
+   "ok": true,
+   "openJobs": 353
+  },
+  {
+   "source": "Ashby",
+   "company": "Supabase",
+   "ok": true,
+   "openJobs": 64
+  },
+  {
+   "source": "Ashby",
+   "company": "Vercel",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Affirm",
+   "ok": true,
+   "openJobs": 225
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Airbnb",
+   "ok": true,
+   "openJobs": 187
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Airtable",
+   "ok": true,
+   "openJobs": 4
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Allbirds",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "allbirds",
+    "Allbirds"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Andreessen Horowitz",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "andreessenhorowitz",
+    "Andreessen Horowitz"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Anduril",
+   "ok": true,
+   "openJobs": 2509
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Anthropic",
+   "ok": true,
+   "openJobs": 681
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Asana",
+   "ok": true,
+   "openJobs": 112
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Away",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "away",
+    "Away"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Bain & Company",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "bainandcompany",
+    "Bain & Company"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Betterment",
+   "ok": true,
+   "openJobs": 26
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Blackstone",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "blackstone",
+    "Blackstone"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Block",
+   "ok": true,
+   "openJobs": 208
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Boston Consulting Group",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "bostonconsultinggroup",
+    "Boston Consulting Group"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Brex",
+   "ok": true,
+   "openJobs": 258
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Bridgewater Associates",
+   "ok": true,
+   "openJobs": 18
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Calendly",
+   "ok": true,
+   "openJobs": 9
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Calm",
+   "ok": true,
+   "openJobs": 1
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Carta",
+   "ok": true,
+   "openJobs": 74
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Chime",
+   "ok": true,
+   "openJobs": 74
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Citadel",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "citadel",
+    "Citadel"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Cityblock Health",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "cityblock",
+    "Cityblock Health"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "ClassPass",
+   "ok": true,
+   "openJobs": 33
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Clearlake Capital",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "clearlakecapital",
+    "Clearlake Capital"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Cloudflare",
+   "ok": true,
+   "openJobs": 457
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Coinbase",
+   "ok": true,
+   "openJobs": 225
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Databricks",
+   "ok": true,
+   "openJobs": 896
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Datadog",
+   "ok": true,
+   "openJobs": 426
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Discord",
+   "ok": true,
+   "openJobs": 47
+  },
+  {
+   "source": "Greenhouse",
+   "company": "DoorDash",
+   "ok": true,
+   "openJobs": 451
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Dropbox",
+   "ok": true,
+   "openJobs": 20
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Duolingo",
+   "ok": true,
+   "openJobs": 59
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Elastic",
+   "ok": true,
+   "openJobs": 400
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Etsy",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "etsy",
+    "Etsy"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Evercore",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "evercore",
+    "Evercore"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Everlane",
+   "ok": true,
+   "openJobs": 32
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Fanatics",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "fanatics",
+    "Fanatics"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Figma",
+   "ok": true,
+   "openJobs": 138
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Flatiron Health",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "flatiron",
+    "Flatiron Health"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Flexport",
+   "ok": true,
+   "openJobs": 188
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Gemini",
+   "ok": true,
+   "openJobs": 30
+  },
+  {
+   "source": "Greenhouse",
+   "company": "General Atlantic",
+   "ok": true,
+   "openJobs": 13
+  },
+  {
+   "source": "Greenhouse",
+   "company": "General Catalyst",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Greenhouse",
+   "company": "GitLab",
+   "ok": true,
+   "openJobs": 238
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Glossier",
+   "ok": true,
+   "openJobs": 19
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Grammarly",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "grammarly",
+    "Grammarly"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Gusto",
+   "ok": true,
+   "openJobs": 101
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Harry's",
+   "ok": true,
+   "openJobs": 14
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Headspace",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "headspace",
+    "Headspace"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Hims & Hers",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "hims",
+    "Hims & Hers"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Houlihan Lokey",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "houlihanlokey",
+    "Houlihan Lokey"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "HubSpot",
+   "ok": true,
+   "openJobs": 66
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Insight Partners",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "insightpartners",
+    "Insight Partners"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Instacart",
+   "ok": true,
+   "openJobs": 103
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Jane Street",
+   "ok": true,
+   "openJobs": 220
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Justworks",
+   "ok": true,
+   "openJobs": 93
+  },
+  {
+   "source": "Greenhouse",
+   "company": "KKR",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "kkr",
+    "KKR"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Lazard",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "lazard",
+    "Lazard"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Lyft",
+   "ok": true,
+   "openJobs": 181
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Marqeta",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "marqeta",
+    "Marqeta"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "McKinsey & Company",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "mckinsey",
+    "McKinsey & Company"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Mercury",
+   "ok": true,
+   "openJobs": 76
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Mindbody",
+   "ok": true,
+   "openJobs": 19
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Moelis",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "moelis",
+    "Moelis"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "MongoDB",
+   "ok": true,
+   "openJobs": 367
+  },
+  {
+   "source": "Greenhouse",
+   "company": "NerdWallet",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "nerdwallet",
+    "NerdWallet"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Noom",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "noom",
+    "Noom"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Okta",
+   "ok": true,
+   "openJobs": 388
+  },
+  {
+   "source": "Greenhouse",
+   "company": "One Medical",
+   "ok": true,
+   "openJobs": 388
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Oscar Health",
+   "ok": true,
+   "openJobs": 225
+  },
+  {
+   "source": "Greenhouse",
+   "company": "PagerDuty",
+   "ok": true,
+   "openJobs": 50
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Peloton",
+   "ok": true,
+   "openJobs": 59
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Pinterest",
+   "ok": true,
+   "openJobs": 159
+  },
+  {
+   "source": "Greenhouse",
+   "company": "PJT Partners",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "pjtpartners",
+    "PJT Partners"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Plaid",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "plaid",
+    "Plaid"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Point72",
+   "ok": true,
+   "openJobs": 212
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Ramp",
+   "ok": true,
+   "openJobs": 1
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Reddit",
+   "ok": true,
+   "openJobs": 161
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Rent the Runway",
+   "ok": true,
+   "openJobs": 27
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Rippling",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "rippling",
+    "Rippling"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Robinhood",
+   "ok": true,
+   "openJobs": 155
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Roblox",
+   "ok": true,
+   "openJobs": 267
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Samsara",
+   "ok": true,
+   "openJobs": 306
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Scale AI",
+   "ok": true,
+   "openJobs": 168
+  },
+  {
+   "source": "Greenhouse",
+   "company": "SeatGeek",
+   "ok": true,
+   "openJobs": 39
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Sequoia Capital",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "sequoiacapital",
+    "Sequoia Capital"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "SKIMS",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "skims",
+    "SKIMS"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "SoFi",
+   "ok": true,
+   "openJobs": 57
+  },
+  {
+   "source": "Greenhouse",
+   "company": "SpaceX",
+   "ok": true,
+   "openJobs": 2821
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Squarespace",
+   "ok": true,
+   "openJobs": 27
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Stripe",
+   "ok": true,
+   "openJobs": 714
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Sweetgreen",
+   "ok": true,
+   "openJobs": 62
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Tempus",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "tempus",
+    "Tempus"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "The Trade Desk",
+   "ok": true,
+   "openJobs": 108
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Thrive Capital",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "thrivecapital",
+    "Thrive Capital"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Tiger Global",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "tigerglobal",
+    "Tiger Global"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Toast",
+   "ok": true,
+   "openJobs": 332
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Twilio",
+   "ok": true,
+   "openJobs": 133
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Twitch",
+   "ok": true,
+   "openJobs": 59
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Two Sigma",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "twosigma",
+    "Two Sigma"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Veeva Systems",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "veeva",
+    "Veeva Systems"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Vimeo",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "vimeo",
+    "Vimeo"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Vista Equity Partners",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "vistaequitypartners",
+    "Vista Equity Partners"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Warburg Pincus",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "warburgpincus",
+    "Warburg Pincus"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Warby Parker",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "warbyparker",
+    "Warby Parker"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Waymo",
+   "ok": true,
+   "openJobs": 365
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Wealthfront",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "wealthfront",
+    "Wealthfront"
+   ]
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Webflow",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Greenhouse",
+   "company": "ZipRecruiter",
+   "ok": true,
+   "openJobs": 44
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Zocdoc",
+   "ok": true,
+   "openJobs": 62
+  },
+  {
+   "source": "Greenhouse",
+   "company": "Zscaler",
+   "ok": true,
+   "openJobs": 351
+  },
+  {
+   "source": "Lever",
+   "company": "Anchorage Digital",
+   "ok": true,
+   "openJobs": 23
+  },
+  {
+   "source": "Lever",
+   "company": "Atlassian",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "atlassian",
+    "Atlassian"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Attentive",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "attentive",
+    "Attentive"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Benchling",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "benchling",
+    "Benchling"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Eventbrite",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "eventbrite",
+    "Eventbrite"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Highspot",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Lever",
+   "company": "Kraken",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Lever",
+   "company": "Match Group",
+   "ok": true,
+   "openJobs": 65
+  },
+  {
+   "source": "Lever",
+   "company": "Mixpanel",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "mixpanel",
+    "Mixpanel"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Netlify",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "netlify",
+    "Netlify"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Nium",
+   "ok": true,
+   "openJobs": 20
+  },
+  {
+   "source": "Lever",
+   "company": "Outreach",
+   "ok": true,
+   "openJobs": 22
+  },
+  {
+   "source": "Lever",
+   "company": "Palantir",
+   "ok": true,
+   "openJobs": 307
+  },
+  {
+   "source": "Lever",
+   "company": "Shield AI",
+   "ok": true,
+   "openJobs": 665
+  },
+  {
+   "source": "Lever",
+   "company": "Spotify",
+   "ok": true,
+   "openJobs": 89
+  },
+  {
+   "source": "Lever",
+   "company": "Upgrade",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "upgrade",
+    "Upgrade"
+   ]
+  },
+  {
+   "source": "Lever",
+   "company": "Voleon",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Lever",
+   "company": "Wealthsimple",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Lever",
+   "company": "WHOOP",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "Lever",
+   "company": "Zoox",
+   "ok": true,
+   "openJobs": 233
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Bosch",
+   "ok": true,
+   "openJobs": 267
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Equinox",
+   "ok": true,
+   "openJobs": 300
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Experian",
+   "ok": true,
+   "openJobs": 136
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "ServiceNow",
+   "ok": true,
+   "openJobs": 300
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Sodexo",
+   "ok": true,
+   "openJobs": 136
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Ubisoft",
+   "ok": true,
+   "openJobs": 173
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Visa",
+   "ok": true,
+   "openJobs": 0
+  },
+  {
+   "source": "SmartRecruiters",
+   "company": "Wise",
+   "ok": true,
+   "openJobs": 180
+  },
+  {
+   "source": "Workday",
+   "company": "3M",
+   "ok": true,
+   "openJobs": 181
+  },
+  {
+   "source": "Workday",
+   "company": "7-Eleven",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "7eleven.wd1.myworkdayjobs.com",
+    "7eleven",
+    "7-Eleven",
+    "7-Eleven"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Abbott",
+   "ok": true,
+   "openJobs": 181
+  },
+  {
+   "source": "Workday",
+   "company": "Accenture",
+   "ok": true,
+   "openJobs": 188
+  },
+  {
+   "source": "Workday",
+   "company": "Adobe",
+   "ok": true,
+   "openJobs": 132
+  },
+  {
+   "source": "Workday",
+   "company": "AIG",
+   "ok": true,
+   "openJobs": 68
+  },
+  {
+   "source": "Workday",
+   "company": "American Airlines",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "aa.wd1.myworkdayjobs.com",
+    "aa",
+    "AAcareers",
+    "American Airlines"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Amgen",
+   "ok": true,
+   "openJobs": 186
+  },
+  {
+   "source": "Workday",
+   "company": "AT&T",
+   "ok": false,
+   "error": "HTTP 502",
+   "entry": [
+    "att.wd1.myworkdayjobs.com",
+    "att",
+    "ATTGeneral",
+    "AT&T"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Autodesk",
+   "ok": true,
+   "openJobs": 90
+  },
+  {
+   "source": "Workday",
+   "company": "Bank of America",
+   "ok": true,
+   "openJobs": 78
+  },
+  {
+   "source": "Workday",
+   "company": "Baylor Scott & White Health",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "bswhealth.wd1.myworkdayjobs.com",
+    "bswhealth",
+    "BSWHealthCareers",
+    "Baylor Scott & White Health"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "BNY",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "bnymellon.wd1.myworkdayjobs.com",
+    "bnymellon",
+    "BNY_Careers",
+    "BNY"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Boeing",
+   "ok": true,
+   "openJobs": 176
+  },
+  {
+   "source": "Workday",
+   "company": "Capital One",
+   "ok": true,
+   "openJobs": 153
+  },
+  {
+   "source": "Workday",
+   "company": "Celanese",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "celanese.wd1.myworkdayjobs.com",
+    "celanese",
+    "Celanese_Careers",
+    "Celanese"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Charles Schwab",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "schwab.wd1.myworkdayjobs.com",
+    "schwab",
+    "SchwabExternal",
+    "Charles Schwab"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Chevron",
+   "ok": true,
+   "openJobs": 9
+  },
+  {
+   "source": "Workday",
+   "company": "Cigna",
+   "ok": true,
+   "openJobs": 184
+  },
+  {
+   "source": "Workday",
+   "company": "Cisco",
+   "ok": true,
+   "openJobs": 85
+  },
+  {
+   "source": "Workday",
+   "company": "Cleveland Clinic",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "clevelandclinic.wd1.myworkdayjobs.com",
+    "clevelandclinic",
+    "ClevelandClinicCareers",
+    "Cleveland Clinic"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Comcast",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "comcast.wd5.myworkdayjobs.com",
+    "comcast",
+    "Comcast_Careers",
+    "Comcast"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "CrowdStrike",
+   "ok": true,
+   "openJobs": 71
+  },
+  {
+   "source": "Workday",
+   "company": "CVS Health",
+   "ok": true,
+   "openJobs": 135
+  },
+  {
+   "source": "Workday",
+   "company": "Dell Technologies",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "dell.wd1.myworkdayjobs.com",
+    "dell",
+    "External",
+    "Dell Technologies"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Deloitte",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "deloitte.wd1.myworkdayjobs.com",
+    "deloitte",
+    "Deloitte_US",
+    "Deloitte"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "ExxonMobil",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "exxonmobil.wd5.myworkdayjobs.com",
+    "exxonmobil",
+    "ExxonMobilCareers",
+    "ExxonMobil"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "EY",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "ey.wd1.myworkdayjobs.com",
+    "ey",
+    "EY_Careers",
+    "EY"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Fidelity Investments",
+   "ok": true,
+   "openJobs": 53
+  },
+  {
+   "source": "Workday",
+   "company": "Fluor",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "fluor.wd1.myworkdayjobs.com",
+    "fluor",
+    "Fluor",
+    "Fluor"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Ford",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "ford.wd1.myworkdayjobs.com",
+    "ford",
+    "FordCareers",
+    "Ford"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Gartner",
+   "ok": true,
+   "openJobs": 142
+  },
+  {
+   "source": "Workday",
+   "company": "General Motors",
+   "ok": true,
+   "openJobs": 183
+  },
+  {
+   "source": "Workday",
+   "company": "Gilead Sciences",
+   "ok": true,
+   "openJobs": 181
+  },
+  {
+   "source": "Workday",
+   "company": "Harvard University",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "harvard.wd1.myworkdayjobs.com",
+    "harvard",
+    "Harvard_Staff",
+    "Harvard University"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Hewlett Packard Enterprise",
+   "ok": true,
+   "openJobs": 186
+  },
+  {
+   "source": "Workday",
+   "company": "Hilton",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "hilton.wd1.myworkdayjobs.com",
+    "hilton",
+    "Hilton_Careers",
+    "Hilton"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Humana",
+   "ok": true,
+   "openJobs": 119
+  },
+  {
+   "source": "Workday",
+   "company": "Intel",
+   "ok": true,
+   "openJobs": 131
+  },
+  {
+   "source": "Workday",
+   "company": "Jacobs",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "jacobs.wd1.myworkdayjobs.com",
+    "jacobs",
+    "External",
+    "Jacobs"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "JCPenney",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "jcpenney.wd5.myworkdayjobs.com",
+    "jcpenney",
+    "JCPenney",
+    "JCPenney"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Johnson & Johnson",
+   "ok": true,
+   "openJobs": 88
+  },
+  {
+   "source": "Workday",
+   "company": "Kaiser Permanente",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "kaiserpermanente.wd5.myworkdayjobs.com",
+    "kaiserpermanente",
+    "KP",
+    "Kaiser Permanente"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Kimberly-Clark",
+   "ok": true,
+   "openJobs": 24
+  },
+  {
+   "source": "Workday",
+   "company": "Kohl's",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "kohls.wd1.myworkdayjobs.com",
+    "kohls",
+    "kohlscareers",
+    "Kohl's"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "KPMG",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "kpmg.wd1.myworkdayjobs.com",
+    "kpmg",
+    "KPMG_US",
+    "KPMG"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Kraft Heinz",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "kraftheinz.wd1.myworkdayjobs.com",
+    "kraftheinz",
+    "KraftHeinz_Careers",
+    "Kraft Heinz"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Lennox",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "lennox.wd1.myworkdayjobs.com",
+    "lennox",
+    "External",
+    "Lennox"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Lockheed Martin",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "lockheedmartin.wd1.myworkdayjobs.com",
+    "lockheedmartin",
+    "LMCareers",
+    "Lockheed Martin"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Lowe's",
+   "ok": true,
+   "openJobs": 87
+  },
+  {
+   "source": "Workday",
+   "company": "Marriott",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "marriott.wd5.myworkdayjobs.com",
+    "marriott",
+    "MarriottCareers",
+    "Marriott"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Mastercard",
+   "ok": true,
+   "openJobs": 90
+  },
+  {
+   "source": "Workday",
+   "company": "Mayo Clinic",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "mayoclinic.wd5.myworkdayjobs.com",
+    "mayoclinic",
+    "mayoclinic",
+    "Mayo Clinic"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "McKesson",
+   "ok": true,
+   "openJobs": 180
+  },
+  {
+   "source": "Workday",
+   "company": "Merck",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "merck.wd5.myworkdayjobs.com",
+    "merck",
+    "SearchJobs",
+    "Merck"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "MetLife",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "metlife.wd5.myworkdayjobs.com",
+    "metlife",
+    "External",
+    "MetLife"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Morgan Stanley",
+   "ok": true,
+   "openJobs": 107
+  },
+  {
+   "source": "Workday",
+   "company": "Netflix",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "netflix.wd1.myworkdayjobs.com",
+    "netflix",
+    "Netflix",
+    "Netflix"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "New York University",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "nyu.wd1.myworkdayjobs.com",
+    "nyu",
+    "NYU_Careers",
+    "New York University"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Nike",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "nike.wd1.myworkdayjobs.com",
+    "nke",
+    "nke",
+    "Nike"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Nordstrom",
+   "ok": false,
+   "error": "HTTP 500",
+   "entry": [
+    "nordstrom.wd501.myworkdayjobs.com",
+    "nordstrom",
+    "nordstrom_careers",
+    "Nordstrom"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "NVIDIA",
+   "ok": true,
+   "openJobs": 146
+  },
+  {
+   "source": "Workday",
+   "company": "Palo Alto Networks",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "paloaltonetworks.wd5.myworkdayjobs.com",
+    "paloaltonetworks",
+    "External",
+    "Palo Alto Networks"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Paramount",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "paramount.wd5.myworkdayjobs.com",
+    "paramount",
+    "ParamountCareers",
+    "Paramount"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "PayPal",
+   "ok": true,
+   "openJobs": 152
+  },
+  {
+   "source": "Workday",
+   "company": "PepsiCo",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "pepsico.wd1.myworkdayjobs.com",
+    "pepsico",
+    "PepsiCoCareers",
+    "PepsiCo"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Pfizer",
+   "ok": true,
+   "openJobs": 180
+  },
+  {
+   "source": "Workday",
+   "company": "PNC",
+   "ok": true,
+   "openJobs": 185
+  },
+  {
+   "source": "Workday",
+   "company": "Prudential",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "prudential.wd5.myworkdayjobs.com",
+    "prudential",
+    "Careers",
+    "Prudential"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "PwC",
+   "ok": true,
+   "openJobs": 24
+  },
+  {
+   "source": "Workday",
+   "company": "RTX",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "rtx.wd5.myworkdayjobs.com",
+    "rtx",
+    "RTX",
+    "RTX"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Salesforce",
+   "ok": true,
+   "openJobs": 103
+  },
+  {
+   "source": "Workday",
+   "company": "Southern Methodist University",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "smu.wd1.myworkdayjobs.com",
+    "smu",
+    "SMU",
+    "Southern Methodist University"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Southwest Airlines",
+   "ok": true,
+   "openJobs": 29
+  },
+  {
+   "source": "Workday",
+   "company": "Stanford University",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "stanford.wd1.myworkdayjobs.com",
+    "stanford",
+    "Stanford_Careers",
+    "Stanford University"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Starbucks",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "starbucks.wd1.myworkdayjobs.com",
+    "starbucks",
+    "starbucksjobs",
+    "Starbucks"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "State Street",
+   "ok": true,
+   "openJobs": 188
+  },
+  {
+   "source": "Workday",
+   "company": "Target",
+   "ok": true,
+   "openJobs": 126
+  },
+  {
+   "source": "Workday",
+   "company": "Tenet Healthcare",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "tenethealth.wd1.myworkdayjobs.com",
+    "tenethealth",
+    "External",
+    "Tenet Healthcare"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Texas Health Resources",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "texashealth.wd1.myworkdayjobs.com",
+    "texashealth",
+    "THR",
+    "Texas Health Resources"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "The Coca-Cola Company",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "cocacola.wd1.myworkdayjobs.com",
+    "cocacola",
+    "coca-cola-careers",
+    "The Coca-Cola Company"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "The Home Depot",
+   "ok": true,
+   "openJobs": 159
+  },
+  {
+   "source": "Workday",
+   "company": "The Walt Disney Company",
+   "ok": true,
+   "openJobs": 60
+  },
+  {
+   "source": "Workday",
+   "company": "Toyota North America",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "toyota.wd5.myworkdayjobs.com",
+    "toyota",
+    "TMNA",
+    "Toyota North America"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Travelers",
+   "ok": true,
+   "openJobs": 180
+  },
+  {
+   "source": "Workday",
+   "company": "Truist",
+   "ok": false,
+   "error": "HTTP 500",
+   "entry": [
+    "truist.wd1.myworkdayjobs.com",
+    "truist",
+    "Careers",
+    "Truist"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Tyler Technologies",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "tylertech.wd5.myworkdayjobs.com",
+    "tylertech",
+    "TylerTech",
+    "Tyler Technologies"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "U.S. Bank",
+   "ok": true,
+   "openJobs": 184
+  },
+  {
+   "source": "Workday",
+   "company": "Unilever",
+   "ok": true,
+   "openJobs": 123
+  },
+  {
+   "source": "Workday",
+   "company": "UnitedHealth Group",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "unitedhealthgroup.wd5.myworkdayjobs.com",
+    "unitedhealthgroup",
+    "External",
+    "UnitedHealth Group"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "University of Pennsylvania",
+   "ok": true,
+   "openJobs": 96
+  },
+  {
+   "source": "Workday",
+   "company": "UT Southwestern",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "utsouthwestern.wd1.myworkdayjobs.com",
+    "utsouthwestern",
+    "UTSW_Careers",
+    "UT Southwestern"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Vistra",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "vistra.wd5.myworkdayjobs.com",
+    "vistra",
+    "Vistra_Careers",
+    "Vistra"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Walmart",
+   "ok": false,
+   "error": "HTTP 422",
+   "entry": [
+    "walmart.wd5.myworkdayjobs.com",
+    "walmart",
+    "WalmartExternal",
+    "Walmart"
+   ]
+  },
+  {
+   "source": "Workday",
+   "company": "Warner Bros. Discovery",
+   "ok": true,
+   "openJobs": 129
+  },
+  {
+   "source": "Workday",
+   "company": "Wells Fargo",
+   "ok": true,
+   "openJobs": 180
+  },
+  {
+   "source": "Workday",
+   "company": "Workday",
+   "ok": true,
+   "openJobs": 123
+  },
+  {
+   "source": "Workday",
+   "company": "Yale University",
+   "ok": false,
+   "error": "HTTP 404",
+   "entry": [
+    "yale.wd1.myworkdayjobs.com",
+    "yale",
+    "External",
+    "Yale University"
+   ]
+  }
+ ]
+}
