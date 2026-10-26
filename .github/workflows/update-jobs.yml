@@ -5,10 +5,16 @@ name: Update Ask RAE jobs
 on:
   schedule:
     - cron: "17 11 * * *"   # every day around 6:17 a.m. Central
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Paid pull: full = normal daily, backfill = last 7 days, test = one small check"
+        type: choice
+        options: [full, backfill, test]
+        default: full
   push:
     branches: [main]
-    paths: ["companies.json", "scripts/fetch-free.mjs"]
+    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "paid-mode.txt"]
 
 permissions:
   contents: write
@@ -27,12 +33,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Pull admin jobs from company career sites
+      - name: Pull admin jobs from company career sites (free sources)
         run: node scripts/fetch-free.mjs
+      - name: Add jobs from the paid career-site feed
+        continue-on-error: true
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          if [ -n "${{ inputs.mode }}" ]; then MODE="${{ inputs.mode }}";
+          elif [ "${{ github.event_name }}" = "push" ]; then MODE="$(cat paid-mode.txt 2>/dev/null || echo full)";
+          else MODE=full; fi
+          echo "Paid mode: $MODE"
+          MODE="$MODE" node scripts/fetch-paid.mjs
       - name: Save today's list
         run: |
           git config user.name "ask-rae-bot"
           git config user.email "ask-rae-bot@users.noreply.github.com"
+          git add public/jobs.json public/report.json data/ 2>/dev/null || true
           git add public/jobs.json public/report.json
           git diff --cached --quiet || git commit -m "Update jobs $(date -u +%F)"
           git pull --rebase origin main

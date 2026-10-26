@@ -1,7 +1,8 @@
 // Ask RAE daily job pull.
 // Pulls U.S. admin-family roles posted on company career sites (ATS) from the
 // Active Jobs DB API (Fantastic.jobs on RapidAPI), keeps only real admin roles,
-// merges with yesterday's file, and writes public/jobs.json for the website.
+// keeps a running store in data/paid.json, then merges it into public/jobs.json
+// (which the free script has just written) for the website.
 //
 // Needs: Node 20+, env RAPIDAPI_KEY (stored as a GitHub Actions secret).
 // Optional env: MODE=test (one 25-job call), MAX_JOBS per run (default 160 = Pro plan / 30 days),
@@ -10,16 +11,19 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const KEY = process.env.RAPIDAPI_KEY;
-if (!KEY) { console.error("Missing RAPIDAPI_KEY"); process.exit(1); }
+if (!KEY) { console.log("No RAPIDAPI_KEY, skipping paid pull."); process.exit(0); }
 const HOST = "active-jobs-db.p.rapidapi.com";
 // RapidAPI serves the 7-day window at /active-ats-7d (there is no 24h path there).
 // Daily runs add date_filter so only the last ~26 hours come back.
 const ENDPOINT = `https://${HOST}/active-ats-7d`;
-const TEST = process.env.MODE === "test";           // one small call to check the data
+const MODE = (process.env.MODE || "full").trim();
+const TEST = MODE === "test";                       // one small call to check the data
+const BACKFILL = MODE === "backfill";               // first run: last 7 days, bigger budget
 const SINCE = new Date(Date.now() - 26 * 3600e3).toISOString().slice(0, 19);
-const MAX_JOBS = Number(process.env.MAX_JOBS || 160); // jobs fetched per run; plan limit / 30
+const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : 160)); // Pro plan: 5,000 jobs a month
 const MAX_CALLS = Number(process.env.MAX_CALLS || 40);
 const KEEP_DAYS = Number(process.env.KEEP_DAYS || 30);
+const STORE = "data/paid.json";
 const OUT = "public/jobs.json";
 
 // One search per title family. Each call returns up to 100 jobs.
@@ -57,7 +61,7 @@ function level(title) {
 function workplace(j) {
   const a = String(j.ai_work_arrangement || "").toLowerCase();
   if (a.includes("hybrid")) return "Hybrid";
-  if (a.includes("remote")) return "Remote";
+  if (a.includes("remote")) return "Remote";   // "Remote OK" and "Remote Solely"
   if (a.includes("site") || a.includes("office")) return "On-site";
   if (j.remote_derived === true) return "Remote";
   return "On-site";
@@ -91,7 +95,7 @@ function pay(j) {
 let raw = 0;
 async function call(title, offset) {
   const q = new URLSearchParams({ title_filter: `"${title}"`, location_filter: '"United States"', limit: String(TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw))), offset: String(offset) });
-  if (!TEST) q.set("date_filter", SINCE);
+  if (!TEST && !BACKFILL) q.set("date_filter", SINCE);
   const res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
   if (!res.ok) throw new Error(`${res.status} ${await res.text().then(t => t.slice(0, 200))}`);
   const data = await res.json();
@@ -100,7 +104,8 @@ async function call(title, offset) {
 
 async function main() {
   let prev = [];
-  try { prev = JSON.parse(await readFile(OUT, "utf8")).jobs || []; } catch {}
+  try { prev = JSON.parse(await readFile(STORE, "utf8")).jobs || []; } catch {}
+  let sample = null;
   const byKey = new Map(prev.map(j => [j.url, j]));
   let calls = 0, kept = 0;
   const errors = [];
@@ -113,6 +118,7 @@ async function main() {
       raw += batch.length;
       if (TEST && batch[0]) {
         const j = batch[0];
+        sample = { fields: Object.keys(j), first: j };
         console.log("SAMPLE FIELDS:", Object.keys(j).join(", "));
         console.log("SAMPLE:", JSON.stringify({ title: j.title, organization: j.organization, url: j.url, source: j.source, date_posted: j.date_posted, locations_derived: j.locations_derived, cities_derived: j.cities_derived, regions_derived: j.regions_derived, countries_derived: j.countries_derived, ai_work_arrangement: j.ai_work_arrangement, remote_derived: j.remote_derived, ai_salary_minvalue: j.ai_salary_minvalue, ai_salary_maxvalue: j.ai_salary_maxvalue, ai_salary_unittext: j.ai_salary_unittext }));
       }
@@ -149,10 +155,30 @@ async function main() {
     .filter(j => !j.posted || Date.parse(j.posted) >= cutoff)
     .sort((a, b) => Date.parse(b.posted || 0) - Date.parse(a.posted || 0));
 
-  await mkdir("public", { recursive: true });
-  await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), count: jobs.length, jobs }));
-  console.log(JSON.stringify({ calls, raw, keptThisRun: kept, total: jobs.length, errors }, null, 2));
+  const summary = { mode: MODE, at: new Date().toISOString(), calls, raw, keptThisRun: kept, storeTotal: jobs.length, errors };
+  await mkdir("data", { recursive: true });
+  await writeFile("data/paid-report.json", JSON.stringify({ summary, sample }, null, 1));
+  console.log(JSON.stringify(summary, null, 2));
+  if (TEST) return;                                  // test runs never touch the live list
   if (errors.length && calls === errors.length) process.exit(1);
+  await writeFile(STORE, JSON.stringify({ generatedAt: summary.at, count: jobs.length, jobs }));
+
+  // Merge with today's free list. Same job from both sources counts once.
+  let free = { jobs: [] };
+  try { free = JSON.parse(await readFile(OUT, "utf8")); } catch {}
+  const norm = x => String(x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const seen = new Set();
+  const merged = [];
+  for (const j of [...(free.jobs || []), ...jobs]) {
+    const k1 = j.url, k2 = norm(j.company) + "|" + norm(j.title) + "|" + norm(j.city);
+    if (seen.has(k1) || seen.has(k2)) continue;
+    seen.add(k1); seen.add(k2);
+    merged.push(j);
+  }
+  merged.sort((a, b) => (Date.parse(b.posted || 0) || 0) - (Date.parse(a.posted || 0) || 0));
+  await mkdir("public", { recursive: true });
+  await writeFile(OUT, JSON.stringify({ generatedAt: summary.at, count: merged.length, free: (free.jobs || []).length, paid: jobs.length, jobs: merged }));
+  console.log(`Merged list: ${merged.length} roles`);
 }
 
 main();
