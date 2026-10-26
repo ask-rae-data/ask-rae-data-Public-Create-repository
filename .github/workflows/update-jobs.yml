@@ -1,9 +1,16 @@
 name: Update Ask RAE jobs
 
 on:
-  schedule:
-    - cron: "17 11 * * *"   # every day around 6:17 a.m. Central
-  workflow_dispatch: {}       # lets you run it by hand from the Actions tab
+  # Daily schedule is off while testing on the free plan. Turn on after upgrading:
+  # schedule:
+  #   - cron: "17 11 * * *"   # every day around 6:17 a.m. Central
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+    inputs:
+      mode:
+        description: "test = one small check (25 jobs). full = the normal daily pull."
+        type: choice
+        options: [test, full]
+        default: test
 
 permissions:
   contents: write
@@ -17,10 +24,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Pull admin jobs from company career sites
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          MODE: ${{ inputs.mode || 'full' }}
         run: node scripts/fetch-jobs.mjs
       - name: Save today's list
         run: |

@@ -4,7 +4,7 @@
 // merges with yesterday's file, and writes public/jobs.json for the website.
 //
 // Needs: Node 20+, env RAPIDAPI_KEY (stored as a GitHub Actions secret).
-// Optional env: WINDOW (24h|7d), MAX_JOBS per run (default 160 = Pro plan / 30 days),
+// Optional env: MODE=test (one 25-job call), MAX_JOBS per run (default 160 = Pro plan / 30 days),
 // MAX_CALLS (default 40), KEEP_DAYS (default 30).
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -12,15 +12,18 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 const KEY = process.env.RAPIDAPI_KEY;
 if (!KEY) { console.error("Missing RAPIDAPI_KEY"); process.exit(1); }
 const HOST = "active-jobs-db.p.rapidapi.com";
-const WINDOW = process.env.WINDOW || "24h";          // "24h" for daily runs, "7d" once to backfill
-const ENDPOINT = `https://${HOST}/active-ats-${WINDOW}`;
+// RapidAPI serves the 7-day window at /active-ats-7d (there is no 24h path there).
+// Daily runs add date_filter so only the last ~26 hours come back.
+const ENDPOINT = `https://${HOST}/active-ats-7d`;
+const TEST = process.env.MODE === "test";           // one small call to check the data
+const SINCE = new Date(Date.now() - 26 * 3600e3).toISOString().slice(0, 19);
 const MAX_JOBS = Number(process.env.MAX_JOBS || 160); // jobs fetched per run; plan limit / 30
 const MAX_CALLS = Number(process.env.MAX_CALLS || 40);
 const KEEP_DAYS = Number(process.env.KEEP_DAYS || 30);
 const OUT = "public/jobs.json";
 
 // One search per title family. Each call returns up to 100 jobs.
-const SEARCHES = [
+const ALL_SEARCHES = [
   "Executive Assistant",
   "Senior Executive Assistant",
   "Executive Business Partner",
@@ -34,6 +37,7 @@ const SEARCHES = [
   "Legal Administrative Assistant",
   "Board Liaison",
 ];
+const SEARCHES = TEST ? ["Executive Assistant"] : ALL_SEARCHES;
 
 // Keep the admin job family, drop look-alikes.
 const INCLUDE = /(executive (assistant|business partner|coordinator|administrator)|administrative (assistant|coordinator|specialist|manager|services|supervisor)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department assistant|personal assistant|board (liaison|relations)|executive office)/i;
@@ -86,7 +90,8 @@ function pay(j) {
 
 let raw = 0;
 async function call(title, offset) {
-  const q = new URLSearchParams({ title_filter: `"${title}"`, location_filter: '"United States"', limit: String(Math.min(100, Math.max(10, MAX_JOBS - raw))), offset: String(offset), description_type: "text" });
+  const q = new URLSearchParams({ title_filter: `"${title}"`, location_filter: '"United States"', limit: String(TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw))), offset: String(offset) });
+  if (!TEST) q.set("date_filter", SINCE);
   const res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
   if (!res.ok) throw new Error(`${res.status} ${await res.text().then(t => t.slice(0, 200))}`);
   const data = await res.json();
@@ -106,6 +111,11 @@ async function main() {
       let batch;
       try { batch = await call(title, offset); } catch (e) { errors.push(`${title} @${offset}: ${e.message}`); break; }
       raw += batch.length;
+      if (TEST && batch[0]) {
+        const j = batch[0];
+        console.log("SAMPLE FIELDS:", Object.keys(j).join(", "));
+        console.log("SAMPLE:", JSON.stringify({ title: j.title, organization: j.organization, url: j.url, source: j.source, date_posted: j.date_posted, locations_derived: j.locations_derived, cities_derived: j.cities_derived, regions_derived: j.regions_derived, countries_derived: j.countries_derived, ai_work_arrangement: j.ai_work_arrangement, remote_derived: j.remote_derived, ai_salary_minvalue: j.ai_salary_minvalue, ai_salary_maxvalue: j.ai_salary_maxvalue, ai_salary_unittext: j.ai_salary_unittext }));
+      }
       for (const j of batch) {
         const t = String(j.title || "");
         if (!INCLUDE.test(t) || EXCLUDE.test(t)) continue;
@@ -128,7 +138,7 @@ async function main() {
         });
         kept++;
       }
-      if (batch.length < 100) break;
+      if (TEST || batch.length < 100) break;
     }
     if (raw >= MAX_JOBS) { errors.push(`Stopped at ${raw} jobs to stay inside the plan limit`); break;
     }
