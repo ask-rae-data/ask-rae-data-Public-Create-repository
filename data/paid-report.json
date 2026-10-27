@@ -1,13 +1,24 @@
 {
  "summary": {
-  "mode": "test",
-  "at": "2026-10-26T20:52:38.507Z",
-  "calls": 1,
+  "mode": "full",
+  "at": "2026-10-27T11:48:28.632Z",
+  "calls": 12,
   "raw": 0,
   "keptThisRun": 0,
   "storeTotal": 0,
   "errors": [
-   "Executive Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}"
+   "Executive Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Senior Executive Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Executive Business Partner @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Chief of Staff @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Administrative Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Administrative Coordinator @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Office Manager @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Receptionist @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Executive Coordinator @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Team Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Legal Administrative Assistant @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}",
+   "Board Liaison @0: 404 {\"message\":\"Endpoint '\\/active-ats-7d' does not exist\"}"
   ]
  },
  "sample": null
