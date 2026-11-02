@@ -41,7 +41,7 @@ jobs:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: |
           if [ -n "${{ inputs.mode }}" ]; then MODE="${{ inputs.mode }}";
-          elif [ "${{ github.event_name }}" = "push" ]; then MODE="$(cat paid-mode.txt 2>/dev/null || echo full)";
+          elif [ "${{ github.event_name }}" = "push" ]; then MODE="$(cut -d" " -f1 paid-mode.txt 2>/dev/null || echo full)";
           else MODE=full; fi
           echo "Paid mode: $MODE"
           MODE="$MODE" node scripts/fetch-paid.mjs
@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "ask-rae-bot"
           git config user.email "ask-rae-bot@users.noreply.github.com"
-          git add public/jobs.json public/report.json data/ 2>/dev/null || true
+          git add public/jobs.json public/report.json data/ paid-endpoint.txt 2>/dev/null || true
           git add public/jobs.json public/report.json
           git diff --cached --quiet || git commit -m "Update jobs $(date -u +%F)"
           git pull --rebase origin main

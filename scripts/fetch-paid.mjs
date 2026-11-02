@@ -15,7 +15,10 @@ if (!KEY) { console.log("No RAPIDAPI_KEY, skipping paid pull."); process.exit(0)
 const HOST = "active-jobs-db.p.rapidapi.com";
 // RapidAPI serves the 7-day window at /active-ats-7d (there is no 24h path there).
 // Daily runs add date_filter so only the last ~26 hours come back.
-const ENDPOINT = `https://${HOST}/active-ats-7d`;
+// "Get Jobs" endpoint: one path, with the window chosen by time_frame (1h, 24h, 7d, 6m).
+// The exact path is confirmed by a test run and saved in paid-endpoint.txt.
+let ENDPOINT = `https://${HOST}/active-ats`;
+const PATHS = ["/active-ats", "/get-jobs", "/jobs", "/active-jobs", "/v1/active-ats", "/"];
 const MODE = (process.env.MODE || "full").trim();
 const TEST = MODE === "test";                       // one small call to check the data
 const BACKFILL = MODE === "backfill";               // first run: last 7 days, bigger budget
@@ -93,9 +96,27 @@ function pay(j) {
 }
 
 let raw = 0;
+function params(title, offset, limit) {
+  return new URLSearchParams({
+    time_frame: BACKFILL ? "7d" : "24h",
+    title: `"${title}"`,
+    location: '"United States"',
+    limit: String(limit),
+    offset: String(offset),
+  });
+}
+const probes = [];
+async function findEndpoint() {
+  try { const saved = (await readFile("paid-endpoint.txt", "utf8")).trim(); if (saved && !TEST) { ENDPOINT = `https://${HOST}${saved}`; return; } } catch {}
+  for (const path of PATHS) {
+    const res = await fetch(`https://${HOST}${path}?${params("Executive Assistant", 0, 5)}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
+    const body = (await res.text()).slice(0, 300);
+    probes.push({ path, status: res.status, body });
+    if (res.status !== 404) { ENDPOINT = `https://${HOST}${path}`; if (res.ok) await writeFile("paid-endpoint.txt", path + "\n"); return; }
+  }
+}
 async function call(title, offset) {
-  const q = new URLSearchParams({ title_filter: `"${title}"`, location_filter: '"United States"', limit: String(TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw))), offset: String(offset) });
-  if (!TEST && !BACKFILL) q.set("date_filter", SINCE);
+  const q = params(title, offset, TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw)));
   const res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
   if (!res.ok) throw new Error(`${res.status} ${await res.text().then(t => t.slice(0, 200))}`);
   const data = await res.json();
@@ -106,6 +127,7 @@ async function main() {
   let prev = [];
   try { prev = JSON.parse(await readFile(STORE, "utf8")).jobs || []; } catch {}
   let sample = null;
+  await findEndpoint();
   const byKey = new Map(prev.map(j => [j.url, j]));
   let calls = 0, kept = 0;
   const errors = [];
@@ -118,7 +140,7 @@ async function main() {
       raw += batch.length;
       if (TEST && batch[0]) {
         const j = batch[0];
-        sample = { fields: Object.keys(j), first: j };
+        sample = { fields: Object.keys(j), first: j, titles: batch.map(x => x.title) };
         console.log("SAMPLE FIELDS:", Object.keys(j).join(", "));
         console.log("SAMPLE:", JSON.stringify({ title: j.title, organization: j.organization, url: j.url, source: j.source, date_posted: j.date_posted, locations_derived: j.locations_derived, cities_derived: j.cities_derived, regions_derived: j.regions_derived, countries_derived: j.countries_derived, ai_work_arrangement: j.ai_work_arrangement, remote_derived: j.remote_derived, ai_salary_minvalue: j.ai_salary_minvalue, ai_salary_maxvalue: j.ai_salary_maxvalue, ai_salary_unittext: j.ai_salary_unittext }));
       }
@@ -155,7 +177,7 @@ async function main() {
     .filter(j => !j.posted || Date.parse(j.posted) >= cutoff)
     .sort((a, b) => Date.parse(b.posted || 0) - Date.parse(a.posted || 0));
 
-  const summary = { mode: MODE, at: new Date().toISOString(), calls, raw, keptThisRun: kept, storeTotal: jobs.length, errors };
+  const summary = { mode: MODE, at: new Date().toISOString(), endpoint: ENDPOINT, probes, calls, raw, keptThisRun: kept, storeTotal: jobs.length, errors };
   await mkdir("data", { recursive: true });
   await writeFile("data/paid-report.json", JSON.stringify({ summary, sample }, null, 1));
   console.log(JSON.stringify(summary, null, 2));
