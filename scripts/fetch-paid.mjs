@@ -122,7 +122,10 @@ async function findEndpoint() {
 }
 async function call(title, offset) {
   const q = params(title, offset, TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw)));
-  const res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
+  // Pro plan allows 2 requests a second: pace calls and retry once if told to slow down.
+  await new Promise(r => setTimeout(r, 700));
+  let res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
+  if (res.status === 429) { await new Promise(r => setTimeout(r, 3000)); res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } }); }
   if (!res.ok) throw new Error(`${res.status} ${await res.text().then(t => t.slice(0, 200))}`);
   const data = await res.json();
   return Array.isArray(data) ? data : (data.jobs || data.data || []);
@@ -133,12 +136,16 @@ async function main() {
   try { prev = JSON.parse(await readFile(STORE, "utf8")).jobs || []; } catch {}
   let sample = null;
   await findEndpoint();
+  // Optional "skip=Title A,Title B" in paid-mode.txt, used to finish a backfill without repeating titles.
+  let skip = [];
+  try { const m = (await readFile("paid-mode.txt", "utf8")).match(/skip=([^\n]+)/); if (m && BACKFILL) skip = m[1].split(",").map(x => x.trim()); } catch {}
+  const PER_TITLE = BACKFILL ? 200 : 500;
   const byKey = new Map(prev.map(j => [j.url, j]));
   let calls = 0, kept = 0;
   const errors = [];
 
-  for (const title of SEARCHES) {
-    for (let offset = 0; offset < 500 && calls < MAX_CALLS && raw < MAX_JOBS; offset += 100) {
+  for (const title of SEARCHES.filter(t => !skip.includes(t))) {
+    for (let offset = 0; offset < PER_TITLE && calls < MAX_CALLS && raw < MAX_JOBS; offset += 100) {
       calls++;
       let batch;
       try { batch = await call(title, offset); } catch (e) { errors.push(`${title} @${offset}: ${e.message}`); break; }
