@@ -1,24 +1,14 @@
 {
  "summary": {
   "mode": "backfill",
-  "at": "2026-11-02T07:44:49.601Z",
+  "at": "2026-11-02T07:48:43.070Z",
   "endpoint": "https://active-jobs-db.p.rapidapi.com/active-ats",
   "probes": [],
-  "calls": 20,
-  "raw": 845,
-  "keptThisRun": 817,
-  "storeTotal": 804,
-  "errors": [
-   "Senior Executive Assistant @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Chief of Staff @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Administrative Assistant @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Administrative Coordinator @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Office Manager @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Receptionist @400: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Executive Coordinator @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Team Assistant @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}",
-   "Board Liaison @0: 429 {\"message\":\"You have exceeded the rate limit per second for your plan, PRO, by the API provider\"}"
-  ]
+  "calls": 11,
+  "raw": 703,
+  "keptThisRun": 696,
+  "storeTotal": 1448,
+  "errors": []
  },
  "sample": null
 }

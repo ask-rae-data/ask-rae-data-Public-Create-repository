@@ -1,13 +1,13 @@
 {
  "summary": {
-  "generatedAt": "2026-11-02T07:44:40.561Z",
+  "generatedAt": "2026-11-02T07:48:29.507Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28477,
+  "rawJobs": 28532,
   "adminJobs": 173,
   "dropped": {
-   "notAdmin": 28021,
-   "notUS": 149,
+   "notAdmin": 28077,
+   "notUS": 148,
    "old": 16,
    "dup": 118
   }
@@ -693,7 +693,7 @@
    "source": "Workday",
    "company": "Accenture",
    "ok": true,
-   "openJobs": 135
+   "openJobs": 189
   },
   {
    "source": "Workday",
@@ -867,7 +867,7 @@
    "source": "Workday",
    "company": "Pfizer",
    "ok": true,
-   "openJobs": 176
+   "openJobs": 177
   },
   {
    "source": "Workday",
