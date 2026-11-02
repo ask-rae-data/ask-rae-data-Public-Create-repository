@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-02T07:40:37.334Z",
+  "generatedAt": "2026-11-02T07:44:40.561Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28492,
+  "rawJobs": 28477,
   "adminJobs": 173,
   "dropped": {
-   "notAdmin": 28036,
+   "notAdmin": 28021,
    "notUS": 149,
    "old": 16,
    "dup": 118
@@ -215,7 +215,7 @@
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 912
+   "openJobs": 911
   },
   {
    "source": "Greenhouse",
@@ -693,7 +693,7 @@
    "source": "Workday",
    "company": "Accenture",
    "ok": true,
-   "openJobs": 189
+   "openJobs": 135
   },
   {
    "source": "Workday",
@@ -813,7 +813,7 @@
    "source": "Workday",
    "company": "Intel",
    "ok": true,
-   "openJobs": 131
+   "openJobs": 130
   },
   {
    "source": "Workday",
@@ -891,7 +891,7 @@
    "source": "Workday",
    "company": "Southwest Airlines",
    "ok": true,
-   "openJobs": 22
+   "openJobs": 63
   },
   {
    "source": "Workday",
