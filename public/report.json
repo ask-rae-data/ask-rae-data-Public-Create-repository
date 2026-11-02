@@ -1,13 +1,13 @@
 {
  "summary": {
-  "generatedAt": "2026-11-02T07:48:29.507Z",
+  "generatedAt": "2026-11-02T08:52:05.416Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28532,
+  "rawJobs": 28527,
   "adminJobs": 173,
   "dropped": {
-   "notAdmin": 28077,
-   "notUS": 148,
+   "notAdmin": 28071,
+   "notUS": 149,
    "old": 16,
    "dup": 118
   }
@@ -197,7 +197,7 @@
    "source": "Greenhouse",
    "company": "ClassPass",
    "ok": true,
-   "openJobs": 44
+   "openJobs": 45
   },
   {
    "source": "Greenhouse",
@@ -215,7 +215,7 @@
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 911
+   "openJobs": 910
   },
   {
    "source": "Greenhouse",
@@ -381,7 +381,7 @@
    "source": "Greenhouse",
    "company": "Okta",
    "ok": true,
-   "openJobs": 387
+   "openJobs": 388
   },
   {
    "source": "Greenhouse",
@@ -417,7 +417,7 @@
    "source": "Greenhouse",
    "company": "Point72",
    "ok": true,
-   "openJobs": 204
+   "openJobs": 200
   },
   {
    "source": "Greenhouse",
@@ -489,7 +489,7 @@
    "source": "Greenhouse",
    "company": "Stripe",
    "ok": true,
-   "openJobs": 746
+   "openJobs": 747
   },
   {
    "source": "Greenhouse",
@@ -735,7 +735,7 @@
    "source": "Workday",
    "company": "Boeing",
    "ok": true,
-   "openJobs": 166
+   "openJobs": 164
   },
   {
    "source": "Workday",
@@ -813,7 +813,7 @@
    "source": "Workday",
    "company": "Intel",
    "ok": true,
-   "openJobs": 130
+   "openJobs": 131
   },
   {
    "source": "Workday",
@@ -915,7 +915,7 @@
    "source": "Workday",
    "company": "The Walt Disney Company",
    "ok": true,
-   "openJobs": 39
+   "openJobs": 38
   },
   {
    "source": "Workday",
@@ -957,7 +957,7 @@
    "source": "Workday",
    "company": "Workday",
    "ok": true,
-   "openJobs": 118
+   "openJobs": 117
   }
  ]
 }
