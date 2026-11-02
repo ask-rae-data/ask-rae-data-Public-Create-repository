@@ -23,7 +23,7 @@ const MODE = (process.env.MODE || "full").trim();
 const TEST = MODE === "test";                       // one small call to check the data
 const BACKFILL = MODE === "backfill";               // first run: last 7 days, bigger budget
 const SINCE = new Date(Date.now() - 26 * 3600e3).toISOString().slice(0, 19);
-const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : 160)); // Pro plan: 5,000 jobs a month
+const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : 110)); // Pro plan: 5,000 jobs a month. 110 a day leaves room after the backfill.
 const MAX_CALLS = Number(process.env.MAX_CALLS || 40);
 const KEEP_DAYS = Number(process.env.KEEP_DAYS || 30);
 const STORE = "data/paid.json";
