@@ -11,7 +11,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const KEY = process.env.RAPIDAPI_KEY;
-if (!KEY) { console.log("No RAPIDAPI_KEY, skipping paid pull."); process.exit(0); }
+if (!KEY && (process.env.MODE || "").trim() !== "merge") { console.log("No RAPIDAPI_KEY, skipping paid pull."); process.exit(0); }
 const HOST = "active-jobs-db.p.rapidapi.com";
 // RapidAPI serves the 7-day window at /active-ats-7d (there is no 24h path there).
 // Daily runs add date_filter so only the last ~26 hours come back.
@@ -21,6 +21,7 @@ let ENDPOINT = `https://${HOST}/active-ats`;
 const PATHS = ["/active-ats", "/get-jobs", "/jobs", "/active-jobs", "/v1/active-ats", "/"];
 const MODE = (process.env.MODE || "full").trim();
 const TEST = MODE === "test";                       // one small call to check the data
+const MERGE_ONLY = MODE === "merge";                 // no API calls: re-merge stored paid jobs into today's list
 const BACKFILL = MODE === "backfill";               // first run: last 7 days, bigger budget
 const SINCE = new Date(Date.now() - 26 * 3600e3).toISOString().slice(0, 19);
 const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : 110)); // Pro plan: 5,000 jobs a month. 110 a day leaves room after the backfill.
@@ -135,7 +136,7 @@ async function main() {
   let prev = [];
   try { prev = JSON.parse(await readFile(STORE, "utf8")).jobs || []; } catch {}
   let sample = null;
-  await findEndpoint();
+  if (!MERGE_ONLY) await findEndpoint();
   // Optional "skip=Title A,Title B" in paid-mode.txt, used to finish a backfill without repeating titles.
   let skip = [];
   try { const m = (await readFile("paid-mode.txt", "utf8")).match(/skip=([^\n]+)/); if (m && BACKFILL) skip = m[1].split(",").map(x => x.trim()); } catch {}
@@ -144,7 +145,7 @@ async function main() {
   let calls = 0, kept = 0;
   const errors = [];
 
-  for (const title of SEARCHES.filter(t => !skip.includes(t))) {
+  for (const title of (MERGE_ONLY ? [] : SEARCHES.filter(t => !skip.includes(t)))) {
     for (let offset = 0; offset < PER_TITLE && calls < MAX_CALLS && raw < MAX_JOBS; offset += 100) {
       calls++;
       let batch;
@@ -194,7 +195,7 @@ async function main() {
   await writeFile("data/paid-report.json", JSON.stringify({ summary, sample }, null, 1));
   console.log(JSON.stringify(summary, null, 2));
   if (TEST) return;                                  // test runs never touch the live list
-  if (errors.length && calls === errors.length) process.exit(1);
+  if (calls > 0 && errors.length && calls === errors.length) process.exit(1);
   await writeFile(STORE, JSON.stringify({ generatedAt: summary.at, count: jobs.length, jobs }));
 
   // Merge with today's free list. Same job from both sources counts once.

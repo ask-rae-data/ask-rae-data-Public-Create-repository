@@ -42,7 +42,7 @@ jobs:
         run: |
           if [ -n "${{ inputs.mode }}" ]; then MODE="${{ inputs.mode }}";
           elif [ "${{ github.event_name }}" = "push" ]; then MODE="$(cut -d" " -f1 paid-mode.txt 2>/dev/null || echo full)";
-            if [ "$MODE" = "full" ]; then echo "Push run: skipping the paid pull to save the monthly allowance"; exit 0; fi
+            if [ "$MODE" = "full" ]; then echo "Push run: no paid API calls, re-merging stored paid jobs"; MODE=merge; fi
           else MODE=full; fi
           echo "Paid mode: $MODE"
           MODE="$MODE" node scripts/fetch-paid.mjs

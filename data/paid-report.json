@@ -1,12 +1,12 @@
 {
  "summary": {
-  "mode": "backfill",
-  "at": "2026-11-02T07:48:43.070Z",
+  "mode": "merge",
+  "at": "2026-11-02T08:59:31.640Z",
   "endpoint": "https://active-jobs-db.p.rapidapi.com/active-ats",
   "probes": [],
-  "calls": 11,
-  "raw": 703,
-  "keptThisRun": 696,
+  "calls": 0,
+  "raw": 0,
+  "keptThisRun": 0,
   "storeTotal": 1448,
   "errors": []
  },
