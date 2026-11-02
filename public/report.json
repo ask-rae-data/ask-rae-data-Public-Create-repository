@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-02T08:52:05.416Z",
+  "generatedAt": "2026-11-02T08:59:04.724Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28527,
+  "rawJobs": 28526,
   "adminJobs": 173,
   "dropped": {
-   "notAdmin": 28071,
+   "notAdmin": 28070,
    "notUS": 149,
    "old": 16,
    "dup": 118
@@ -29,7 +29,7 @@
    "source": "Ashby",
    "company": "Harvey",
    "ok": true,
-   "openJobs": 377
+   "openJobs": 376
   },
   {
    "source": "Ashby",
@@ -119,7 +119,7 @@
    "source": "Greenhouse",
    "company": "Airbnb",
    "ok": true,
-   "openJobs": 201
+   "openJobs": 202
   },
   {
    "source": "Greenhouse",
@@ -813,7 +813,7 @@
    "source": "Workday",
    "company": "Intel",
    "ok": true,
-   "openJobs": 131
+   "openJobs": 130
   },
   {
    "source": "Workday",
