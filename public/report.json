@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-02T08:59:04.724Z",
+  "generatedAt": "2026-11-02T09:03:36.790Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28526,
+  "rawJobs": 28528,
   "adminJobs": 173,
   "dropped": {
-   "notAdmin": 28070,
+   "notAdmin": 28072,
    "notUS": 149,
    "old": 16,
    "dup": 118
@@ -143,7 +143,7 @@
    "source": "Greenhouse",
    "company": "Asana",
    "ok": true,
-   "openJobs": 110
+   "openJobs": 111
   },
   {
    "source": "Greenhouse",
@@ -381,7 +381,7 @@
    "source": "Greenhouse",
    "company": "Okta",
    "ok": true,
-   "openJobs": 388
+   "openJobs": 389
   },
   {
    "source": "Greenhouse",
