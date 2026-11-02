@@ -87,10 +87,15 @@ function place(j) {
   return { city: c, state: code, us };
 }
 
+const SOURCE_NAMES = { workday: "Workday", greenhouse: "Greenhouse", lever: "Lever", ashby: "Ashby", icims: "iCIMS", taleo: "Taleo", successfactors: "SuccessFactors", smartrecruiters: "SmartRecruiters", phenompeople: "Phenom", oraclecloud: "Oracle", bamboohr: "BambooHR", jobvite: "Jobvite", workable: "Workable", paylocity: "Paylocity", paycom: "Paycom", ukg: "UKG", adp: "ADP", eightfold: "Eightfold", avature: "Avature", jazzhr: "JazzHR", rippling: "Rippling", recruitee: "Recruitee", teamtailor: "Teamtailor", neogov: "NEOGOV", dayforce: "Dayforce" };
+function sourceName(src) {
+  const k = String(src || "").toLowerCase().replace(/[^a-z]/g, "");
+  return SOURCE_NAMES[k] || (src ? String(src).charAt(0).toUpperCase() + String(src).slice(1) : "Career site");
+}
 function pay(j) {
-  const min = Number(j.ai_salary_minvalue || j.ai_salary_value || 0);
-  const max = Number(j.ai_salary_maxvalue || j.ai_salary_value || 0);
-  const unit = String(j.ai_salary_unittext || "YEAR").toUpperCase();
+  const min = Number(j.ai_salary_min_value ?? j.ai_salary_minvalue ?? j.ai_salary_value ?? 0) || 0;
+  const max = Number(j.ai_salary_max_value ?? j.ai_salary_maxvalue ?? j.ai_salary_value ?? 0) || 0;
+  const unit = String(j.ai_salary_unit_text || j.ai_salary_unittext || "YEAR").toUpperCase();
   const mult = unit === "HOUR" ? 2080 : unit === "MONTH" ? 12 : unit === "WEEK" ? 52 : 1;
   return { payMin: min ? Math.round(min * mult) : null, payMax: max ? Math.round(max * mult) : null };
 }
@@ -161,7 +166,7 @@ async function main() {
           ...pay(j),
           posted: j.date_posted || j.date_created || null,
           url,
-          source: j.source || "",
+          source: sourceName(j.source),
           level: level(t),
         });
         kept++;
