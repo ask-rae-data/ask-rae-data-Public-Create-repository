@@ -1,13 +1,13 @@
 {
  "summary": {
-  "mode": "full",
-  "at": "2026-11-02T12:03:25.598Z",
+  "mode": "focus",
+  "at": "2026-11-03T11:45:45.544Z",
   "endpoint": "https://active-jobs-db.p.rapidapi.com/active-ats",
   "probes": [],
-  "calls": 12,
-  "raw": 95,
-  "keptThisRun": 89,
-  "storeTotal": 1473,
+  "calls": 9,
+  "raw": 174,
+  "keptThisRun": 169,
+  "storeTotal": 1564,
   "errors": []
  },
  "sample": null
