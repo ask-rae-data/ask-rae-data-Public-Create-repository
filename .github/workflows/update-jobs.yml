@@ -14,7 +14,7 @@ on:
         default: full
   push:
     branches: [main]
-    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "paid-mode.txt", "public/guide/**"]
+    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "scripts/picks.mjs", "paid-mode.txt", "public/guide/**"]
 
 permissions:
   contents: write
@@ -46,11 +46,14 @@ jobs:
           else MODE=full; fi
           echo "Paid mode: $MODE"
           MODE="$MODE" node scripts/fetch-paid.mjs
+      - name: Choose Ask RAE picks (featured roles and the LinkedIn post)
+        continue-on-error: true
+        run: node scripts/picks.mjs
       - name: Save today's list
         run: |
           git config user.name "ask-rae-bot"
           git config user.email "ask-rae-bot@users.noreply.github.com"
-          git add public/jobs.json public/report.json data/ paid-endpoint.txt 2>/dev/null || true
+          git add public/ data/ paid-endpoint.txt 2>/dev/null || true
           git add public/jobs.json public/report.json
           git diff --cached --quiet || git commit -m "Update jobs $(date -u +%F)"
           git pull --rebase origin main
