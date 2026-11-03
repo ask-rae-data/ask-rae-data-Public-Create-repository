@@ -23,32 +23,50 @@ const MODE = (process.env.MODE || "full").trim();
 const TEST = MODE === "test";                       // one small call to check the data
 const MERGE_ONLY = MODE === "merge";                 // no API calls: re-merge stored paid jobs into today's list
 const BACKFILL = MODE === "backfill";               // first run: last 7 days, bigger budget
+const FOCUS = MODE === "focus";                     // one-time: last 7 days of the senior and operational admin titles only
 const SINCE = new Date(Date.now() - 26 * 3600e3).toISOString().slice(0, 19);
-const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : 110)); // Pro plan: 5,000 jobs a month. 110 a day leaves room after the backfill.
+const MAX_JOBS = Number(process.env.MAX_JOBS || (BACKFILL ? 1500 : FOCUS ? 200 : 110)); // Pro plan: 5,000 jobs a month. 110 a day leaves room after the backfill.
 const MAX_CALLS = Number(process.env.MAX_CALLS || 40);
 const KEEP_DAYS = Number(process.env.KEEP_DAYS || 30);
 const STORE = "data/paid.json";
 const OUT = "public/jobs.json";
 
-// One search per title family. Each call returns up to 100 jobs.
+// One search per title family, in priority order: the daily budget is spent from the top down.
+// A title search matches every job title that contains it, so "Executive Assistant" also brings in
+// Senior Executive Assistant, Executive Assistant Manager, and Lead Executive Assistant.
+// "cap" limits a title so it cannot crowd out the others.
 const ALL_SEARCHES = [
   "Executive Assistant",
-  "Senior Executive Assistant",
-  "Executive Business Partner",
   "Chief of Staff",
+  "Executive Business Partner",
+  "Administrative Manager",
+  "Director of Administration",
+  "Administrative Director",
+  "Administration Manager",
+  "Executive Administrator",
   "Administrative Assistant",
-  "Administrative Coordinator",
-  "Office Manager",
-  "Receptionist",
   "Executive Coordinator",
-  "Team Assistant",
-  "Legal Administrative Assistant",
-  "Board Liaison",
+  "Office Manager",
+  "Administrative Coordinator",
+  "Receptionist",
 ];
-const SEARCHES = TEST ? ["Executive Assistant"] : ALL_SEARCHES;
+const CAPS = { "Receptionist": 15, "Office Manager": 20, "Administrative Coordinator": 15 };
+// One-time catch-up for the senior and operational admin family.
+const FOCUS_SEARCHES = [
+  "Chief of Staff",
+  "Executive Business Partner",
+  "Administrative Manager",
+  "Director of Administration",
+  "Administrative Director",
+  "Administration Manager",
+  "Executive Administrator",
+  "Senior Executive Assistant",
+  "Senior Administrative Assistant",
+];
+const SEARCHES = TEST ? ["Executive Assistant"] : FOCUS ? FOCUS_SEARCHES : ALL_SEARCHES;
 
 // Keep the admin job family, drop look-alikes.
-const INCLUDE = /(executive (assistant|business partner|coordinator|administrator)|administrative (assistant|coordinator|specialist|manager|services|supervisor)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department assistant|personal assistant|board (liaison|relations)|executive office)/i;
+const INCLUDE = /(director of administration|administrative director|administration (manager|director)|admin manager|head of administration|executive administrator|executive assistant manager|manager,? (of )?executive (assistants|support)|director,? (of )?executive (assistants|support)|executive support (manager|director|lead)|executive (assistant|business partner|coordinator|administrator)|administrative (assistant|coordinator|specialist|manager|services|supervisor)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department assistant|personal assistant|board (liaison|relations)|executive office)/i;
 const EXCLUDE = /(system(s)? admin|network admin|database admin|it admin|salesforce admin|linux|windows|sysadmin|devops|engineer|developer|physician|nurse|dental assistant|medical assistant\b(?!.*admin)|teacher|chief of staff,? (army|navy|air force)|veterinar)/i;
 
 const STATES = {Alabama:"AL",Alaska:"AK",Arizona:"AZ",Arkansas:"AR",California:"CA",Colorado:"CO",Connecticut:"CT",Delaware:"DE","District of Columbia":"DC",Florida:"FL",Georgia:"GA",Hawaii:"HI",Idaho:"ID",Illinois:"IL",Indiana:"IN",Iowa:"IA",Kansas:"KS",Kentucky:"KY",Louisiana:"LA",Maine:"ME",Maryland:"MD",Massachusetts:"MA",Michigan:"MI",Minnesota:"MN",Mississippi:"MS",Missouri:"MO",Montana:"MT",Nebraska:"NE",Nevada:"NV","New Hampshire":"NH","New Jersey":"NJ","New Mexico":"NM","New York":"NY","North Carolina":"NC","North Dakota":"ND",Ohio:"OH",Oklahoma:"OK",Oregon:"OR",Pennsylvania:"PA","Rhode Island":"RI","South Carolina":"SC","South Dakota":"SD",Tennessee:"TN",Texas:"TX",Utah:"UT",Vermont:"VT",Virginia:"VA",Washington:"WA","West Virginia":"WV",Wisconsin:"WI",Wyoming:"WY"};
@@ -57,6 +75,7 @@ const ABBRS = new Set(Object.values(STATES));
 function level(title) {
   const t = title.toLowerCase();
   if (/chief of staff|director|head of/.test(t)) return "cos";
+  if (/(administrative|admin|administration|office) manager|executive assistant manager|manager,? (of )?executive|executive support (manager|lead)/.test(t)) return "senior";
   if (/senior|sr\.?|lead|principal|executive business partner|strategic/.test(t) && /executive|business partner/.test(t)) return "senior";
   if (/executive/.test(t)) return "ea";
   return "admin";
@@ -104,7 +123,7 @@ function pay(j) {
 let raw = 0;
 function params(title, offset, limit) {
   return new URLSearchParams({
-    time_frame: BACKFILL ? "7d" : "24h",
+    time_frame: BACKFILL || FOCUS ? "7d" : "24h",
     title: `"${title}"`,
     location: '"United States"',
     limit: String(limit),
@@ -121,8 +140,8 @@ async function findEndpoint() {
     if (res.status !== 404) { ENDPOINT = `https://${HOST}${path}`; if (res.ok) await writeFile("paid-endpoint.txt", path + "\n"); return; }
   }
 }
-async function call(title, offset) {
-  const q = params(title, offset, TEST ? 25 : Math.min(100, Math.max(10, MAX_JOBS - raw)));
+async function call(title, offset, want = 100) {
+  const q = params(title, offset, TEST ? 25 : Math.min(100, want, Math.max(10, MAX_JOBS - raw)));
   // Pro plan allows 2 requests a second: pace calls and retry once if told to slow down.
   await new Promise(r => setTimeout(r, 700));
   let res = await fetch(`${ENDPOINT}?${q}`, { headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST } });
@@ -140,16 +159,18 @@ async function main() {
   // Optional "skip=Title A,Title B" in paid-mode.txt, used to finish a backfill without repeating titles.
   let skip = [];
   try { const m = (await readFile("paid-mode.txt", "utf8")).match(/skip=([^\n]+)/); if (m && BACKFILL) skip = m[1].split(",").map(x => x.trim()); } catch {}
-  const PER_TITLE = BACKFILL ? 200 : 500;
+  const PER_TITLE = BACKFILL ? 200 : FOCUS ? 100 : 500;
   const byKey = new Map(prev.map(j => [j.url, j]));
   let calls = 0, kept = 0;
   const errors = [];
 
   for (const title of (MERGE_ONLY ? [] : SEARCHES.filter(t => !skip.includes(t)))) {
-    for (let offset = 0; offset < PER_TITLE && calls < MAX_CALLS && raw < MAX_JOBS; offset += 100) {
+    const limit = Math.min(PER_TITLE, BACKFILL || FOCUS ? PER_TITLE : (CAPS[title] || PER_TITLE));
+    for (let offset = 0; offset < limit && calls < MAX_CALLS && raw < MAX_JOBS; offset += 100) {
       calls++;
       let batch;
-      try { batch = await call(title, offset); } catch (e) { errors.push(`${title} @${offset}: ${e.message}`); break; }
+      const want = Math.max(10, Math.min(100, limit - offset));
+      try { batch = await call(title, offset, want); } catch (e) { errors.push(`${title} @${offset}: ${e.message}`); break; }
       raw += batch.length;
       if (TEST && batch[0]) {
         const j = batch[0];
@@ -179,7 +200,7 @@ async function main() {
         });
         kept++;
       }
-      if (TEST || batch.length < 100) break;
+      if (TEST || batch.length < want) break;
     }
     if (raw >= MAX_JOBS) { errors.push(`Stopped at ${raw} jobs to stay inside the plan limit`); break;
     }

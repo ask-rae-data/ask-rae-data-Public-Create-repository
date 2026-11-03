@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Paid pull: full = normal daily, backfill = last 7 days, test = one small check"
+        description: "Paid pull: full = normal daily, backfill = last 7 days, focus = one-time catch-up on senior and operational admin titles, test = one small check"
         type: choice
-        options: [full, backfill, test]
+        options: [full, backfill, focus, test]
         default: full
   push:
     branches: [main]
