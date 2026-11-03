@@ -1,13 +1,13 @@
 {
  "summary": {
-  "generatedAt": "2026-11-03T11:45:33.941Z",
+  "generatedAt": "2026-11-03T11:49:43.973Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28520,
+  "rawJobs": 28519,
   "adminJobs": 162,
   "dropped": {
-   "notAdmin": 28073,
-   "notUS": 149,
+   "notAdmin": 28069,
+   "notUS": 152,
    "old": 16,
    "dup": 120
   }
@@ -375,7 +375,7 @@
    "source": "Greenhouse",
    "company": "MongoDB",
    "ok": true,
-   "openJobs": 359
+   "openJobs": 358
   },
   {
    "source": "Greenhouse",
@@ -675,7 +675,7 @@
    "source": "SmartRecruiters",
    "company": "Wise",
    "ok": true,
-   "openJobs": 173
+   "openJobs": 172
   },
   {
    "source": "Workday",
@@ -951,7 +951,7 @@
    "source": "Workday",
    "company": "Wells Fargo",
    "ok": true,
-   "openJobs": 162
+   "openJobs": 163
   },
   {
    "source": "Workday",
