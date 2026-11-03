@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-03T11:57:59.446Z",
+  "generatedAt": "2026-11-03T12:19:22.609Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28521,
+  "rawJobs": 28519,
   "adminJobs": 162,
   "dropped": {
-   "notAdmin": 28074,
+   "notAdmin": 28072,
    "notUS": 149,
    "old": 16,
    "dup": 120
@@ -215,7 +215,7 @@
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 911
+   "openJobs": 912
   },
   {
    "source": "Greenhouse",
@@ -375,7 +375,7 @@
    "source": "Greenhouse",
    "company": "MongoDB",
    "ok": true,
-   "openJobs": 358
+   "openJobs": 357
   },
   {
    "source": "Greenhouse",
@@ -453,7 +453,7 @@
    "source": "Greenhouse",
    "company": "Samsara",
    "ok": true,
-   "openJobs": 331
+   "openJobs": 330
   },
   {
    "source": "Greenhouse",
@@ -957,7 +957,7 @@
    "source": "Workday",
    "company": "Workday",
    "ok": true,
-   "openJobs": 129
+   "openJobs": 128
   }
  ]
 }
