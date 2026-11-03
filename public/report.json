@@ -1,13 +1,13 @@
 {
  "summary": {
-  "generatedAt": "2026-11-03T11:49:43.973Z",
+  "generatedAt": "2026-11-03T11:57:59.446Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28519,
+  "rawJobs": 28521,
   "adminJobs": 162,
   "dropped": {
-   "notAdmin": 28069,
-   "notUS": 152,
+   "notAdmin": 28074,
+   "notUS": 149,
    "old": 16,
    "dup": 120
   }
@@ -143,7 +143,7 @@
    "source": "Greenhouse",
    "company": "Asana",
    "ok": true,
-   "openJobs": 108
+   "openJobs": 109
   },
   {
    "source": "Greenhouse",
@@ -333,7 +333,7 @@
    "source": "Greenhouse",
    "company": "HubSpot",
    "ok": true,
-   "openJobs": 97
+   "openJobs": 98
   },
   {
    "source": "Greenhouse",
@@ -381,7 +381,7 @@
    "source": "Greenhouse",
    "company": "Okta",
    "ok": true,
-   "openJobs": 394
+   "openJobs": 395
   },
   {
    "source": "Greenhouse",
@@ -759,7 +759,7 @@
    "source": "Workday",
    "company": "Cisco",
    "ok": true,
-   "openJobs": 75
+   "openJobs": 74
   },
   {
    "source": "Workday",
