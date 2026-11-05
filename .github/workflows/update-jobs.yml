@@ -14,7 +14,7 @@ on:
         default: full
   push:
     branches: [main]
-    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "scripts/picks.mjs", "paid-mode.txt", "public/guide/**"]
+    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "scripts/picks.mjs", "paid-mode.txt", "public/guide/**", "public/img/**"]
 
 permissions:
   contents: write
