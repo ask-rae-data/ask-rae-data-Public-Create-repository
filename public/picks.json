@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-05T06:10:38.704Z",
+ "generatedAt": "2026-11-05T12:06:21.585Z",
  "featured": [
+  {
+   "title": "Partner 6, Executive Assistant, San Francisco",
+   "company": "a16z",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 149000,
+   "payMax": 165000,
+   "posted": "2026-11-05T00:45:06",
+   "url": "https://a16z.com/about/jobs/?gh_jid=8004989003",
+   "source": "Greenhouse",
+   "level": "ea",
+   "payText": "$149K–$165K"
+  },
   {
    "title": "Executive Assistant",
    "company": "Northwood Space",
@@ -28,23 +42,22 @@
    "source": "Greenhouse",
    "level": "ea",
    "payText": "$108K–$143K"
-  },
-  {
-   "title": "Executive Assistant to Chief Revenue Officer ",
-   "company": "Nscale",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 120000,
-   "payMax": 140000,
-   "posted": "2026-11-03T14:40:42",
-   "url": "https://job-boards.eu.greenhouse.io/nscaleoperationsukltd/jobs/4885396101",
-   "source": "Greenhouse",
-   "level": "ea",
-   "payText": "$120K–$140K"
   }
  ],
  "post": [
+  {
+   "title": "Partner 6, Executive Assistant, San Francisco",
+   "company": "a16z",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 149000,
+   "payMax": 165000,
+   "posted": "2026-11-05T00:45:06",
+   "url": "https://a16z.com/about/jobs/?gh_jid=8004989003",
+   "source": "Greenhouse",
+   "level": "ea"
+  },
   {
    "title": "Executive Assistant",
    "company": "Northwood Space",
@@ -96,19 +109,6 @@
    "url": "https://dowjones.wd1.myworkdayjobs.com/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Executive-Assistant--Office-of-the-Deputy-Editors-in-Chief_Job_Req_56076-2",
    "source": "Workday",
    "level": "ea"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Commerce",
-   "city": "Austin",
-   "state": "TX",
-   "workplace": "Hybrid",
-   "payMin": 92535,
-   "payMax": 138803,
-   "posted": "2026-11-03T00:00:00",
-   "url": "https://bigcommerce.wd12.myworkdayjobs.com/Commerce/job/Austin-TX/Senior-Executive-Assistant_JR102890",
-   "source": "Workday",
-   "level": "senior"
   }
  ]
 }
