@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-05T05:24:40.243Z",
+  "generatedAt": "2026-11-05T06:10:38.148Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28722,
+  "rawJobs": 28698,
   "adminJobs": 178,
   "dropped": {
-   "notAdmin": 28263,
+   "notAdmin": 28239,
    "notUS": 137,
    "old": 16,
    "dup": 128
@@ -59,7 +59,7 @@
    "source": "Ashby",
    "company": "OpenAI",
    "ok": true,
-   "openJobs": 811
+   "openJobs": 813
   },
   {
    "source": "Ashby",
@@ -89,7 +89,7 @@
    "source": "Ashby",
    "company": "Sierra",
    "ok": true,
-   "openJobs": 217
+   "openJobs": 218
   },
   {
    "source": "Ashby",
@@ -209,7 +209,7 @@
    "source": "Greenhouse",
    "company": "Coinbase",
    "ok": true,
-   "openJobs": 279
+   "openJobs": 278
   },
   {
    "source": "Greenhouse",
@@ -309,7 +309,7 @@
    "source": "Greenhouse",
    "company": "GitLab",
    "ok": true,
-   "openJobs": 243
+   "openJobs": 242
   },
   {
    "source": "Greenhouse",
@@ -375,7 +375,7 @@
    "source": "Greenhouse",
    "company": "MongoDB",
    "ok": true,
-   "openJobs": 361
+   "openJobs": 360
   },
   {
    "source": "Greenhouse",
@@ -693,7 +693,7 @@
    "source": "Workday",
    "company": "Accenture",
    "ok": true,
-   "openJobs": 189
+   "openJobs": 170
   },
   {
    "source": "Workday",
@@ -729,13 +729,13 @@
    "source": "Workday",
    "company": "Bank of America",
    "ok": true,
-   "openJobs": 82
+   "openJobs": 81
   },
   {
    "source": "Workday",
    "company": "Boeing",
    "ok": true,
-   "openJobs": 183
+   "openJobs": 182
   },
   {
    "source": "Workday",
@@ -747,7 +747,7 @@
    "source": "Workday",
    "company": "Chevron",
    "ok": true,
-   "openJobs": 20
+   "openJobs": 19
   },
   {
    "source": "Workday",
@@ -819,7 +819,7 @@
    "source": "Workday",
    "company": "Johnson & Johnson",
    "ok": true,
-   "openJobs": 97
+   "openJobs": 95
   },
   {
    "source": "Workday",
@@ -885,13 +885,13 @@
    "source": "Workday",
    "company": "Salesforce",
    "ok": true,
-   "openJobs": 95
+   "openJobs": 96
   },
   {
    "source": "Workday",
    "company": "Southwest Airlines",
    "ok": true,
-   "openJobs": 27
+   "openJobs": 25
   },
   {
    "source": "Workday",
@@ -951,7 +951,7 @@
    "source": "Workday",
    "company": "Wells Fargo",
    "ok": true,
-   "openJobs": 179
+   "openJobs": 180
   },
   {
    "source": "Workday",
