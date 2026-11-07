@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-06T12:01:11.245Z",
+ "generatedAt": "2026-11-07T11:50:19.124Z",
  "featured": [
   {
-   "title": "Partner 6, Executive Assistant, San Francisco",
-   "company": "a16z",
+   "title": "Social Media & Executive Assistant to CEO - Graduate Considered​",
+   "company": "RedTech Recruitment Ltd.",
    "city": "San Francisco",
    "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 149000,
-   "payMax": 165000,
-   "posted": "2026-11-05T00:45:06",
-   "url": "https://a16z.com/about/jobs/?gh_jid=8004989003",
-   "source": "Greenhouse",
+   "workplace": "On-site",
+   "payMin": 135000,
+   "payMax": 210000,
+   "posted": "2026-11-06T00:00:00",
+   "url": "https://redtech-recruit.zohorecruit.eu/jobs/Careers/53994000010670392/Social-Media-Executive-Assistant-to-CEO-Graduate-Considered",
+   "source": "Zoho",
    "level": "ea",
-   "payText": "$149K–$165K"
+   "payText": "$135K–$210K"
   },
   {
    "title": "Blackstone Credit & Insurance - Executive Assistant",
@@ -46,28 +46,28 @@
  ],
  "post": [
   {
-   "title": "Partner 6, Executive Assistant, San Francisco",
-   "company": "a16z",
+   "title": "Social Media & Executive Assistant to CEO - Graduate Considered​",
+   "company": "RedTech Recruitment Ltd.",
    "city": "San Francisco",
    "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 149000,
-   "payMax": 165000,
-   "posted": "2026-11-05T00:45:06",
-   "url": "https://a16z.com/about/jobs/?gh_jid=8004989003",
-   "source": "Greenhouse",
+   "workplace": "On-site",
+   "payMin": 135000,
+   "payMax": 210000,
+   "posted": "2026-11-06T00:00:00",
+   "url": "https://redtech-recruit.zohorecruit.eu/jobs/Careers/53994000010670392/Social-Media-Executive-Assistant-to-CEO-Graduate-Considered",
+   "source": "Zoho",
    "level": "ea"
   },
   {
-   "title": "Blackstone Credit & Insurance - Executive Assistant",
-   "company": "Blackstone",
+   "title": "Executive Assistant",
+   "company": "Sompo International",
    "city": "New York",
    "state": "NY",
-   "workplace": "On-site",
-   "payMin": 120000,
-   "payMax": 165000,
-   "posted": "2026-11-05T00:00:00",
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/New-York/Blackstone-Credit---Insurance---Executive-Assistant_46288-1",
+   "workplace": "Hybrid",
+   "payMin": 115000,
+   "payMax": 170000,
+   "posted": "2026-11-04T00:00:00",
+   "url": "https://endurance.wd103.myworkdayjobs.com/SompoInternational/job/Executive-Assistant_R4308",
    "source": "Workday",
    "level": "ea"
   },
@@ -85,6 +85,19 @@
    "level": "senior"
   },
   {
+   "title": "Executive Assistant to the CEO and Co-Founder",
+   "company": "Rune",
+   "city": "Mountain View",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 130000,
+   "payMax": 150000,
+   "posted": "2026-11-07T01:45:39",
+   "url": "https://jobs.polymer.co/rune/41778",
+   "source": "Polymer",
+   "level": "ea"
+  },
+  {
    "title": "Senior Executive Assistant",
    "company": "Midland Credit Management, an Encore Capital Group Company",
    "city": "San Diego",
@@ -96,19 +109,6 @@
    "url": "https://encore.wd1.myworkdayjobs.com/externalnew/job/CA---San-Diego/Senior-Executive-Assistant_HR-20951",
    "source": "Workday",
    "level": "senior"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Northwood Space",
-   "city": "Los Angeles",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 115000,
-   "payMax": 145000,
-   "posted": "2026-11-03T00:00:00",
-   "url": "https://jobs.ashbyhq.com/northwoodspace/27ce80a7-68a5-403a-a5d6-e6958cb4a6b5",
-   "source": "Ashby",
-   "level": "ea"
   }
  ]
 }
