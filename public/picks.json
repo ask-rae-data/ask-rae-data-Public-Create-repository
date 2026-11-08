@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T11:50:19.124Z",
+ "generatedAt": "2026-11-08T08:23:44.898Z",
  "featured": [
   {
    "title": "Social Media & Executive Assistant to CEO - Graduate Considered​",
@@ -16,20 +16,6 @@
    "payText": "$135K–$210K"
   },
   {
-   "title": "Blackstone Credit & Insurance - Executive Assistant",
-   "company": "Blackstone",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "On-site",
-   "payMin": 120000,
-   "payMax": 165000,
-   "posted": "2026-11-05T00:00:00",
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/New-York/Blackstone-Credit---Insurance---Executive-Assistant_46288-1",
-   "source": "Workday",
-   "level": "ea",
-   "payText": "$120K–$165K"
-  },
-  {
    "title": "Senior Executive Assistant, Executive Team",
    "company": "Spectro Cloud",
    "city": "San Jose",
@@ -42,6 +28,20 @@
    "source": "Teamtailor",
    "level": "senior",
    "payText": "$135K–$155K"
+  },
+  {
+   "title": "Executive Assistant to the CEO and Co-Founder",
+   "company": "Rune",
+   "city": "Mountain View",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 130000,
+   "payMax": 150000,
+   "posted": "2026-11-07T01:45:39",
+   "url": "https://jobs.polymer.co/rune/41778",
+   "source": "Polymer",
+   "level": "ea",
+   "payText": "$130K–$150K"
   }
  ],
  "post": [
@@ -59,15 +59,15 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Sompo International",
+   "title": "Blackstone Credit & Insurance - Executive Assistant",
+   "company": "Blackstone",
    "city": "New York",
    "state": "NY",
-   "workplace": "Hybrid",
-   "payMin": 115000,
-   "payMax": 170000,
-   "posted": "2026-11-04T00:00:00",
-   "url": "https://endurance.wd103.myworkdayjobs.com/SompoInternational/job/Executive-Assistant_R4308",
+   "workplace": "On-site",
+   "payMin": 120000,
+   "payMax": 165000,
+   "posted": "2026-11-05T00:00:00",
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/New-York/Blackstone-Credit---Insurance---Executive-Assistant_46288-1",
    "source": "Workday",
    "level": "ea"
   },
