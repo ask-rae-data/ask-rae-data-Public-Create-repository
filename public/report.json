@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-08T08:23:44.732Z",
+  "generatedAt": "2026-11-08T11:49:56.765Z",
   "companiesChecked": 157,
   "companiesWorking": 156,
-  "rawJobs": 28688,
+  "rawJobs": 28684,
   "adminJobs": 180,
   "dropped": {
-   "notAdmin": 28225,
+   "notAdmin": 28221,
    "notUS": 144,
    "old": 15,
    "dup": 124
@@ -525,7 +525,7 @@
    "source": "Greenhouse",
    "company": "Waymo",
    "ok": true,
-   "openJobs": 370
+   "openJobs": 369
   },
   {
    "source": "Greenhouse",
@@ -717,7 +717,7 @@
    "source": "Workday",
    "company": "AT&T",
    "ok": true,
-   "openJobs": 176
+   "openJobs": 173
   },
   {
    "source": "Workday",
