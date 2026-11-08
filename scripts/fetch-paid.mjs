@@ -43,6 +43,8 @@ const ALL_SEARCHES = [
   "Director of Administration",
   "Administrative Director",
   "Administration Manager",
+  "Chief Administrative Officer",
+  "Administrative Services Manager",
   "Executive Administrator",
   "Administrative Assistant",
   "Executive Coordinator",
@@ -66,8 +68,8 @@ const FOCUS_SEARCHES = [
 const SEARCHES = TEST ? ["Executive Assistant"] : FOCUS ? FOCUS_SEARCHES : ALL_SEARCHES;
 
 // Keep the admin job family, drop look-alikes.
-const INCLUDE = /(director of administration|administrative director|administration (manager|director)|admin manager|head of administration|executive administrator|executive assistant manager|manager,? (of )?executive (assistants|support)|director,? (of )?executive (assistants|support)|executive support (manager|director|lead)|executive (assistant|business partner|coordinator|administrator)|administrative (assistant|coordinator|specialist|manager|services|supervisor)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department assistant|personal assistant|board (liaison|relations)|executive office)/i;
-const EXCLUDE = /(system(s)? admin|network admin|database admin|it admin|salesforce admin|linux|windows|sysadmin|devops|engineer|developer|physician|nurse|dental assistant|medical assistant\b(?!.*admin)|teacher|chief of staff,? (army|navy|air force)|veterinar)/i;
+const INCLUDE = /(chief administrative officer|chief executive admin|administrative services (manager|director)|business support (lead|manager|specialist)|director of administration|administrative director|administration (manager|director)|admin manager|head of administration|executive administrator|executive assistant manager|manager,? (of )?executive (assistants|support)|director,? (of )?executive (assistants|support)|executive support (manager|director|lead)|executive (assistant|business partner|coordinator|administrator)|administrative (assistant|coordinator|specialist|manager|services|supervisor)|admin(istrative)? assistant|chief of staff|office (manager|coordinator|assistant|administrator)|receptionist|front desk|team assistant|department assistant|personal assistant|board (liaison|relations)|executive office)/i;
+const EXCLUDE = /(\bit (business )?support|technical support|help ?desk|system(s)? admin|network admin|database admin|it admin|salesforce admin|linux|windows|sysadmin|devops|engineer|developer|physician|nurse|dental assistant|medical assistant\b(?!.*admin)|teacher|chief of staff,? (army|navy|air force)|veterinar)/i;
 
 const STATES = {Alabama:"AL",Alaska:"AK",Arizona:"AZ",Arkansas:"AR",California:"CA",Colorado:"CO",Connecticut:"CT",Delaware:"DE","District of Columbia":"DC",Florida:"FL",Georgia:"GA",Hawaii:"HI",Idaho:"ID",Illinois:"IL",Indiana:"IN",Iowa:"IA",Kansas:"KS",Kentucky:"KY",Louisiana:"LA",Maine:"ME",Maryland:"MD",Massachusetts:"MA",Michigan:"MI",Minnesota:"MN",Mississippi:"MS",Missouri:"MO",Montana:"MT",Nebraska:"NE",Nevada:"NV","New Hampshire":"NH","New Jersey":"NJ","New Mexico":"NM","New York":"NY","North Carolina":"NC","North Dakota":"ND",Ohio:"OH",Oklahoma:"OK",Oregon:"OR",Pennsylvania:"PA","Rhode Island":"RI","South Carolina":"SC","South Dakota":"SD",Tennessee:"TN",Texas:"TX",Utah:"UT",Vermont:"VT",Virginia:"VA",Washington:"WA","West Virginia":"WV",Wisconsin:"WI",Wyoming:"WY"};
 const ABBRS = new Set(Object.values(STATES));
