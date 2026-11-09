@@ -1,34 +1,6 @@
 {
- "generatedAt": "2026-11-08T11:50:13.430Z",
+ "generatedAt": "2026-11-09T07:25:30.514Z",
  "featured": [
-  {
-   "title": "Social Media & Executive Assistant to CEO - Graduate Considered​",
-   "company": "RedTech Recruitment Ltd.",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 135000,
-   "payMax": 210000,
-   "posted": "2026-11-06T00:00:00",
-   "url": "https://redtech-recruit.zohorecruit.eu/jobs/Careers/53994000010670392/Social-Media-Executive-Assistant-to-CEO-Graduate-Considered",
-   "source": "Zoho",
-   "level": "ea",
-   "payText": "$135K–$210K"
-  },
-  {
-   "title": "Senior Executive Assistant, Executive Team",
-   "company": "Spectro Cloud",
-   "city": "San Jose",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 135000,
-   "payMax": 155000,
-   "posted": "2026-11-05T19:42:57",
-   "url": "https://careers.spectrocloud.com/jobs/8676437-senior-executive-assistant-executive-team",
-   "source": "Teamtailor",
-   "level": "senior",
-   "payText": "$135K–$155K"
-  },
   {
    "title": "Executive Assistant to the CEO and Co-Founder",
    "company": "Rune",
@@ -42,6 +14,34 @@
    "source": "Polymer",
    "level": "ea",
    "payText": "$130K–$150K"
+  },
+  {
+   "title": "Executive Assistant to CEO",
+   "company": "Impact Genome",
+   "city": "Chicago",
+   "state": "IL",
+   "workplace": "On-site",
+   "payMin": 100000,
+   "payMax": 145000,
+   "posted": "2026-11-06T17:03:41.735",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4647523",
+   "source": "Paylocity",
+   "level": "ea",
+   "payText": "$100K–$145K"
+  },
+  {
+   "title": "Senior Executive Assistant, Wealth Management",
+   "company": "Citizens",
+   "city": "New York",
+   "state": "NY",
+   "workplace": "Hybrid",
+   "payMin": 100880,
+   "payMax": 132995,
+   "posted": "2026-11-06T23:00:00",
+   "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/48110",
+   "source": "Oracle",
+   "level": "senior",
+   "payText": "$101K–$133K"
   }
  ],
  "post": [
@@ -59,19 +59,6 @@
    "level": "ea"
   },
   {
-   "title": "Blackstone Credit & Insurance - Executive Assistant",
-   "company": "Blackstone",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "On-site",
-   "payMin": 120000,
-   "payMax": 165000,
-   "posted": "2026-11-05T00:00:00",
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/New-York/Blackstone-Credit---Insurance---Executive-Assistant_46288-1",
-   "source": "Workday",
-   "level": "ea"
-  },
-  {
    "title": "Senior Executive Assistant, Executive Team",
    "company": "Spectro Cloud",
    "city": "San Jose",
@@ -98,17 +85,30 @@
    "level": "ea"
   },
   {
-   "title": "Senior Executive Assistant",
-   "company": "Midland Credit Management, an Encore Capital Group Company",
-   "city": "San Diego",
+   "title": "Executive Assistant to CEO",
+   "company": "Impact Genome",
+   "city": "Chicago",
+   "state": "IL",
+   "workplace": "On-site",
+   "payMin": 100000,
+   "payMax": 145000,
+   "posted": "2026-11-06T17:03:41.735",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4647523",
+   "source": "Paylocity",
+   "level": "ea"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "PsiQuantum",
+   "city": "Palo Alto",
    "state": "CA",
    "workplace": "On-site",
-   "payMin": 120000,
-   "payMax": 150000,
-   "posted": "2026-11-05T00:00:00",
-   "url": "https://encore.wd1.myworkdayjobs.com/externalnew/job/CA---San-Diego/Senior-Executive-Assistant_HR-20951",
-   "source": "Workday",
-   "level": "senior"
+   "payMin": 81900,
+   "payMax": 137400,
+   "posted": "2026-11-05T19:24:31",
+   "url": "https://www.psiquantum.com/apply?gh_jid=8196949003",
+   "source": "Greenhouse",
+   "level": "ea"
   }
  ]
 }
