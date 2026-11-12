@@ -14,7 +14,7 @@ on:
         default: full
   push:
     branches: [main]
-    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "scripts/picks.mjs", "paid-mode.txt", "public/guide/**", "public/img/**"]
+    paths: ["companies.json", "scripts/fetch-free.mjs", "scripts/fetch-paid.mjs", "scripts/picks.mjs", "scripts/check-live.mjs", "paid-mode.txt", "public/guide/**", "public/img/**"]
 
 permissions:
   contents: write
@@ -46,6 +46,9 @@ jobs:
           else MODE=full; fi
           echo "Paid mode: $MODE"
           MODE="$MODE" node scripts/fetch-paid.mjs
+      - name: Remove closed or expired postings
+        continue-on-error: true
+        run: node scripts/check-live.mjs
       - name: Choose Ask RAE picks (featured roles and the LinkedIn post)
         continue-on-error: true
         run: node scripts/picks.mjs
