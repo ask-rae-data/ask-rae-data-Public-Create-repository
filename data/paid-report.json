@@ -1,7 +1,7 @@
 {
  "summary": {
   "mode": "merge",
-  "at": "2026-11-12T02:02:08.177Z",
+  "at": "2026-11-12T02:09:06.926Z",
   "endpoint": "https://active-jobs-db.p.rapidapi.com/active-ats",
   "probes": [],
   "calls": 0,
