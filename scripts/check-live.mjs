@@ -91,8 +91,15 @@ async function check(url) {
     const final = r.url.toLowerCase();
     if (/[?&]error=true|jobnotfound|job-not-found|notfound|expired|jobclosed/.test(final) && final !== url.toLowerCase()) return ["closed", "redirected to not-found"];
     if (host === "jobs.lever.co" && parts.length >= 2 && !final.includes(parts[1].toLowerCase())) return ["closed", "lever redirected"];
-    const text = (await r.text()).slice(0, 400000).toLowerCase();
+    // Only read what a visitor sees: drop scripts, styles, and comments, where many job sites
+    // keep template wording like "no longer available" even on open postings.
+    const html = (await r.text()).slice(0, 600000);
+    const visible = html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<noscript[\s\S]*?<\/noscript>/gi, " ").replace(/<!--[\s\S]*?-->/g, " ").replace(/<[^>]+>/g, " ");
+    const text = visible.replace(/\s+/g, " ").toLowerCase();
+    // A page with almost no visible text is built by JavaScript; we cannot judge it, so keep it.
+    if (text.length < 400) return ["unknown", "page needs javascript"];
     const hit = CLOSED_TEXT.find(p => text.includes(p));
+    if (hit && /apply now|apply for this job|submit (your )?application|start application/.test(text)) return ["open", "page has apply button"];
     if (hit) return ["closed", "page says: " + hit];
     return ["open", "page ok"];
   } catch (e) {
