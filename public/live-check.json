@@ -1,1508 +1,179 @@
 {
- "checkedAt": "2026-11-12T02:10:29.428Z",
- "checked": 2411,
- "closed": 246,
+ "checkedAt": "2026-11-12T12:11:19.249Z",
+ "checked": 2278,
+ "closed": 25,
  "applied": true,
  "tally": {
-  "open: workday": 420,
-  "open: greenhouse": 88,
-  "open: ashby": 74,
-  "unknown: page needs javascript": 678,
-  "open: page ok": 680,
-  "open: smartrecruiters": 55,
+  "open: workday": 444,
+  "open: page ok": 731,
+  "open: greenhouse": 96,
+  "unknown: page needs javascript": 694,
+  "open: smartrecruiters": 56,
+  "unknown: page 403": 6,
+  "open: ashby": 77,
+  "closed: page 404": 5,
   "open: page has apply button": 5,
-  "unknown: page 403": 5,
-  "closed: page 410": 92,
-  "closed: page says closed": 28,
-  "unknown: workday 403": 134,
-  "closed: ashby not listed": 10,
-  "closed: workday 404": 26,
-  "closed: redirected to not-found": 24,
-  "closed: greenhouse 404": 17,
-  "closed: smartrecruiters inactive": 10,
-  "closed: page 404": 39,
-  "unknown: workday 502": 1,
-  "unknown: error": 3,
+  "unknown: workday 403": 136,
+  "closed: page says closed": 3,
+  "closed: smartrecruiters inactive": 2,
+  "closed: greenhouse 404": 2,
+  "closed: workday 404": 4,
+  "closed: page 410": 5,
   "unknown: page 500": 5,
-  "unknown: page 429": 15,
+  "unknown: page 429": 1,
+  "closed: redirected to not-found": 4,
   "unknown: timeout": 2
  },
  "removed": [
   {
-   "title": "Executive Assistant",
-   "company": "Community Hospital San Bernardino",
-   "url": "https://careers-commonspirit.icims.com/jobs/492149/executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Ecolab Inc.",
-   "url": "https://jobs.ecolab.com/global/en/job/R00309757/Executive-Assistant",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant (open to remote)",
-   "company": "Reinsurance Group of America",
-   "url": "https://www.rgarecareers.com/us/en/job/J29428/Executive-Assistant-open-to-remote",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "TEKsystems",
-   "url": "https://careers.teksystems.com/us/en/job/JP-006410412/Executive-Assistant",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Catalent",
-   "url": "https://careers.catalent.com/us/en/job/R925323/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant To CEO",
-   "company": "Priority VA",
-   "url": "https://priorityva.applytojob.com/apply/lsAfUFEwyM/Executive-Assistant-To-CEO",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant to Owner/Operator",
-   "company": "Switchboard",
-   "url": "https://jobs.ashbyhq.com/switchboard/8733ec64-15aa-4108-9a54-ad9e7f2377ff",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant to the Founder",
-   "company": "Diversified Botanics",
-   "url": "https://jobs.ashbyhq.com/diversified-botanics/f54be699-bd2f-41dc-a26f-12e240210358",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Front Desk Receptionist On Call",
-   "company": "Four Seasons Hotels and Resorts",
-   "url": "https://fourseasons.wd3.myworkdayjobs.com/search/job/Four-Seasons-Denver/Front-Desk-Receptionist-On-Call_REQ10394429",
-   "why": "workday 404"
-  },
-  {
-   "title": "Front Office Manager",
-   "company": "KWB Hotels, LLC",
-   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7882525b8992cd015b8c5f9fee2574&id=8a78839e9b137672019be69494cd7625&source=&lang=en",
-   "why": "page says: this job is no longer"
-  },
-  {
-   "title": "Medical Receptionist / Scheduler",
-   "company": "X-Ray Associates of New Mexico",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4649830",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant, Office of the CFO",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8928552002",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant - US Employer Technology- Hybrid",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26013723/Executive-Assistant-US-Employer-Technology-Hybrid",
-   "why": "page says: no longer accepting applications"
+   "title": "1.1 Chief of Staff - Commercial",
+   "company": "Phoenix Tailings",
+   "url": "https://jobs.lever.co/PhoenixTailings/ea11a45e-14c2-4f24-a6bb-79aa8241aae1",
+   "why": "page 404"
   },
   {
    "title": "Senior Executive Assistant",
-   "company": "BARBRI",
-   "url": "https://barbri.teamtailor.com/jobs/8684692-senior-executive-assistant",
-   "why": "page says: position is no longer"
+   "company": "McGraw Hill LLC.",
+   "url": "https://careers.mheducation.com/jobs/8067",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant II",
+   "company": "Aflac, Incorporated",
+   "url": "https://careers.aflac.com/job/Executive-Assistant-II-GA/1448951100/",
+   "why": "page says: position has been filled"
   },
   {
    "title": "Executive Assistant",
    "company": "International SOS Government Medical Services",
-   "url": "https://jobs.smartrecruiters.com/InternationalSOSGovernmentMedicalServices/744000160283474-executive-assistant",
+   "url": "https://jobs.smartrecruiters.com/InternationalSOSGovernmentMedicalServices/744000160190404-executive-assistant",
    "why": "smartrecruiters inactive"
   },
   {
-   "title": "Executive Assistant & Content Production Coordinator",
-   "company": "Blackstone Shooting Sports",
-   "url": "https://jobs.workable.com/view/kavCP1AfWSmjYiDyfSM7Hb/executive-assistant-%26-content-production-coordinator-in-charlotte-at-blackstone-shooting-sports",
-   "why": "page 410"
+   "title": "Senior Executive Assistant - Commercial Insights & AI",
+   "company": "BridgeBio Pharma",
+   "url": "https://job-boards.greenhouse.io/bridgebio/jobs/5286247007",
+   "why": "greenhouse 404"
   },
   {
-   "title": "Executive Assistant to the Vice President, Philanthropy",
-   "company": "Advocate Health",
-   "url": "https://aah.wd5.myworkdayjobs.com/External/job/Winston-Salem-NC---1920-W-1st-St/Executive-Assistant-to-the-Vice-President--Philanthropy_R282770",
+   "title": "Executive Assistant, VP Project Execution and VP, Business Development and Commercial",
+   "company": "South Bow",
+   "url": "https://southbow.wd10.myworkdayjobs.com/SouthBow/job/Houston-Texas/Executive-Assistant--VP-Project-Execution-and-VP--Business-Development-and-Commercial_JR-7586",
    "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Cencora",
-   "url": "https://careers.cencora.com/us/en/job/R2618020/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant & Project Coordinator",
-   "company": "Shiloh House",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4390638",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Experian",
-   "url": "https://jobs.smartrecruiters.com/Experian/744000159967999-senior-executive-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Office Manager",
-   "company": "MB2 Dental",
-   "url": "https://careers.mb2dental.com/jobs/27269",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Archetype AI",
-   "url": "https://careers.kula.ai/archetype-ai/jobs/64188",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant 1",
-   "company": "Baylor Scott & White Health",
-   "url": "https://jobs.bswhealth.com/us/en/job/BSWHUS26020047EXTERNALENUS/Executive-Assistant-1",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant - Hybrid",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26013723/Executive-Assistant-Hybrid",
-   "why": "page says: no longer accepting applications"
-  },
-  {
-   "title": "Executive Assistant III",
-   "company": "Cook Children's Health Care System",
-   "url": "https://cookchildrens.wd1.myworkdayjobs.com/Cook_Childrens_Careers/job/Fort-Worth-TX/Executive-Assistant-III_JR-120123",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Inspire",
-   "url": "https://inspirebrands.wd5.myworkdayjobs.com/InspireCareers/job/Atlanta-Support-Center/Executive-Assistant_JR42051",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "KBR",
-   "url": "https://careers.trinzic.com/us/en/job/R3001271/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "GitHub, Inc.",
-   "url": "https://githubinc.jibeapply.com/jobs/6925",
-   "why": "page 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Na Ali'i Consulting & Sales, LLC.",
-   "url": "https://careers-nakupuna.icims.com/jobs/7114/senior-executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Workday",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Executive-Assistant_JR-0111227",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "General Dynamics Mission Systems, Inc",
-   "url": "https://careers-gdms.icims.com/jobs/76083/executive-assistant/job",
-   "why": "page 410"
   },
   {
    "title": "Chief of Staff (On-site / Remote) (m/f/d)",
    "company": "EWOR GmbH",
-   "url": "https://eworgmbh.recruitee.com/o/chief-of-staff-on-site-remote-mfd-23",
+   "url": "https://eworgmbh.recruitee.com/o/chief-of-staff-on-site-remote-mfd-21",
    "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant ",
-   "company": "Varda Space Industries",
-   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8182222003",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant – Executive Leadership Team",
-   "company": "Avion Hospitality Employee Services LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4637884",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Senior Executive Assistant (Field Medical)",
-   "company": "BridgeBio Pharma",
-   "url": "https://job-boards.greenhouse.io/bridgebio/jobs/5278259007",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Pierre Landscape Construction",
-   "url": "https://careers.hireology.com/pierrelandscape/2922768/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "WPP",
-   "url": "https://job-boards.greenhouse.io/wpp/jobs/8640235002",
-   "why": "greenhouse 404"
   },
   {
    "title": "Executive Assistant & Office Administrator",
    "company": "ON.energy",
-   "url": "https://job-boards.greenhouse.io/onenergy/jobs/4477674009",
+   "url": "https://job-boards.greenhouse.io/onenergy/jobs/4477229009",
    "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Canam",
-   "url": "https://jobs.smartrecruiters.com/GroupeCanam/744000159407071-executive-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant ",
-   "company": "Triumvirate Environmental",
-   "url": "https://job-boards.greenhouse.io/triumvirateenvironmental/jobs/4724802006",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Chief of Staff",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/a84dd85e-992e-49e0-ab78-1476403d9241",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Manager",
-   "company": "Proficio Therapy Services",
-   "url": "https://proficiotherapyservicesllc.applytojob.com/apply/a3FID09skD/Administrative-Manager",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant | Award Winning Company! | Polished Casual Restaurant",
-   "company": "NextGen Hospitality Solutions",
-   "url": "https://careerspage.io/nextgen-hospitality-solutions/executive-assistant-award-winning-company-polished-casual-restaurant-ne704",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Administrative Assistant",
-   "company": "Textron Systems",
-   "url": "https://opportunities.ledfaststart.com/global/en/job/346008/Executive-Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Cayuse Holdings",
-   "url": "https://careers-cayuseholdings.icims.com/jobs/4408/administrative-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006394274/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Isomedix Operations Inc. (US)",
-   "url": "https://careers.steris.com/us/en/job/SCZSCCUS56276EXTERNALENUS/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Administrative Executive Assistant - Lenexa, KS",
-   "company": "Compass Group",
-   "url": "https://jobs.compassgroupcareers.com/United_States/job/Lenexa-Senior-Administrative-Executive-Assistant-Lenexa%2C-KS-KS-66219/1447533500/",
-   "why": "page says: position has been filled"
   },
   {
    "title": "Executive Assistant - Payments Middle Market and GIS/CRE",
    "company": "U.S. Bank National Association",
-   "url": "https://careers.usbank.com/elavon/global/en/job/2026-0027994/Executive-Assistant-Payments-Middle-Market-and-GIS-CRE",
+   "url": "https://careers.usbank.com/global/en/job/UBNAGLOBAL20260027994EXTERNALENGLOBAL/Executive-Assistant-Payments-Middle-Market-and-GIS-CRE",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant, Legal Affairs",
-   "company": "Xavier University",
-   "url": "https://xavier.wd108.myworkdayjobs.com/XavierCareers/job/Cincinnati-OH/Executive-Assistant--Legal-Affairs_JR100931",
-   "why": "workday 404"
+   "title": "National Accounts Administrative Manager",
+   "company": "ECS Ltd",
+   "url": "https://careers.ecslimited.com/jobs/40587",
+   "why": "page 404"
   },
   {
-   "title": "Project Delivery Manager, Chief of Staff - Director",
-   "company": "MUFG",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/Project-Delivery-Manager--Chief-of-Staff---Director_10078089-WD",
-   "why": "workday 404"
-  },
-  {
-   "title": "Administrative Assistant (Part-time)",
-   "company": "Radias Health",
-   "url": "https://jobs.workable.com/view/oq1rcH2N5AiLF61yCKijmY/hybrid-administrative-assistant-(part-time)-in-saint-paul-at-radias-health",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Galloway Ridge, Inc.",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4634415",
-   "why": "redirected to not-found"
+   "title": "National Accounts Administrative Manager",
+   "company": "ECS Ltd",
+   "url": "https://careers.ecslimited.com/jobs/40586",
+   "why": "page 404"
   },
   {
    "title": "Executive Administrative Assistant",
-   "company": "Dynabrade Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4634294",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Senior Administrative Assistant",
-   "company": "Beach Front Property Management, Inc.",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4633890",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant to the CTO",
-   "company": "Foot Locker",
-   "url": "https://careers.footlocker.com/jobs/72318",
-   "why": "page 404"
-  },
-  {
-   "title": "Training Team Assistant",
-   "company": "Siemens",
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524759",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant, NY Flagship",
-   "company": "Saks",
-   "url": "https://careers.exemplarluxurygroup.com/us/en/job/R-109944/Executive-Assistant-NY-Flagship",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "CVS Health",
-   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Chicago-525-West-Monroe/Executive-Assistant_R1067539",
+   "company": "GE HealthCare",
+   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Executive-Administrative-Assistant_R4046534-1",
    "why": "workday 404"
   },
   {
-   "title": "Executive Assistant I",
-   "company": "University of Florida",
-   "url": "https://careers.pageuppeople.com/674/cw/en-us/job/541897/executive-assistant-i",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Boston Consulting Group",
-   "url": "https://careers.bcg.com/global/en/job/60334/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant I",
-   "company": "KeyBank",
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/New-York-NY/Executive-Assistant-I_R-42818",
-   "why": "workday 404"
-  },
-  {
-   "title": "MedSpa - Front Desk Receptionist",
-   "company": "Princeton MedSpa Partners",
-   "url": "https://princetonmedspapartners.applytojob.com/apply/o8d5pbv2GE/MedSpa-Front-Desk-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant II",
-   "company": "Freeport McMoRan",
-   "url": "https://jobs.fcx.com/job/Morenci-Administrative-Assistant-II-AZ-85540/1446628800/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Administrative Assistant Womens Health",
-   "company": "Corewell Health",
-   "url": "https://careers.corewellhealth.org/us/en/job/SPHEUSR231605EXTERNALENUS/Administrative-Assistant-Womens-Health",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Administrative Assistant",
-   "company": "GE HEALTHCARE",
-   "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4046534EXTERNALENGLOBAL/Executive-Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Field Support Center Administrative Assistant",
-   "company": "CBX Solutions Recruiting Team",
-   "url": "https://jobs.dayforcehcm.com/en-US/cookboardman/CANDIDATEPORTAL/jobs/21202",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist - Part-time",
-   "company": "Acadia",
-   "url": "https://www.acadiacareers.com/us/en/job/113662/Receptionist-Part-time",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "TEKsystems",
-   "url": "https://careers.teksystems.com/us/en/job/JP-006389518/Medical-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant (PCT)",
-   "company": "DaVita Kidney Care",
-   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/12567---Kolff-Dialysis/Administrative-Assistant--PCT-_R0483951",
-   "why": "workday 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "DAVITA",
-   "url": "https://careers.davita.com/job/R0482788/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006390504/Executive-Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant I",
-   "company": "Linchpin Solutions Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4630156",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Full-Time Receptionist",
-   "company": "Infiniti of Lexington",
-   "url": "https://careers.hireology.com/infinitioflexington/2920293/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Charger Logistics Inc",
-   "url": "https://jobs.workable.com/view/v3HgDCRJNij4vCTtqwnm1J/administrative-assistant-in-indianapolis-at-charger-logistics-inc",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant (Remote | Dallas-Fort Worth, TX)",
-   "company": "SCA Health",
-   "url": "https://careers.sca.health/jobs/48138",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist II",
-   "company": "The US Oncology Network",
-   "url": "https://careers.usoncology.com/main/jobs/44277",
-   "why": "page 404"
-  },
-  {
-   "title": "Clinic Receptionist",
-   "company": "The Recovery Village",
-   "url": "https://jobs.workable.com/view/6UBYJKv7ww42kN5mmwpfzV/clinic-receptionist-in-sandy-springs-at-the-recovery-village",
-   "why": "page 410"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Tlingit Haida Tribal Business Corporation",
-   "url": "https://job-boards.greenhouse.io/thtbc/jobs/4433691009",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Junior Chief of Staff to the Head of AI (Analyst)",
-   "company": "Pretium",
-   "url": "https://job-boards.greenhouse.io/pretiumpartnersllc/jobs/8925616002",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "APDerm",
-   "url": "https://careers-apderm.icims.com/jobs/4613/medical-receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "EXECUTIVE ASSISTANT TO CEO - FT - South Texas Health System",
-   "company": "UHS",
-   "url": "https://jobs.uhsinc.com/careers/jobs/379960",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "url": "https://careers.jhuapl.edu/jobs/60688",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Eagle One Solutions Inc",
-   "url": "https://careers-chenega.icims.com/jobs/42604/executive-assistant/job",
+   "title": "Executive Assistant, VP, Product Management (Hybrid)",
+   "company": "Cisco",
+   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2027699EXTERNALENGLOBAL/Executive-Assistant-VP-Product-Management-Hybrid",
    "why": "page 410"
   },
   {
    "title": "Administrative Assistant (Entry-Level)",
    "company": "Vortex Group of Companies",
-   "url": "https://jobs.workable.com/view/5XUnnoktWVdWg2GBXYzqJM/hybrid-administrative-assistant-(entry-level)-in-denver-at-vortex-group-of-companies",
+   "url": "https://jobs.workable.com/view/2HvYUQ1kX5SirY8cL4x1tC/hybrid-administrative-assistant-(entry-level)-in-nashville-at-vortex-group-of-companies",
    "why": "page 410"
   },
   {
    "title": "Administrative Assistant (Remote)",
    "company": "Vortex Group of Companies",
-   "url": "https://jobs.workable.com/view/1Nrdkd2xMjzgnYiLdNw8dk/administrative-assistant-(remote)-in-chicago-at-vortex-group-of-companies",
+   "url": "https://jobs.workable.com/view/4SWWTfejnU5bHuYMArY7ua/administrative-assistant-(remote)-in-los-angeles-at-vortex-group-of-companies",
    "why": "page 410"
   },
   {
-   "title": "Administrative Assistant",
-   "company": "HOA Talent",
-   "url": "https://jobs.workable.com/view/hPabhsdaudGCP3DKq6UDKc/administrative-assistant-in-boynton-beach-at-hoa-talent",
-   "why": "page 410"
-  },
-  {
-   "title": "Academic administrative Assistant",
-   "company": "Unitek Learning",
-   "url": "https://jobs.smartrecruiters.com/UnitekLearning/744000158807579-academic-administrative-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Chenega Corporation",
-   "url": "https://careers.chenega.com/jobs/42604",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Casey Auto Group",
-   "url": "https://careers.hireology.com/caseyautogroup/2919813/description",
-   "why": "page 404"
-  },
-  {
-   "title": "📢 Front Desk Receptionist",
-   "company": "Marksman Security LLC",
-   "url": "https://job-boards.greenhouse.io/marksman/jobs/4474229009",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Dean Mead",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628376",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Receptionist - Lutheran Apartments",
-   "company": "Hayes Gibson Property Services LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628398",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Business Office Manager",
-   "company": "Genesis Administrative Services LLC",
-   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/57198",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Assistant ",
-   "company": "Guidepost Montessori",
-   "url": "https://job-boards.greenhouse.io/guidepostmontessori/jobs/8287558",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Part-Time Receptionist",
-   "company": "Southaven Honda",
-   "url": "https://careers.hireology.com/lousobhhondaofsouthaven/2919655/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "RadNet",
-   "url": "https://careers.radnet.com/careers-home/jobs/24591",
-   "why": "page 404"
-  },
-  {
-   "title": "Front Desk Receptionist - Downtown Sarasota",
-   "company": "CS&L CPAS PA",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628181",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Medical Receptionist - Part Time",
-   "company": "Integrity Care Group",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628257",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Medical Receptionist - Bilingual Punjabi",
-   "company": "Windrose Health Network Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628111",
-   "why": "page says: the job you are looking for"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "Windrose Health Network Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628106",
-   "why": "page says: the job you are looking for"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "AECOM",
-   "url": "https://jobs.smartrecruiters.com/AECOM2/744000158770099-administrative-assistant",
+   "title": "Chief of Staff",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016518201-chief-of-staff",
    "why": "smartrecruiters inactive"
   },
   {
    "title": "Administrative Assistant",
-   "company": "AECOM",
-   "url": "https://jobs.smartrecruiters.com/AECOM2/744000158768485-administrative-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Team Assistant",
-   "company": "Siemens",
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/527501",
-   "why": "page 404"
-  },
-  {
-   "title": "Sr Administrative Assistant",
-   "company": "Principal Financial Group",
-   "url": "https://careers.principal.com/careers-home/jobs/53729",
-   "why": "page 404"
-  },
-  {
-   "title": "Clinic Receptionist",
-   "company": "Mercy Medical Physician Practi",
-   "url": "https://careers-commonspirit.icims.com/jobs/500056/clinic-receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Moodreact",
-   "url": "https://careers-page.com/moodreact/job/Y673443V",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "trane technologies",
-   "url": "https://careers.tranetechnologies.com/global/en/job/JR-17084/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant - School of Public Health (ONSITE)",
-   "company": "UTHealth Houston",
-   "url": "https://careers.uth.tmc.edu/us/en/job/260002BL/Executive-Assistant-School-of-Public-Health-ONSITE",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006372306/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Clera",
-   "url": "https://jobs.ashbyhq.com/Clera/19e27df0-73c4-4a31-bc92-848355f22e8e",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "natgridProd",
-   "url": "https://jobs-ats.nationalgrid.com/job/Hicksville-Executive-Assistant-NY-11801/1446343800/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Receptionist",
-   "company": "WellNow Urgent Care",
-   "url": "https://aspendental.wd1.myworkdayjobs.com/WellNowUrgentCareCareers/job/Troy-New-York/Receptionist_R2026-011737",
-   "why": "workday 404"
-  },
-  {
-   "title": "Medical Receptionist / CSR",
-   "company": "TEKsystems",
-   "url": "https://careers.teksystems.com/us/en/job/JP-006389351/Medical-Receptionist-CSR",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Lithia & Driveway",
-   "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Hyundai-of-Covington-Pike-Memphis-TN-38128/Receptionist_R119548",
-   "why": "workday 404"
-  },
-  {
-   "title": "Receptionist - Part-time",
-   "company": "Capitol Park Mental Health Hospital",
-   "url": "https://facilityjobs-acadiahealthcare.icims.com/jobs/113662/receptionist---part-time/job",
-   "why": "page 410"
-  },
-  {
-   "title": "PRN Receptionist",
-   "company": "Vantage Point Behavioral Health",
-   "url": "https://facilityjobs-acadiahealthcare.icims.com/jobs/113663/prn-receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006373791/Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Cassia",
-   "url": "https://cassia.applytojob.com/apply/zF9yKX5BpA/Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006371579/Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "Trinity Health",
-   "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/NESM---THOfNEMG---Cardiology---1320-West-Main-St/Medical-Receptionist_00704031",
-   "why": "workday 404"
-  },
-  {
-   "title": "SENIOR RECEPTIONIST",
-   "company": "Compass Group",
-   "url": "https://jobs.compassgroupcareers.com/United_States/job/New-York-SENIOR-RECEPTIONIST-NY-10022-7650/1446443200/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Automotive Receptionist",
-   "company": "Lithia & Driveway",
-   "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Ramsey-Subaru-Urbandale-IA-50322/Automotive-Receptionist_R120333",
-   "why": "workday 404"
-  },
-  {
-   "title": "Receptionist - Davenport HealthPlex - Full Time",
-   "company": "Trinity Health",
-   "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/MOQ---Davenport-HealthPlex/Receptionist---Davenport-HealthPlex---Full-Time_00703973-1",
-   "why": "workday 404"
-  },
-  {
-   "title": "Automotive Service Cashier / Receptionist",
-   "company": "DARCARS Automotive Group",
-   "url": "https://jobsatdarcars.applytojob.com/apply/YCWYCZnRKb/Automotive-Service-Cashier-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "OPS RECEPTIONIST - 50601197",
-   "company": "State of Florida",
-   "url": "https://jobs.myflorida.com/job/PANAMA-CITY-OPS-RECEPTIONIST-50601197-FL-32404/1446373300/",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "Automotive Service Cashier / Receptionist",
-   "company": "DARCARS Automotive Group",
-   "url": "https://jobsatdarcars.applytojob.com/apply/IoKKpX0SK9/Automotive-Service-Cashier-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "PainPoint Health",
-   "url": "https://painpointhealth.applytojob.com/apply/1Gp1GUgGGq/Medical-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist - Branch Office",
-   "company": "Allied Universal",
-   "url": "https://securitycareers-aus.icims.com/jobs/1736530/receptionist---branch-office/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Part-Time Day Union Administrative Assistant - Worldport (Part-Time)",
-   "company": "UPS Supply Chain Solutions",
-   "url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---WORLDPORT-KYGRA/Union-Day--Time-Administrative-Assistant---Worldport--Part-Time-_R26002698",
-   "why": "workday 404"
-  },
-  {
-   "title": "Administrative Assistant (AA)",
-   "company": "DAVITA",
-   "url": "https://careers.davita.com/job/R0484419/Administrative-Assistant-AA",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006369913/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "DaVita Kidney Care",
-   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05350---Orange-Dialysis-Center/Administrative-Assistant_R0482788",
-   "why": "workday 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Oshkosh Corporation",
-   "url": "https://careers.oshkoshcorp.com/us/en/job/R51254/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant – Cigna Healthcare – Hybrid in Plano, TX",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26013399/Administrative-Assistant-Cigna-Healthcare-Hybrid-in-Plano-TX",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006372574/Administrative-Assistant",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006372741/Administrative-Assistant",
    "why": "page 410"
   },
   {
    "title": "Administrative Assistant",
    "company": "Mars",
-   "url": "https://mars.wd3.myworkdayjobs.com/External/job/USA-Illinois-Chicago/Administrative-Assistant_R167746-1",
-   "why": "workday 404"
-  },
-  {
-   "title": "Visitor Experience Administrative Assistant",
-   "company": "Virginia Information Technologies Agency",
-   "url": "https://careers.pageuppeople.com/1125/cw/en-us/job/5114184/visitor-experience-administrative-assistant",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Administrative Assistant/ Accounting Associate",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006371606/Administrative-Assistant-Accounting-Associate",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Roto-Rooter Services Company",
-   "url": "https://careers-rrsc.icims.com/jobs/31092/administrative-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant | Glen Falls, NY",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006387455/Administrative-Assistant-Glen-Falls-NY",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Administrative Coordinator",
-   "company": "Cencora",
-   "url": "https://careers.cencora.com/us/en/job/R2617358/Senior-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "Virginia Information Technologies Agency",
-   "url": "https://careers.pageuppeople.com/1125/cw/en-us/job/5114327/administrative-coordinator",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Financial and Administrative Coordinator",
-   "company": "Brown University",
-   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/339-Eddy-Street/Financial-and-Administrative-Coordinator_REQ211968",
+   "url": "https://mars.wd3.myworkdayjobs.com/External/job/USA-Illinois-Chicago/Administrative-Assistant_R167748-1",
    "why": "workday 404"
   },
   {
    "title": "Office Manager / Business Ops Analyst",
    "company": "BAE Systems",
-   "url": "https://jobs.baesystems.com/global/en/job/131854BR/Office-Manager-Business-Ops-Analyst",
+   "url": "https://jobs.baesystems.com/global/en/job/131857BR/Office-Manager-Business-Ops-Analyst",
    "why": "page says: no longer accepting applications"
   },
   {
-   "title": "Office Manager",
-   "company": "trane technologies",
-   "url": "https://careers.tranetechnologies.com/global/en/job/JR-17153/Office-Manager",
-   "why": "page says: no longer accepting applications"
-  },
-  {
-   "title": "Assistant Office Manager",
-   "company": "Life Long Dental Care",
-   "url": "https://careers2-nadentalgroup.icims.com/jobs/25174/assistant-office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Parker Dentistry",
-   "url": "https://jobs-mb2dental.icims.com/jobs/27296/office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Dental Office Manager",
-   "company": "Ideal Dental",
-   "url": "https://jobs.ashbyhq.com/Ideal%20Dental/ce011258-6005-421b-bf73-b070aa16a689",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "On Wing Support Office Manager",
-   "company": "GE Aerospace",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Prairie/On-Wing-Support-Office-Manager_R5042477-1",
+   "title": "Executive Assistant to the Interim Executive Director and Sr. Associate Vice President, Learning Innovation",
+   "company": "Colorado State University",
+   "url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Executive-Assistant-to-the-Interim-Executive-Director-and-Sr-Associate-Vice-President--Learning-Innovation_R2026107241",
    "why": "workday 404"
-  },
-  {
-   "title": "Assistant Office Manager",
-   "company": "New Image Dentistry",
-   "url": "https://careers2-nadentalgroup.icims.com/jobs/25390/assistant-office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Manager/Sr. Administrative Manager - Pediatrics",
-   "company": "UTHealth Houston",
-   "url": "https://careers.uth.tmc.edu/us/en/job/2600029F/Administrative-Manager-Sr-Administrative-Manager-Pediatrics",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant II",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006380592/Executive-Assistant-II",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006368628/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006369286/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Cellular Sales Verizon Authorized Retailer",
-   "url": "https://careers-cellularsales.icims.com/jobs/25475/administrative-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "TACOM (RRAD): Administrative Assistant (Contingency)",
-   "company": "KBR",
-   "url": "https://careers.trinzic.com/us/en/job/R2130236/TACOM-RRAD-Administrative-Assistant-Contingency",
-   "why": "page 410"
-  },
-  {
-   "title": "Business Office Manager - Long-Term Care",
-   "company": "Estates Healthcare and Rehabilitation Center",
-   "url": "https://careers.hireology.com/estateshealthcareandrehabilitationcenter/2919212/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Advanced Health Care of Albuquerque",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4627063",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Receptionist- Director of First Impressions",
-   "company": "Luxe Life Norman",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4626564",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Receptionist - Part-time",
-   "company": "Ernest Health",
-   "url": "https://www.ernesthealthcareers.com/careers-home/jobs/33324",
-   "why": "page 404"
-  },
-  {
-   "title": "Patient Care Specialist (Medical Receptionist)",
-   "company": "Fast Pace Health",
-   "url": "https://talent.fastpacehealth.com/jobs/25491",
-   "why": "page 404"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "TOMORROW HIRE",
-   "url": "https://jobs.workable.com/view/88DgE9VQm3LSwzvMCLJSWN/medical-receptionist-in-reston-at-tomorrow-hire",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "ACCESS MEDICAL CLINIC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4625752",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Business Office Manager",
-   "company": "Cascadia EE LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4625679",
-   "why": "redirected to not-found"
   },
   {
    "title": "Administrative Coordinator",
-   "company": "Oregon Health & Science University",
-   "url": "https://externalcareers-ohsu.icims.com/jobs/42393/administrative-coordinator/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Seyfarth Shaw LLP",
-   "url": "https://careers.seyfarth.com/jobs/3845",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Genesis Administrative Services LLC",
-   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/54637",
-   "why": "page 404"
-  },
-  {
-   "title": "Business Office Manager",
-   "company": "Genesis Administrative Services LLC",
-   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/57110",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist - Southwest Fort Worth Endo",
-   "company": "SCA Health",
-   "url": "https://careers.sca.health/jobs/50246",
-   "why": "page 404"
-  },
-  {
-   "title": "Part-Time Receptionist",
-   "company": "Bolivar Motor Company, Inc",
-   "url": "https://careers.hireology.com/bolivarmotorcompanyinc/2918547/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Toyota, Audi, and Volkswagen of Altoona",
-   "url": "https://careers.hireology.com/toyota,audi,andvolkswagenofaltoona/2918533/description",
-   "why": "page 404"
-  },
-  {
-   "title": "Business Office Manager",
-   "company": "Genesis Administrative Services LLC",
-   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/57093",
-   "why": "page 404"
-  },
-  {
-   "title": "Receptionist",
-   "company": "ACCESS MEDICAL CLINIC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4622066",
+   "company": "Choices for People",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4617635",
    "why": "redirected to not-found"
   },
   {
-   "title": "Concierge (Administrative Assistant , Receptionist)",
-   "company": "LindenGrove Communities LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4624530",
+   "title": "Infusion Scheduling and Administrative Coordinator",
+   "company": "Venture Forthe Inc",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4617197",
    "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "LinkedIn",
-   "url": "https://jobs.smartrecruiters.com/LinkedIn3/744000158516499-executive-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Symphony Of Linden",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4624303",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Clinic Receptionist",
-   "company": "Mountain Management Services",
-   "url": "https://careers-commonspirit.icims.com/jobs/500098/clinic-receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Elderwood",
-   "url": "https://careers-postacute-affiliates.icims.com/jobs/37169/receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant, Payment Integrity",
-   "company": "CVS Health",
-   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Plymouth-1405-Xenium-Lane-Nort/Executive-Assistant--Payment-Integrity_R1086890",
-   "why": "workday 404"
-  },
-  {
-   "title": "CFO Executive Assistant",
-   "company": "GE Aerospace",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Norwalk/Executive-Assistant_R5041399-1",
-   "why": "workday 404"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "Trinity Health",
-   "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-PACE---LIFE-at-St-Mary/LIFE-St-Mary---Receptionist---Medical-Receptionist-preferred---Full-time-M-F_00701821",
-   "why": "workday 404"
-  },
-  {
-   "title": "Medical Receptionist-MIND-Neurology",
-   "company": "Cook Children's Health Care System",
-   "url": "https://cookchildrens.wd1.myworkdayjobs.com/Cook_Childrens_Careers/job/Fort-Worth-TX/Medical-Receptionist-MIND-Neurology_JR-120035",
-   "why": "workday 404"
-  },
-  {
-   "title": "Receptionist - Onsite in Perry, KY.",
-   "company": "Foundever®",
-   "url": "https://jobs.foundever.com/job/Chavies-Receptionist-Onsite-in-Perry%2C-KY_-Kent/1445214400/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Front Desk Receptionist",
-   "company": "Charlestown Place",
-   "url": "https://charlestownplace.applytojob.com/apply/QQVYXEEfG5/Front-Desk-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Sonrava Health",
-   "url": "https://careers-sonrava.icims.com/jobs/25433/receptionist/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant / Receptionist",
-   "company": "H&K Equipment, Inc",
-   "url": "https://hkequipmentinc.applytojob.com/apply/iSRwx9GCte/Administrative-Assistant-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist Branch",
-   "company": "Crown Equipment Corporation",
-   "url": "https://us-careers.crown.com/job/Houston-Receptionist-Branch-TX-77007/1445054200/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "MGR ADMIN 2 - CHIEF OF STAFF SHEETMETAL/JOINER/INSUL",
-   "company": "Huntington Ingalls",
-   "url": "https://careers.huntingtoningalls.com/job/Pascagoula-MGR-ADMIN-2-CHIEF-OF-STAFF-SHEETMETALJOINERINSUL-Miss/1444939100/",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Visiting Angels",
-   "url": "https://visitingangelsseniorcare.applytojob.com/apply/YdJJ1c0ncv/Office-Manager",
-   "why": "page 410"
-  },
-  {
-   "title": "Dental Office Manager",
-   "company": "Aspen Dental",
-   "url": "https://aspendental.wd1.myworkdayjobs.com/Careers_Aspen_Dental/job/Sterling-Heights-Michigan/Dental-Office-Manager_R2026-013471",
-   "why": "workday 404"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Bliss Dental & Orthodontics - South Midland",
-   "url": "https://jobs-mb2dental.icims.com/jobs/27269/office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Prism Vision Group",
-   "url": "https://careers-prismvisiongroup.icims.com/jobs/43254/office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Administrative Assistant",
-   "company": "Vail Resorts",
-   "url": "https://jobs.vailresortscareers.com/keystone/job/Keystone-Senior-Administrative-Assistant-CO-80435/1444954600/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Sr. Executive Assistant",
-   "company": "GONDOLABIO SERVICECO INC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4623722",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Senior Administrative Assistant",
-   "company": "MSG Knicks, LLC",
-   "url": "https://job-boards.greenhouse.io/newyorkknicks/jobs/5221596007",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant to CEO/COO & Office Manager",
-   "company": "Andromeda Robotics",
-   "url": "https://jobs.workable.com/view/fX1LNZz8DrGA8hzRQaX8vd/executive-assistant-to-ceo%2Fcoo-%26-office-manager-in-san-francisco-at-andromeda-robotics",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant (#CJ)",
-   "company": "Tamayo Federal Solutions LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/2991720",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Dental Office Manager",
-   "company": "Smile Brands",
-   "url": "https://careers.smilebrands.com/jobs/39984",
-   "why": "page 404"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Akido Companies Internal Job Board",
-   "url": "https://job-boards.greenhouse.io/akidointernal/jobs/4716706006",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Chief of Staff, Global Partners (Director)",
-   "company": "ServiceNow",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000158326194-chief-of-staff-global-partners-director-",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant, Intelligent Systems Experience (SEAR)",
-   "company": "Apple",
-   "url": "https://jobs.apple.com/en-us/details/200692038",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant II ",
-   "company": "Kymber Consulting Group",
-   "url": "https://job-boards.greenhouse.io/kymberconsultinggroup/jobs/5465595008",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant I ",
-   "company": "Kymber Consulting Group",
-   "url": "https://job-boards.greenhouse.io/kymberconsultinggroup/jobs/5465590008",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant – Dean Office",
-   "company": "Weill Cornell Medical College",
-   "url": "https://jobs.weill.cornell.edu/NY/job/New-York-Executive-Assistant-Dean-Office-NY-10065/1444703500/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Assistant Office Manager",
-   "company": "Ideal Dental",
-   "url": "https://jobs.ashbyhq.com/Ideal%20Dental/91101523-eda9-4cbb-92a4-e415db7fe9c8",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Dental Office Manager",
-   "company": "Altima Dental Group",
-   "url": "https://careers2-nadentalgroup.icims.com/jobs/25374/dental-office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "School Office Manager",
-   "company": "KIPP DC",
-   "url": "https://kippdc.applytojob.com/apply/ixKW5dqytr/School-Office-Manager",
-   "why": "page 410"
-  },
-  {
-   "title": "Care Team Assistant - Pediatrics - Bilingual Spanish",
-   "company": "Legacy Community Health",
-   "url": "https://legacycommunityhealth.applytojob.com/apply/hSPfs1j8Az/Care-Team-Assistant-Pediatrics-Bilingual-Spanish",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Manager",
-   "company": "Leidos",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Administrative-Manager_R-00195698",
-   "why": "workday 404"
-  },
-  {
-   "title": "Senior Administrative Assistant",
-   "company": "Cargill",
-   "url": "https://jobs.cargill.com/job/Charlotte-Senior-Administrative-Assistant-Nort-28217/1376109457/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant II, Amazon Ads Marketing ",
-   "company": "Amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10591755",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant (EA)",
-   "company": "DAVITA",
-   "url": "https://careers.davita.com/job/R0483296/Executive-Assistant-EA",
-   "why": "page 410"
-  },
-  {
-   "title": "Chief of Staff",
-   "company": "Monstro",
-   "url": "https://job-boards.greenhouse.io/monstro/jobs/4469191009",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Oregon Health & Science University",
-   "url": "https://externalcareers-ohsu.icims.com/jobs/42392/executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant - Senior Executive Leadership - ProHealth Care",
-   "company": "ProHealth Care",
-   "url": "https://careers.prohealthcare.org/executive-assistant-senior-executive-leadership-prohealth-care/job/P1-7477690-0",
-   "why": "page 404"
   },
   {
    "title": "Senior Administrative Assistant",
    "company": "Molson Coors",
-   "url": "https://careers.molsoncoors.com/us/en/job/40364/Senior-Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Chief of Staff to the CEO",
-   "company": "Nubank",
-   "url": "https://jobs.ashbyhq.com/nubank/f22a00d4-640b-41e0-9467-80c3dbd178c7",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Chief of Staff & Head of Platform",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/067cd3e8-5dfb-444b-a779-6be369bd5541",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Coordinator 1",
-   "company": "Kwik Trip",
-   "url": "https://jobs.kwiktrip.com/us/en/job/232485/Administrative-Coordinator-1",
-   "why": "page 410"
-  },
-  {
-   "title": "Pharmacy Operation Administrative Coordinator - Express Scripts",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26013141/Pharmacy-Operation-Administrative-Coordinator-Express-Scripts",
-   "why": "page says: no longer accepting applications"
-  },
-  {
-   "title": "Chief of Staff, Strategic Threat Analysis and Response - Active Security Clearance Required",
-   "company": "LLNL",
-   "url": "https://jobs.smartrecruiters.com/LLNL/3743990016421806-chief-of-staff-strategic-threat-analysis-and-response-active-security-clearance-required",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Senior Administrative Coordinator",
-   "company": "Pacific Northwest National Laboratory",
-   "url": "https://careers.pnnl.gov/jobs/12864",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant to the Vice President of Revenue Operations | Hybrid | Reston, VA",
-   "company": "Ellucian",
-   "url": "https://careers.ellucian.com/jobs/7834",
-   "why": "page 404"
+   "url": "https://jobs.molsoncoors.com/job/Chicago-Senior-Administrative-Assistant-IL-60290/1451722033/",
+   "why": "page says: position has been filled"
   },
   {
    "title": "Executive Assistant",
-   "company": "Northwestern Memorial Healthcare",
-   "url": "https://jobs.smartrecruiters.com/NorthwesternMedicine/744000157900439-executive-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Surgeon Administrative Coordinator",
-   "company": "Sono Bello",
-   "url": "https://job-boards.greenhouse.io/sonobello/jobs/5463584008",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "Green Thumb",
-   "url": "https://job-boards.greenhouse.io/greenthumbindustries/jobs/8314015",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant & Business Development Coordinator",
-   "company": "Current",
-   "url": "https://jobs.ashbyhq.com/current-advisors/2e50dab0-8e08-41d1-8b1f-0b16e088903b",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant to the CEO",
-   "company": "Arzeda",
-   "url": "https://arzeda.applytojob.com/apply/RgFRDe1LG4/Executive-Assistant-To-The-CEO",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "PepsiCo",
-   "url": "https://uscareers-pepsico.icims.com/jobs/480140/administrative-coordinator/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Customer Experience & Administrative Coordinator",
-   "company": "Luxury Bath Technologies",
-   "url": "https://luxurybathtechnologies.applytojob.com/apply/V2I9iZdQaC/Customer-Experience-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Customer Experience & Administrative Coordinator",
-   "company": "Luxury Bath Technologies",
-   "url": "https://luxurybathtechnologies.applytojob.com/apply/6IEg7vPnLk/Customer-Experience-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Customer Experience & Administrative Coordinator",
-   "company": "Luxury Bath Technologies",
-   "url": "https://luxurybathtechnologies.applytojob.com/apply/fL2f9d08or/Customer-Experience-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator - Neurology - BRAINS Research",
-   "company": "UTHealth Houston",
-   "url": "https://careers.uth.tmc.edu/us/en/job/26000284/Administrative-Coordinator-Neurology-BRAINS-Research",
-   "why": "page 410"
-  },
-  {
-   "title": "Customer Experience & Administrative Coordinator",
-   "company": "Luxury Bath Technologies",
-   "url": "https://luxurybathtechnologies.applytojob.com/apply/Bg6XmTY5IX/Customer-Experience-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Customer Experience & Administrative Coordinator",
-   "company": "Luxury Bath Technologies",
-   "url": "https://luxurybathtechnologies.applytojob.com/apply/plEoAlbA8s/Customer-Experience-Administrative-Coordinator",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator (CL-1), School of Social & Behavioral Sciences",
-   "company": "Marist University",
-   "url": "https://careers.pageuppeople.com/870/ci/en-us/job/494087/administrative-coordinator-cl1-school-of-social-behavioral-sciences",
+   "company": "City of Morgantown",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4613971",
    "why": "redirected to not-found"
   },
   {
-   "title": "Administrative Coordinator",
-   "company": "Venturity Financial Partners",
-   "url": "https://venturity.hire.trakstar.com/jobs/fk0pbbx/",
-   "why": "page 404"
-  },
-  {
-   "title": "Senior Administrative Assistant",
-   "company": "Guy Carpenter",
-   "url": "https://careers.marsh.com/global/en/job/MAMCGLOBALR369607EXTERNALENGLOBAL/Senior-Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant II",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006365874/Executive-Assistant-II",
-   "why": "page 410"
-  },
-  {
    "title": "Executive Assistant",
-   "company": "Family Office Opportunities",
-   "url": "https://jobs.ashbyhq.com/parere-advisory/e7f96c5f-e9fa-404b-b332-a6b5dff51754",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006362520/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "ADMINISTRATIVE COORDINATOR, FCH - PATIENT SAFETY",
-   "company": "Froedtert",
-   "url": "https://jobs.froedtert.com/job/183673/ADMINISTRATIVE-COORDINATOR-FCH-PATIENT-SAFETY",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "UiPath",
-   "url": "https://jobs.ashbyhq.com/uipath/15e625e1-8667-4744-aac1-316a5e57cf7c",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Family Office Opportunities",
-   "url": "https://jobs.ashbyhq.com/parere-advisory/38426fd8-d239-46ef-9b32-9c8061592397",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Senior Executive Assistant- Chief Audit Executive",
-   "company": "U.S. Bank National Association",
-   "url": "https://careers.usbank.com/global/en/job/UBNAGLOBAL20260032100EXTERNALENGLOBAL/Senior-Executive-Assistant-Chief-Audit-Executive",
-   "why": "page 410"
+   "company": "ROUNDHOUSE COMMUNITIES LLC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4564467",
+   "why": "redirected to not-found"
   }
  ]
 }

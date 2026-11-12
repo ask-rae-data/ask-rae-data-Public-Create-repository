@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T02:10:29.868Z",
+ "generatedAt": "2026-11-12T12:11:19.657Z",
  "featured": [
   {
    "title": "Executive Assistant, Global Sales Organization (GSO)",
@@ -16,6 +16,20 @@
    "payText": "$127K–$189K"
   },
   {
+   "title": "Executive Assistant to the President and Chief Financial Officer",
+   "company": "LPL Financial",
+   "city": "New York",
+   "state": "NY",
+   "workplace": "On-site",
+   "payMin": 102279,
+   "payMax": 170465,
+   "posted": "2026-11-11T00:00:00",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
+   "source": "Workday",
+   "level": "ea",
+   "payText": "$102K–$170K"
+  },
+  {
    "title": "Executive Assistant to the Founders",
    "company": "Sentis",
    "city": "San Francisco",
@@ -28,20 +42,6 @@
    "source": "Ashby",
    "level": "ea",
    "payText": "$130K–$170K"
-  },
-  {
-   "title": "Executive Assistant to the Chief People Officer",
-   "company": "S&P Global",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "Hybrid",
-   "payMin": 120000,
-   "payMax": 170000,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Executive-Assistant-to-the-Chief-People-Officer_332824-1",
-   "source": "Workday",
-   "level": "ea",
-   "payText": "$120K–$170K"
   }
  ],
  "post": [
@@ -59,6 +59,19 @@
    "level": "ea"
   },
   {
+   "title": "Executive Assistant to the President and Chief Financial Officer",
+   "company": "LPL Financial",
+   "city": "New York",
+   "state": "NY",
+   "workplace": "On-site",
+   "payMin": 102279,
+   "payMax": 170465,
+   "posted": "2026-11-11T00:00:00",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
+   "source": "Workday",
+   "level": "ea"
+  },
+  {
    "title": "Executive Assistant to the Founders",
    "company": "Sentis",
    "city": "San Francisco",
@@ -85,29 +98,16 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant & Business Partner to the CEO",
-   "company": "FurtherAI",
-   "city": "San Francisco",
-   "state": "CA",
+   "title": "Executive Assistant",
+   "company": "Forus",
+   "city": "New York",
+   "state": "NY",
    "workplace": "On-site",
-   "payMin": 140000,
+   "payMin": 130000,
    "payMax": 165000,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://jobs.ashbyhq.com/furtherai/7d9645fa-e724-44b7-b60d-aa819483a136",
+   "posted": "2026-11-11T00:00:00",
+   "url": "https://jobs.ashbyhq.com/forus/8f0b5807-85b4-4b38-b1ee-61d46887abed",
    "source": "Ashby",
-   "level": "ea"
-  },
-  {
-   "title": "Executive Assistant to the CEO",
-   "company": "Credit Acceptance",
-   "city": "Bellevue",
-   "state": "WA",
-   "workplace": "Hybrid",
-   "payMin": 140105,
-   "payMax": 163456,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://creditacceptance.wd5.myworkdayjobs.com/Credit_Acceptance/job/Washington---Bellevue---Hybrid/Executive-Assistant-to-the-CEO_R14086",
-   "source": "Workday",
    "level": "ea"
   }
  ]
