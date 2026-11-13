@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T12:11:19.657Z",
+ "generatedAt": "2026-11-13T12:07:06.291Z",
  "featured": [
   {
    "title": "Executive Assistant, Global Sales Organization (GSO)",
@@ -16,32 +16,32 @@
    "payText": "$127K–$189K"
   },
   {
-   "title": "Executive Assistant to the President and Chief Financial Officer",
-   "company": "LPL Financial",
+   "title": " Executive Assistant ",
+   "company": "Chainlink Labs",
    "city": "New York",
    "state": "NY",
    "workplace": "On-site",
-   "payMin": 102279,
-   "payMax": 170465,
-   "posted": "2026-11-11T00:00:00",
-   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
-   "source": "Workday",
-   "level": "ea",
-   "payText": "$102K–$170K"
-  },
-  {
-   "title": "Executive Assistant to the Founders",
-   "company": "Sentis",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 130000,
-   "payMax": 170000,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://jobs.ashbyhq.com/sentis/bc675bd3-4a82-4adb-a41b-784288089cda",
+   "payMin": 100000,
+   "payMax": 186000,
+   "posted": "2026-11-13T00:00:00",
+   "url": "https://jobs.ashbyhq.com/chainlink-labs/e6c69570-4900-473e-a2b5-13f925d22e1b",
    "source": "Ashby",
    "level": "ea",
-   "payText": "$130K–$170K"
+   "payText": "$100K–$186K"
+  },
+  {
+   "title": "Executive Business Partner",
+   "company": "Faire",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 116000,
+   "payMax": 159500,
+   "posted": "2026-11-10T19:41:30",
+   "url": "https://boards.greenhouse.io/faire/jobs/8936206002?gh_jid=8936206002",
+   "source": "Greenhouse",
+   "level": "senior",
+   "payText": "$116K–$160K"
   }
  ],
  "post": [
@@ -59,16 +59,16 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant to the President and Chief Financial Officer",
-   "company": "LPL Financial",
+   "title": " Executive Assistant ",
+   "company": "Chainlink Labs",
    "city": "New York",
    "state": "NY",
    "workplace": "On-site",
-   "payMin": 102279,
-   "payMax": 170465,
-   "posted": "2026-11-11T00:00:00",
-   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
-   "source": "Workday",
+   "payMin": 100000,
+   "payMax": 186000,
+   "posted": "2026-11-13T00:00:00",
+   "url": "https://jobs.ashbyhq.com/chainlink-labs/e6c69570-4900-473e-a2b5-13f925d22e1b",
+   "source": "Ashby",
    "level": "ea"
   },
   {
