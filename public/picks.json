@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-13T12:07:06.291Z",
+ "generatedAt": "2026-11-14T11:49:48.991Z",
  "featured": [
   {
-   "title": "Executive Assistant, Global Sales Organization (GSO)",
-   "company": "Everpure",
-   "city": "Santa Clara",
+   "title": "Executive Assistant, Legal",
+   "company": "Superhuman",
+   "city": "San Francisco",
    "state": "CA",
-   "workplace": "On-site",
-   "payMin": 126880,
-   "payMax": 189280,
-   "posted": "2026-11-10T16:17:26",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8348284",
-   "source": "Greenhouse",
+   "workplace": "Hybrid",
+   "payMin": 152000,
+   "payMax": 209000,
+   "posted": "2026-11-13T00:00:00",
+   "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/52ff556e-c2dd-4f49-b617-ea62de2ac82e",
+   "source": "Ashby",
    "level": "ea",
-   "payText": "$127K–$189K"
+   "payText": "$152K–$209K"
   },
   {
    "title": " Executive Assistant ",
@@ -30,21 +30,34 @@
    "payText": "$100K–$186K"
   },
   {
-   "title": "Executive Business Partner",
-   "company": "Faire",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 116000,
-   "payMax": 159500,
-   "posted": "2026-11-10T19:41:30",
-   "url": "https://boards.greenhouse.io/faire/jobs/8936206002?gh_jid=8936206002",
+   "title": "Executive Assistant, Security Driver ",
+   "company": "Concentric",
+   "city": "Miami",
+   "state": "FL",
+   "workplace": "On-site",
+   "payMin": 141000,
+   "payMax": 170000,
+   "posted": "2026-11-13T23:25:30",
+   "url": "https://job-boards.greenhouse.io/concentric/jobs/4682972006",
    "source": "Greenhouse",
-   "level": "senior",
-   "payText": "$116K–$160K"
+   "level": "ea",
+   "payText": "$141K–$170K"
   }
  ],
  "post": [
+  {
+   "title": "Executive Assistant, Legal",
+   "company": "Superhuman",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 152000,
+   "payMax": 209000,
+   "posted": "2026-11-13T00:00:00",
+   "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/52ff556e-c2dd-4f49-b617-ea62de2ac82e",
+   "source": "Ashby",
+   "level": "ea"
+  },
   {
    "title": "Executive Assistant, Global Sales Organization (GSO)",
    "company": "Everpure",
@@ -72,42 +85,29 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant to the Founders",
-   "company": "Sentis",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 130000,
-   "payMax": 170000,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://jobs.ashbyhq.com/sentis/bc675bd3-4a82-4adb-a41b-784288089cda",
-   "source": "Ashby",
-   "level": "ea"
-  },
-  {
-   "title": "Executive Assistant to the Chief People Officer",
-   "company": "S&P Global",
+   "title": "Executive Assistant to the President and Chief Financial Officer",
+   "company": "LPL Financial",
    "city": "New York",
    "state": "NY",
-   "workplace": "Hybrid",
-   "payMin": 120000,
-   "payMax": 170000,
-   "posted": "2026-11-10T00:00:00",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Executive-Assistant-to-the-Chief-People-Officer_332824-1",
+   "workplace": "On-site",
+   "payMin": 102279,
+   "payMax": 170465,
+   "posted": "2026-11-11T00:00:00",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
    "source": "Workday",
    "level": "ea"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Forus",
-   "city": "New York",
-   "state": "NY",
+   "title": "Executive Assistant, Security Driver ",
+   "company": "Concentric",
+   "city": "Miami",
+   "state": "FL",
    "workplace": "On-site",
-   "payMin": 130000,
-   "payMax": 165000,
-   "posted": "2026-11-11T00:00:00",
-   "url": "https://jobs.ashbyhq.com/forus/8f0b5807-85b4-4b38-b1ee-61d46887abed",
-   "source": "Ashby",
+   "payMin": 141000,
+   "payMax": 170000,
+   "posted": "2026-11-13T23:25:30",
+   "url": "https://job-boards.greenhouse.io/concentric/jobs/4682972006",
+   "source": "Greenhouse",
    "level": "ea"
   }
  ]

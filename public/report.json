@@ -1,15 +1,15 @@
 {
  "summary": {
-  "generatedAt": "2026-11-13T12:05:38.373Z",
+  "generatedAt": "2026-11-14T11:48:29.419Z",
   "companiesChecked": 157,
-  "companiesWorking": 154,
-  "rawJobs": 28521,
-  "adminJobs": 168,
+  "companiesWorking": 113,
+  "rawJobs": 22588,
+  "adminJobs": 78,
   "dropped": {
-   "notAdmin": 28121,
-   "notUS": 109,
-   "old": 13,
-   "dup": 110
+   "notAdmin": 22409,
+   "notUS": 51,
+   "old": 11,
+   "dup": 39
   }
  },
  "companies": [
@@ -17,7 +17,7 @@
    "source": "Ashby",
    "company": "Cohere",
    "ok": true,
-   "openJobs": 120
+   "openJobs": 121
   },
   {
    "source": "Ashby",
@@ -29,7 +29,7 @@
    "source": "Ashby",
    "company": "Harvey",
    "ok": true,
-   "openJobs": 377
+   "openJobs": 387
   },
   {
    "source": "Ashby",
@@ -53,19 +53,19 @@
    "source": "Ashby",
    "company": "Notion",
    "ok": true,
-   "openJobs": 167
+   "openJobs": 166
   },
   {
    "source": "Ashby",
    "company": "OpenAI",
    "ok": true,
-   "openJobs": 833
+   "openJobs": 838
   },
   {
    "source": "Ashby",
    "company": "Perplexity",
    "ok": true,
-   "openJobs": 142
+   "openJobs": 141
   },
   {
    "source": "Ashby",
@@ -77,7 +77,7 @@
    "source": "Ashby",
    "company": "Replit",
    "ok": true,
-   "openJobs": 31
+   "openJobs": 30
   },
   {
    "source": "Ashby",
@@ -95,7 +95,7 @@
    "source": "Ashby",
    "company": "Snowflake",
    "ok": true,
-   "openJobs": 378
+   "openJobs": 376
   },
   {
    "source": "Ashby",
@@ -113,7 +113,7 @@
    "source": "Greenhouse",
    "company": "Affirm",
    "ok": true,
-   "openJobs": 221
+   "openJobs": 217
   },
   {
    "source": "Greenhouse",
@@ -131,19 +131,19 @@
    "source": "Greenhouse",
    "company": "Anduril",
    "ok": true,
-   "openJobs": 2580
+   "openJobs": 2599
   },
   {
    "source": "Greenhouse",
    "company": "Anthropic",
    "ok": true,
-   "openJobs": 673
+   "openJobs": 670
   },
   {
    "source": "Greenhouse",
    "company": "Asana",
    "ok": true,
-   "openJobs": 108
+   "openJobs": 109
   },
   {
    "source": "Greenhouse",
@@ -161,19 +161,19 @@
    "source": "Greenhouse",
    "company": "Brex",
    "ok": true,
-   "openJobs": 283
+   "openJobs": 286
   },
   {
    "source": "Greenhouse",
    "company": "Bridgewater Associates",
    "ok": true,
-   "openJobs": 19
+   "openJobs": 18
   },
   {
    "source": "Greenhouse",
    "company": "Calendly",
    "ok": true,
-   "openJobs": 6
+   "openJobs": 5
   },
   {
    "source": "Greenhouse",
@@ -185,13 +185,13 @@
    "source": "Greenhouse",
    "company": "Carta",
    "ok": true,
-   "openJobs": 77
+   "openJobs": 78
   },
   {
    "source": "Greenhouse",
    "company": "Chime",
    "ok": true,
-   "openJobs": 68
+   "openJobs": 71
   },
   {
    "source": "Greenhouse",
@@ -213,67 +213,67 @@
    "source": "Greenhouse",
    "company": "Coinbase",
    "ok": true,
-   "openJobs": 270
+   "openJobs": 265
   },
   {
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 907
+   "openJobs": 896
   },
   {
    "source": "Greenhouse",
    "company": "Datadog",
    "ok": true,
-   "openJobs": 385
+   "openJobs": 384
   },
   {
    "source": "Greenhouse",
    "company": "Discord",
    "ok": true,
-   "openJobs": 25
+   "openJobs": 26
   },
   {
    "source": "Greenhouse",
    "company": "DoorDash",
    "ok": true,
-   "openJobs": 433
+   "openJobs": 427
   },
   {
    "source": "Greenhouse",
    "company": "Dropbox",
    "ok": true,
-   "openJobs": 42
+   "openJobs": 44
   },
   {
    "source": "Greenhouse",
    "company": "Duolingo",
    "ok": true,
-   "openJobs": 61
+   "openJobs": 59
   },
   {
    "source": "Greenhouse",
    "company": "Elastic",
    "ok": true,
-   "openJobs": 398
+   "openJobs": 400
   },
   {
    "source": "Greenhouse",
    "company": "Everlane",
    "ok": true,
-   "openJobs": 27
+   "openJobs": 28
   },
   {
    "source": "Greenhouse",
    "company": "Fanatics",
    "ok": true,
-   "openJobs": 24
+   "openJobs": 30
   },
   {
    "source": "Greenhouse",
    "company": "Figma",
    "ok": true,
-   "openJobs": 143
+   "openJobs": 139
   },
   {
    "source": "Greenhouse",
@@ -285,7 +285,7 @@
    "source": "Greenhouse",
    "company": "Flexport",
    "ok": true,
-   "openJobs": 198
+   "openJobs": 204
   },
   {
    "source": "Greenhouse",
@@ -313,7 +313,7 @@
    "source": "Greenhouse",
    "company": "GitLab",
    "ok": true,
-   "openJobs": 253
+   "openJobs": 251
   },
   {
    "source": "Greenhouse",
@@ -325,7 +325,7 @@
    "source": "Greenhouse",
    "company": "Gusto",
    "ok": true,
-   "openJobs": 77
+   "openJobs": 75
   },
   {
    "source": "Greenhouse",
@@ -337,13 +337,13 @@
    "source": "Greenhouse",
    "company": "HubSpot",
    "ok": true,
-   "openJobs": 144
+   "openJobs": 147
   },
   {
    "source": "Greenhouse",
    "company": "Instacart",
    "ok": true,
-   "openJobs": 90
+   "openJobs": 85
   },
   {
    "source": "Greenhouse",
@@ -355,19 +355,19 @@
    "source": "Greenhouse",
    "company": "Justworks",
    "ok": true,
-   "openJobs": 108
+   "openJobs": 109
   },
   {
    "source": "Greenhouse",
    "company": "Lyft",
    "ok": true,
-   "openJobs": 152
+   "openJobs": 148
   },
   {
    "source": "Greenhouse",
    "company": "Mercury",
    "ok": true,
-   "openJobs": 76
+   "openJobs": 79
   },
   {
    "source": "Greenhouse",
@@ -383,43 +383,43 @@
    "source": "Greenhouse",
    "company": "MongoDB",
    "ok": true,
-   "openJobs": 386
+   "openJobs": 391
   },
   {
    "source": "Greenhouse",
    "company": "Okta",
    "ok": true,
-   "openJobs": 364
+   "openJobs": 362
   },
   {
    "source": "Greenhouse",
    "company": "One Medical",
    "ok": true,
-   "openJobs": 346
+   "openJobs": 345
   },
   {
    "source": "Greenhouse",
    "company": "Oscar Health",
    "ok": true,
-   "openJobs": 191
+   "openJobs": 183
   },
   {
    "source": "Greenhouse",
    "company": "PagerDuty",
    "ok": true,
-   "openJobs": 48
+   "openJobs": 46
   },
   {
    "source": "Greenhouse",
    "company": "Peloton",
    "ok": true,
-   "openJobs": 43
+   "openJobs": 40
   },
   {
    "source": "Greenhouse",
    "company": "Pinterest",
    "ok": true,
-   "openJobs": 166
+   "openJobs": 163
   },
   {
    "source": "Greenhouse",
@@ -437,31 +437,31 @@
    "source": "Greenhouse",
    "company": "Reddit",
    "ok": true,
-   "openJobs": 146
+   "openJobs": 145
   },
   {
    "source": "Greenhouse",
    "company": "Rent the Runway",
    "ok": true,
-   "openJobs": 24
+   "openJobs": 27
   },
   {
    "source": "Greenhouse",
    "company": "Robinhood",
    "ok": true,
-   "openJobs": 160
+   "openJobs": 165
   },
   {
    "source": "Greenhouse",
    "company": "Roblox",
    "ok": true,
-   "openJobs": 273
+   "openJobs": 271
   },
   {
    "source": "Greenhouse",
    "company": "Samsara",
    "ok": true,
-   "openJobs": 313
+   "openJobs": 314
   },
   {
    "source": "Greenhouse",
@@ -473,19 +473,19 @@
    "source": "Greenhouse",
    "company": "SeatGeek",
    "ok": true,
-   "openJobs": 37
+   "openJobs": 41
   },
   {
    "source": "Greenhouse",
    "company": "SoFi",
    "ok": true,
-   "openJobs": 46
+   "openJobs": 48
   },
   {
    "source": "Greenhouse",
    "company": "SpaceX",
    "ok": true,
-   "openJobs": 2849
+   "openJobs": 2758
   },
   {
    "source": "Greenhouse",
@@ -497,13 +497,13 @@
    "source": "Greenhouse",
    "company": "Stripe",
    "ok": true,
-   "openJobs": 788
+   "openJobs": 786
   },
   {
    "source": "Greenhouse",
    "company": "Sweetgreen",
    "ok": true,
-   "openJobs": 71
+   "openJobs": 70
   },
   {
    "source": "Greenhouse",
@@ -515,25 +515,25 @@
    "source": "Greenhouse",
    "company": "Toast",
    "ok": true,
-   "openJobs": 361
+   "openJobs": 355
   },
   {
    "source": "Greenhouse",
    "company": "Twilio",
    "ok": true,
-   "openJobs": 116
+   "openJobs": 115
   },
   {
    "source": "Greenhouse",
    "company": "Twitch",
    "ok": true,
-   "openJobs": 57
+   "openJobs": 58
   },
   {
    "source": "Greenhouse",
    "company": "Waymo",
    "ok": true,
-   "openJobs": 379
+   "openJobs": 373
   },
   {
    "source": "Greenhouse",
@@ -557,7 +557,7 @@
    "source": "Greenhouse",
    "company": "Zscaler",
    "ok": true,
-   "openJobs": 377
+   "openJobs": 373
   },
   {
    "source": "Lever",
@@ -587,7 +587,7 @@
    "source": "Lever",
    "company": "Nium",
    "ok": true,
-   "openJobs": 30
+   "openJobs": 31
   },
   {
    "source": "Lever",
@@ -599,19 +599,19 @@
    "source": "Lever",
    "company": "Palantir",
    "ok": true,
-   "openJobs": 301
+   "openJobs": 302
   },
   {
    "source": "Lever",
    "company": "Shield AI",
    "ok": true,
-   "openJobs": 667
+   "openJobs": 0
   },
   {
    "source": "Lever",
    "company": "Spotify",
    "ok": true,
-   "openJobs": 86
+   "openJobs": 87
   },
   {
    "source": "Lever",
@@ -635,13 +635,13 @@
    "source": "Lever",
    "company": "Zoox",
    "ok": true,
-   "openJobs": 237
+   "openJobs": 241
   },
   {
    "source": "SmartRecruiters",
    "company": "Bosch",
    "ok": true,
-   "openJobs": 265
+   "openJobs": 264
   },
   {
    "source": "SmartRecruiters",
@@ -653,7 +653,7 @@
    "source": "SmartRecruiters",
    "company": "Experian",
    "ok": true,
-   "openJobs": 146
+   "openJobs": 148
   },
   {
    "source": "SmartRecruiters",
@@ -671,7 +671,7 @@
    "source": "SmartRecruiters",
    "company": "Ubisoft",
    "ok": true,
-   "openJobs": 157
+   "openJobs": 155
   },
   {
    "source": "SmartRecruiters",
@@ -683,289 +683,535 @@
    "source": "SmartRecruiters",
    "company": "Wise",
    "ok": true,
-   "openJobs": 179
+   "openJobs": 177
   },
   {
    "source": "Workday",
    "company": "3M",
-   "ok": true,
-   "openJobs": 181
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "3m.wd1.myworkdayjobs.com",
+    "3m",
+    "Search",
+    "3M"
+   ]
   },
   {
    "source": "Workday",
    "company": "Abbott",
-   "ok": true,
-   "openJobs": 181
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "abbott.wd5.myworkdayjobs.com",
+    "abbott",
+    "abbottcareers",
+    "Abbott"
+   ]
   },
   {
    "source": "Workday",
    "company": "Accenture",
    "ok": true,
-   "openJobs": 186
+   "openJobs": 187
   },
   {
    "source": "Workday",
    "company": "Adobe",
-   "ok": true,
-   "openJobs": 147
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "adobe.wd5.myworkdayjobs.com",
+    "adobe",
+    "external_experienced",
+    "Adobe"
+   ]
   },
   {
    "source": "Workday",
    "company": "AIG",
-   "ok": true,
-   "openJobs": 74
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "aig.wd1.myworkdayjobs.com",
+    "aig",
+    "aig",
+    "AIG"
+   ]
   },
   {
    "source": "Workday",
    "company": "Amgen",
-   "ok": true,
-   "openJobs": 186
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "amgen.wd1.myworkdayjobs.com",
+    "amgen",
+    "Careers",
+    "Amgen"
+   ]
   },
   {
    "source": "Workday",
    "company": "AT&T",
-   "ok": true,
-   "openJobs": 170
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "att.wd1.myworkdayjobs.com",
+    "att",
+    "ATTGeneral",
+    "AT&T"
+   ]
   },
   {
    "source": "Workday",
    "company": "Autodesk",
-   "ok": true,
-   "openJobs": 0
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "autodesk.wd1.myworkdayjobs.com",
+    "autodesk",
+    "Ext",
+    "Autodesk"
+   ]
   },
   {
    "source": "Workday",
    "company": "Bank of America",
-   "ok": true,
-   "openJobs": 80
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "ghr.wd1.myworkdayjobs.com",
+    "ghr",
+    "Lateral-US",
+    "Bank of America"
+   ]
   },
   {
    "source": "Workday",
    "company": "Boeing",
-   "ok": true,
-   "openJobs": 184
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "boeing.wd1.myworkdayjobs.com",
+    "boeing",
+    "EXTERNAL_CAREERS",
+    "Boeing"
+   ]
   },
   {
    "source": "Workday",
    "company": "Capital One",
    "ok": true,
-   "openJobs": 132
+   "openJobs": 139
   },
   {
    "source": "Workday",
    "company": "Chevron",
-   "ok": true,
-   "openJobs": 13
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "chevron.wd5.myworkdayjobs.com",
+    "chevron",
+    "jobs",
+    "Chevron"
+   ]
   },
   {
    "source": "Workday",
    "company": "Cigna",
-   "ok": true,
-   "openJobs": 181
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "cigna.wd5.myworkdayjobs.com",
+    "cigna",
+    "cignacareers",
+    "Cigna"
+   ]
   },
   {
    "source": "Workday",
    "company": "Cisco",
-   "ok": true,
-   "openJobs": 73
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "cisco.wd5.myworkdayjobs.com",
+    "cisco",
+    "Cisco_Careers",
+    "Cisco"
+   ]
   },
   {
    "source": "Workday",
    "company": "CrowdStrike",
-   "ok": true,
-   "openJobs": 68
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "crowdstrike.wd5.myworkdayjobs.com",
+    "crowdstrike",
+    "crowdstrikecareers",
+    "CrowdStrike"
+   ]
   },
   {
    "source": "Workday",
    "company": "CVS Health",
-   "ok": true,
-   "openJobs": 137
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "cvshealth.wd1.myworkdayjobs.com",
+    "cvshealth",
+    "CVS_Health_Careers",
+    "CVS Health"
+   ]
   },
   {
    "source": "Workday",
    "company": "Fidelity Investments",
-   "ok": true,
-   "openJobs": 78
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "fmr.wd1.myworkdayjobs.com",
+    "fmr",
+    "FidelityCareers",
+    "Fidelity Investments"
+   ]
   },
   {
    "source": "Workday",
    "company": "Gartner",
-   "ok": true,
-   "openJobs": 182
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "gartner.wd5.myworkdayjobs.com",
+    "gartner",
+    "EXT",
+    "Gartner"
+   ]
   },
   {
    "source": "Workday",
    "company": "General Motors",
-   "ok": true,
-   "openJobs": 183
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "generalmotors.wd5.myworkdayjobs.com",
+    "generalmotors",
+    "Careers_GM",
+    "General Motors"
+   ]
   },
   {
    "source": "Workday",
    "company": "Gilead Sciences",
-   "ok": true,
-   "openJobs": 181
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "gilead.wd1.myworkdayjobs.com",
+    "gilead",
+    "gileadcareers",
+    "Gilead Sciences"
+   ]
   },
   {
    "source": "Workday",
    "company": "Hewlett Packard Enterprise",
-   "ok": true,
-   "openJobs": 186
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "hpe.wd5.myworkdayjobs.com",
+    "hpe",
+    "Jobsathpe",
+    "Hewlett Packard Enterprise"
+   ]
   },
   {
    "source": "Workday",
    "company": "Humana",
-   "ok": true,
-   "openJobs": 119
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "humana.wd5.myworkdayjobs.com",
+    "humana",
+    "Humana_External_Career_Site",
+    "Humana"
+   ]
   },
   {
    "source": "Workday",
    "company": "Intel",
-   "ok": true,
-   "openJobs": 125
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "intel.wd1.myworkdayjobs.com",
+    "intel",
+    "External",
+    "Intel"
+   ]
   },
   {
    "source": "Workday",
    "company": "Johnson & Johnson",
-   "ok": true,
-   "openJobs": 93
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "jj.wd5.myworkdayjobs.com",
+    "jj",
+    "JJ",
+    "Johnson & Johnson"
+   ]
   },
   {
    "source": "Workday",
    "company": "Kimberly-Clark",
-   "ok": true,
-   "openJobs": 60
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "kimberlyclark.wd1.myworkdayjobs.com",
+    "kimberlyclark",
+    "GLOBAL",
+    "Kimberly-Clark"
+   ]
   },
   {
    "source": "Workday",
    "company": "Lowe's",
-   "ok": true,
-   "openJobs": 82
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "lowes.wd5.myworkdayjobs.com",
+    "lowes",
+    "LWS_External_CS",
+    "Lowe's"
+   ]
   },
   {
    "source": "Workday",
    "company": "Mastercard",
-   "ok": true,
-   "openJobs": 79
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "mastercard.wd1.myworkdayjobs.com",
+    "mastercard",
+    "CorporateCareers",
+    "Mastercard"
+   ]
   },
   {
    "source": "Workday",
    "company": "McKesson",
    "ok": true,
-   "openJobs": 180
+   "openJobs": 181
   },
   {
    "source": "Workday",
    "company": "Morgan Stanley",
-   "ok": true,
-   "openJobs": 104
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "ms.wd5.myworkdayjobs.com",
+    "ms",
+    "External",
+    "Morgan Stanley"
+   ]
   },
   {
    "source": "Workday",
    "company": "NVIDIA",
-   "ok": true,
-   "openJobs": 147
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "nvidia.wd5.myworkdayjobs.com",
+    "nvidia",
+    "NVIDIAExternalCareerSite",
+    "NVIDIA"
+   ]
   },
   {
    "source": "Workday",
    "company": "PayPal",
-   "ok": true,
-   "openJobs": 150
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "paypal.wd1.myworkdayjobs.com",
+    "paypal",
+    "jobs",
+    "PayPal"
+   ]
   },
   {
    "source": "Workday",
    "company": "Pfizer",
-   "ok": true,
-   "openJobs": 180
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "pfizer.wd1.myworkdayjobs.com",
+    "pfizer",
+    "PfizerCareers",
+    "Pfizer"
+   ]
   },
   {
    "source": "Workday",
    "company": "PNC",
-   "ok": true,
-   "openJobs": 182
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "pnc.wd5.myworkdayjobs.com",
+    "pnc",
+    "External",
+    "PNC"
+   ]
   },
   {
    "source": "Workday",
    "company": "PwC",
    "ok": true,
-   "openJobs": 24
+   "openJobs": 21
   },
   {
    "source": "Workday",
    "company": "Salesforce",
    "ok": true,
-   "openJobs": 107
+   "openJobs": 106
   },
   {
    "source": "Workday",
    "company": "Southwest Airlines",
-   "ok": true,
-   "openJobs": 31
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "swa.wd1.myworkdayjobs.com",
+    "swa",
+    "External",
+    "Southwest Airlines"
+   ]
   },
   {
    "source": "Workday",
    "company": "State Street",
-   "ok": true,
-   "openJobs": 188
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "statestreet.wd1.myworkdayjobs.com",
+    "statestreet",
+    "Global",
+    "State Street"
+   ]
   },
   {
    "source": "Workday",
    "company": "Target",
-   "ok": true,
-   "openJobs": 133
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "target.wd5.myworkdayjobs.com",
+    "target",
+    "targetcareers",
+    "Target"
+   ]
   },
   {
    "source": "Workday",
    "company": "The Home Depot",
-   "ok": true,
-   "openJobs": 156
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "homedepot.wd5.myworkdayjobs.com",
+    "homedepot",
+    "CareerDepot",
+    "The Home Depot"
+   ]
   },
   {
    "source": "Workday",
    "company": "The Walt Disney Company",
-   "ok": true,
-   "openJobs": 1
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "disney.wd5.myworkdayjobs.com",
+    "disney",
+    "disneycareer",
+    "The Walt Disney Company"
+   ]
   },
   {
    "source": "Workday",
    "company": "Travelers",
-   "ok": true,
-   "openJobs": 180
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "travelers.wd5.myworkdayjobs.com",
+    "travelers",
+    "External",
+    "Travelers"
+   ]
   },
   {
    "source": "Workday",
    "company": "U.S. Bank",
-   "ok": true,
-   "openJobs": 184
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "usbank.wd1.myworkdayjobs.com",
+    "usbank",
+    "US_Bank_Careers",
+    "U.S. Bank"
+   ]
   },
   {
    "source": "Workday",
    "company": "Unilever",
    "ok": true,
-   "openJobs": 124
+   "openJobs": 126
   },
   {
    "source": "Workday",
    "company": "University of Pennsylvania",
-   "ok": true,
-   "openJobs": 106
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "upenn.wd1.myworkdayjobs.com",
+    "upenn",
+    "careers-at-penn",
+    "University of Pennsylvania"
+   ]
   },
   {
    "source": "Workday",
    "company": "Warner Bros. Discovery",
-   "ok": true,
-   "openJobs": 117
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "warnerbros.wd5.myworkdayjobs.com",
+    "warnerbros",
+    "global",
+    "Warner Bros. Discovery"
+   ]
   },
   {
    "source": "Workday",
    "company": "Wells Fargo",
-   "ok": true,
-   "openJobs": 158
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "wf.wd1.myworkdayjobs.com",
+    "wf",
+    "WellsFargoJobs",
+    "Wells Fargo"
+   ]
   },
   {
    "source": "Workday",
    "company": "Workday",
-   "ok": true,
-   "openJobs": 117
+   "ok": false,
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "entry": [
+    "workday.wd5.myworkdayjobs.com",
+    "workday",
+    "Workday",
+    "Workday"
+   ]
   }
  ]
 }
