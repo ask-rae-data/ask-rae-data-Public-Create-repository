@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T11:49:48.991Z",
+ "generatedAt": "2026-11-15T11:54:31.303Z",
  "featured": [
   {
    "title": "Executive Assistant, Legal",
@@ -59,19 +59,6 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant, Global Sales Organization (GSO)",
-   "company": "Everpure",
-   "city": "Santa Clara",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 126880,
-   "payMax": 189280,
-   "posted": "2026-11-10T16:17:26",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8348284",
-   "source": "Greenhouse",
-   "level": "ea"
-  },
-  {
    "title": " Executive Assistant ",
    "company": "Chainlink Labs",
    "city": "New York",
@@ -85,19 +72,6 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant to the President and Chief Financial Officer",
-   "company": "LPL Financial",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "On-site",
-   "payMin": 102279,
-   "payMax": 170465,
-   "posted": "2026-11-11T00:00:00",
-   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/New-York/Executive-Assistant-to-the-President-and-Chief-Financial-Officer_R-054851-1",
-   "source": "Workday",
-   "level": "ea"
-  },
-  {
    "title": "Executive Assistant, Security Driver ",
    "company": "Concentric",
    "city": "Miami",
@@ -107,6 +81,32 @@
    "payMax": 170000,
    "posted": "2026-11-13T23:25:30",
    "url": "https://job-boards.greenhouse.io/concentric/jobs/4682972006",
+   "source": "Greenhouse",
+   "level": "ea"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Kaizen",
+   "city": "New York",
+   "state": "NY",
+   "workplace": "Hybrid",
+   "payMin": 110000,
+   "payMax": 160000,
+   "posted": "2026-11-12T00:00:00",
+   "url": "https://jobs.ashbyhq.com/kaizenlabs/d4ed3207-53ed-4251-9dbf-f6cae28e76c6",
+   "source": "Ashby",
+   "level": "ea"
+  },
+  {
+   "title": "Executive Assistant (Onsite)",
+   "company": "Heartflow",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 100998,
+   "payMax": 155000,
+   "posted": "2026-11-13T21:37:35",
+   "url": "https://job-boards.greenhouse.io/heartflowinc/jobs/6261791004",
    "source": "Greenhouse",
    "level": "ea"
   }
