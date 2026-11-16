@@ -1,34 +1,6 @@
 {
- "generatedAt": "2026-11-15T11:54:31.303Z",
+ "generatedAt": "2026-11-16T12:22:51.471Z",
  "featured": [
-  {
-   "title": "Executive Assistant, Legal",
-   "company": "Superhuman",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 152000,
-   "payMax": 209000,
-   "posted": "2026-11-13T00:00:00",
-   "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/52ff556e-c2dd-4f49-b617-ea62de2ac82e",
-   "source": "Ashby",
-   "level": "ea",
-   "payText": "$152K–$209K"
-  },
-  {
-   "title": " Executive Assistant ",
-   "company": "Chainlink Labs",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "On-site",
-   "payMin": 100000,
-   "payMax": 186000,
-   "posted": "2026-11-13T00:00:00",
-   "url": "https://jobs.ashbyhq.com/chainlink-labs/e6c69570-4900-473e-a2b5-13f925d22e1b",
-   "source": "Ashby",
-   "level": "ea",
-   "payText": "$100K–$186K"
-  },
   {
    "title": "Executive Assistant, Security Driver ",
    "company": "Concentric",
@@ -42,6 +14,34 @@
    "source": "Greenhouse",
    "level": "ea",
    "payText": "$141K–$170K"
+  },
+  {
+   "title": "Executive Assistant (Onsite)",
+   "company": "Heartflow",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 100998,
+   "payMax": 155000,
+   "posted": "2026-11-13T21:37:35",
+   "url": "https://job-boards.greenhouse.io/heartflowinc/jobs/6261791004",
+   "source": "Greenhouse",
+   "level": "ea",
+   "payText": "$101K–$155K"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Flagship Pioneering, Inc.",
+   "city": "Cambridge",
+   "state": "MA",
+   "workplace": "Hybrid",
+   "payMin": 120000,
+   "payMax": 145000,
+   "posted": "2026-11-13T15:17:24",
+   "url": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8624651002?gh_jid=8624651002",
+   "source": "Greenhouse",
+   "level": "ea",
+   "payText": "$120K–$145K"
   }
  ],
  "post": [
@@ -85,19 +85,6 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Kaizen",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "Hybrid",
-   "payMin": 110000,
-   "payMax": 160000,
-   "posted": "2026-11-12T00:00:00",
-   "url": "https://jobs.ashbyhq.com/kaizenlabs/d4ed3207-53ed-4251-9dbf-f6cae28e76c6",
-   "source": "Ashby",
-   "level": "ea"
-  },
-  {
    "title": "Executive Assistant (Onsite)",
    "company": "Heartflow",
    "city": "San Francisco",
@@ -107,6 +94,19 @@
    "payMax": 155000,
    "posted": "2026-11-13T21:37:35",
    "url": "https://job-boards.greenhouse.io/heartflowinc/jobs/6261791004",
+   "source": "Greenhouse",
+   "level": "ea"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Flagship Pioneering, Inc.",
+   "city": "Cambridge",
+   "state": "MA",
+   "workplace": "Hybrid",
+   "payMin": 120000,
+   "payMax": 145000,
+   "posted": "2026-11-13T15:17:24",
+   "url": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8624651002?gh_jid=8624651002",
    "source": "Greenhouse",
    "level": "ea"
   }

@@ -1,84 +1,51 @@
 {
- "checkedAt": "2026-11-15T11:54:30.900Z",
- "checked": 2447,
- "closed": 9,
+ "checkedAt": "2026-11-16T12:22:51.109Z",
+ "checked": 2407,
+ "closed": 4,
  "applied": true,
  "tally": {
-  "open: greenhouse": 106,
-  "open: page ok": 772,
-  "unknown: page needs javascript": 767,
-  "open: workday": 473,
+  "unknown: page needs javascript": 799,
+  "open: page ok": 782,
+  "unknown: page 500": 6,
+  "open: greenhouse": 105,
+  "unknown: workday 429": 494,
   "open: smartrecruiters": 56,
-  "open: ashby": 83,
-  "unknown: workday 403": 157,
-  "closed: page 404": 2,
+  "open: workday": 41,
+  "closed: redirected to not-found": 1,
+  "open: ashby": 84,
+  "closed: greenhouse 404": 1,
   "unknown: page 403": 7,
   "unknown: ashby board": 1,
-  "closed: page says closed": 2,
   "open: page has apply button": 6,
-  "unknown: page 503": 1,
-  "unknown: workday 401": 1,
-  "closed: workday 404": 2,
-  "closed: greenhouse 404": 1,
-  "unknown: page 500": 5,
-  "unknown: page 429": 1,
-  "closed: redirected to not-found": 1,
+  "unknown: workday 403": 18,
+  "closed: page 404": 1,
   "closed: page 410": 1,
-  "unknown: timeout": 2
+  "unknown: page 429": 1,
+  "unknown: timeout": 3
  },
  "removed": [
   {
-   "title": "Executive Assistant to the CTO",
-   "company": "Foot Locker",
-   "url": "https://careers.footlocker.com/jobs/72869",
-   "why": "page 404"
+   "title": "Executive Business Partner, GTM",
+   "company": "CircleCI",
+   "url": "http://www.circleci.com/careers/jobs/8932689002/?gh_jid=8932689002",
+   "why": "redirected to not-found"
   },
   {
-   "title": "Administrative Assistant",
-   "company": "TEKsystems",
-   "url": "https://careers.teksystems.com/us/en/job/JP-006420935/Administrative-Assistant",
-   "why": "page says: no longer available"
+   "title": "Executive Assistant to the President and CEO",
+   "company": "Resolve To Save Lives",
+   "url": "https://job-boards.greenhouse.io/resolvetosavelives/jobs/5482201008",
+   "why": "greenhouse 404"
   },
   {
-   "title": "Chief of Staff (On-site / Remote) (m/f/d)",
-   "company": "EWOR GmbH",
-   "url": "https://eworgmbh.recruitee.com/o/chief-of-staff-on-site-remote-mfd-16",
+   "title": "Executive Assistant , NA Books",
+   "company": "Amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10596696",
    "why": "page 404"
   },
   {
    "title": "Executive Assistant",
-   "company": "CVS Health",
-   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/TX---Dallas/Executive-Assistant_R1047650-1",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant ",
-   "company": "Success Academy Charter Schools",
-   "url": "https://job-boards.greenhouse.io/successacademycharterschool/jobs/5470358008",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant (EA)",
-   "company": "DaVita Kidney Care",
-   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/02889---Dream-Team-Group-Office/Executive-Assistant--EA-_R0484140",
-   "why": "workday 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Leonardo DRS, Inc.",
-   "url": "https://careers.leonardodrs.com/job/Germantown-Senior-Executive-Assistant-MD-20876/1444795900/",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "VP Loan Administration Manager",
-   "company": "Citizens Alliance Bank",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4617665",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant: VP, Customer Experience Product Management (Hybrid)",
-   "company": "Cisco",
-   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2026294EXTERNALENGLOBAL/Executive-Assistant-VP-Customer-Experience-Product-Management-Hybrid",
+   "company": "Aston Carter",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006390913/Executive-Assistant",
    "why": "page 410"
   }
  ]
