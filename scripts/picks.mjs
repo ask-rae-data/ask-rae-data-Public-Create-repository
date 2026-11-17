@@ -1,6 +1,6 @@
 // Ask RAE picks: chooses the featured roles for the top of the board and the twice-weekly LinkedIn post.
-// Rules: executive assistant / senior EA / administrative assistant roles only, posted recently,
-// strong pay, in a large, popular city, with on-site / hybrid / remote stated.
+// Banner rules (chooseFeatured): EA / senior EA / admin assistant, $80K+ floor, Texas first,
+// then other states, never CA, NY, DC, MA, WA, NJ, CT. Post rules (choose): big cities, $60K+.
 import { readFile, writeFile } from "node:fs/promises";
 
 const FILE = "public/jobs.json";
@@ -18,6 +18,34 @@ const NOT = /(receptionist|front desk|manager|director|chief of staff|coordinato
 
 const annual = j => j.payMax || j.payMin || 0;
 const ageDays = j => j.posted ? (Date.now() - Date.parse(j.posted)) / 864e5 : 99;
+
+// Featured banner: prove six-figure-level admin pay exists outside the well-known high-pay states.
+// Texas first, $80K+; any empty spots come from other states, never the high-pay ones below.
+const HIGH_PAY_STATES = new Set(["CA", "NY", "DC", "MA", "WA", "NJ", "CT"]);
+function chooseFeatured(jobs, n) {
+  const base = jobs
+    .filter(j => CORE.test(j.title) && !NOT.test(j.title))
+    .filter(j => j.workplace && j.city && j.state && j.workplace !== "Remote")
+    // The bottom of the posted range must be $80K+, so "$65K–$151K" doesn't count.
+    .filter(j => (j.payMin || j.payMax || 0) >= 80000 && annual(j) <= 400000)
+    .sort((a, b) => annual(b) - annual(a));
+  // Texas roles may be up to 14 days old (fewer Texas postings list pay); other states 7 days.
+  const tx = base.filter(j => j.state === "TX" && ageDays(j) <= 14);
+  const rest = base.filter(j => j.state !== "TX" && !HIGH_PAY_STATES.has(j.state) && ageDays(j) <= 7);
+  const out = [], seenCo = new Set(), seenCity = new Set();
+  const take = (list, uniqueCity) => {
+    for (const j of list) {
+      if (out.length >= n) return;
+      const co = (j.company || "").toLowerCase(), city = j.city.toLowerCase();
+      if (seenCo.has(co) || (uniqueCity && seenCity.has(city))) continue;
+      out.push(j); seenCo.add(co); seenCity.add(city);
+    }
+  };
+  take(tx, true);    // Texas, different cities first
+  take(tx, false);   // then more Texas, even in the same city
+  take(rest, true);  // then other lower-cost states
+  return out;
+}
 
 function choose(jobs, n, maxAge) {
   const pool = jobs
@@ -45,8 +73,7 @@ function payText(j) {
 const data = JSON.parse(await readFile(FILE, "utf8"));
 const jobs = data.jobs || [];
 // Prefer roles from the last 3 days; widen to 7 days only if needed.
-let featured = choose(jobs, 3, 3);
-if (featured.length < 3) featured = choose(jobs, 3, 7);
+const featured = chooseFeatured(jobs, 3);
 let post = choose(jobs, 5, 4);
 if (post.length < 5) post = choose(jobs, 5, 8);
 
