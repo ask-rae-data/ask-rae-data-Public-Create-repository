@@ -1,261 +1,117 @@
 {
- "checkedAt": "2026-11-17T12:00:52.643Z",
- "checked": 2503,
- "closed": 38,
+ "checkedAt": "2026-11-17T17:00:56.969Z",
+ "checked": 2465,
+ "closed": 14,
  "applied": true,
  "tally": {
-  "open: greenhouse": 117,
-  "open: ashby": 94,
-  "open: page ok": 791,
+  "open: greenhouse": 115,
+  "open: ashby": 90,
+  "open: page ok": 783,
+  "open: smartrecruiters": 54,
   "unknown: page 403": 8,
-  "unknown: page needs javascript": 827,
-  "open: smartrecruiters": 53,
-  "closed: redirected to not-found": 6,
+  "unknown: page needs javascript": 824,
   "unknown: page 500": 6,
-  "unknown: workday 429": 543,
-  "closed: page says closed": 4,
-  "unknown: workday 422": 1,
-  "open: workday": 5,
-  "closed: page 410": 13,
+  "unknown: workday 429": 471,
+  "open: workday": 55,
+  "unknown: workday 403": 28,
+  "closed: page 404": 2,
   "closed: workday 404": 2,
-  "closed: greenhouse 404": 1,
   "unknown: ashby board": 1,
-  "closed: page 404": 6,
+  "closed: page 410": 2,
   "open: page has apply button": 6,
-  "closed: smartrecruiters inactive": 4,
-  "unknown: workday 403": 7,
-  "unknown: timeout": 5,
-  "unknown: page 429": 1,
-  "closed: ashby not listed": 2
+  "closed: ashby not listed": 4,
+  "unknown: timeout": 7,
+  "closed: redirected to not-found": 2,
+  "unknown: page 503": 1,
+  "closed: smartrecruiters inactive": 1,
+  "closed: greenhouse 404": 1,
+  "unknown: page 502": 1,
+  "unknown: page 429": 1
  },
  "removed": [
   {
-   "title": "Executive Assistant",
-   "company": "TEKsystems",
-   "url": "https://careers.teksystems.com/us/en/job/JP-006424790/Executive-Assistant",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Temporary Executive Assistant & Office Coordinator",
-   "company": "The Montgomery County Coalition for the Homeless",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669781",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant | Katy Rehab",
-   "company": "PAM Health Rehabilitation Hospital of Katy",
-   "url": "https://careers-pamhealth.icims.com/jobs/99073/executive-assistant-%7c-katy-rehab/job",
-   "why": "page 410"
+   "title": "Administrative Assistant II",
+   "company": "Sarasota Memorial Health Care System",
+   "url": "https://careers.smh.com/careers/jobs/51079",
+   "why": "page 404"
   },
   {
    "title": "Administrative Assistant",
    "company": "DaVita Kidney Care",
-   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/03169---Wisconsin-Avenue-Dialys/Administrative-Assistant_R0486471-1",
+   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05566---Bay-Shore-Dialysis/Administrative-Assistant_R0486445",
    "why": "workday 404"
   },
   {
-   "title": "Executive Assistant (Onsite)",
-   "company": "Heartflow",
-   "url": "https://job-boards.greenhouse.io/heartflowinc/jobs/6261791004",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006421349/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant , R2L Ops Integration+",
-   "company": "Amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10605067",
-   "why": "page 404"
-  },
-  {
    "title": "Administrative Assistant",
-   "company": "Diverzify Pro, LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4359328",
+   "company": "KBR",
+   "url": "https://careers.trinzic.com/us/en/job/R2128223/Administrative-Assistant",
+   "why": "page 410"
+  },
+  {
+   "title": "Chief of Staff",
+   "company": "Handspring",
+   "url": "https://jobs.ashbyhq.com/handspring/1402c208-3fbe-4892-b7a0-1fbcc1215d11",
+   "why": "ashby not listed"
+  },
+  {
+   "title": "FT Corporate Security Receptionist - $25/hr",
+   "company": "Sunstates Security",
+   "url": "https://careers.sunstatessecurity.com/us/en/job/SSKSSHUSP101660EXTERNALENUS/FT-Corporate-Security-Receptionist-25-hr",
+   "why": "page 410"
+  },
+  {
+   "title": "HUMAN RESOURCES & EXECUTIVE ASSISTANT",
+   "company": "BANK OF BRIDGER N A",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640393",
    "why": "redirected to not-found"
+  },
+  {
+   "title": "Chief of Staff",
+   "company": "Formulary Financial, Inc.",
+   "url": "https://jobs.ashbyhq.com/formulary/46f9e4c1-2f94-4702-bf2e-4e50d2189dee",
+   "why": "ashby not listed"
   },
   {
    "title": "Executive Assistant",
-   "company": "City of New York",
-   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016786406-executive-assistant",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant - CAB",
-   "company": "First Citizens Bank",
-   "url": "https://jobs.firstcitizens.com/jobs/36531",
-   "why": "page 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/c225ccb7-6cc9-48fc-95b1-b1ceb0ff054a",
-   "why": "page 404"
-  },
-  {
-   "title": "Chief of Staff to the CEO",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/a6cb6043-6f63-4156-b4ce-7741d4a1c740",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant to the Chief Executive Officer-Piedmont Geriatric Hospital",
-   "company": "Virginia Information Technologies Agency",
-   "url": "https://careers.pageuppeople.com/1125/cw/en-us/job/5114124/executive-assistant-to-the-chief-executive-officerpiedmont-geriatric-hospital",
+   "company": "Capstone",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4630583",
    "why": "redirected to not-found"
   },
   {
-   "title": "Executive Assistant to the chair of Emergency Medicine",
-   "company": "Weill Cornell Medical College",
-   "url": "https://jobs.weill.cornell.edu/NY/job/New-York-Executive-Assistant-to-the-chair-of-Emergency-Medicine-NY-10065/1449223400/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Administrative Assistant / Front Desk",
-   "company": "Cerebrocare",
-   "url": "https://cerebrocare.applytojob.com/apply/H57ZjT951h/Administrative-Assistant-Front-Desk",
-   "why": "page 410"
-  },
-  {
    "title": "Senior Executive Assistant",
-   "company": "Airbnb",
-   "url": "https://careers.airbnb.com/positions/8356755?gh_jid=8356755",
+   "company": "Jobgether",
+   "url": "https://jobs.lever.co/jobgether/69972e1c-1fa1-4070-9a34-7b907ac59f7c",
    "why": "page 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Sonalysts, Inc.",
-   "url": "https://careers-sonalysts.icims.com/jobs/2486/senior-executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "Johnson County Kansas",
-   "url": "https://careers-jocogov.icims.com/jobs/4351/senior-executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant II",
-   "company": "Aflac, Incorporated",
-   "url": "https://careers.aflac.com/job/Remote-Executive-Assistant-II-31999/1448583800/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant to the Chief Nursing Executive",
-   "company": "University of Missouri Health Care",
-   "url": "https://careers.muhealth.org/us/en/job/26003948/Executive-Assistant-to-the-Chief-Nursing-Executive",
-   "why": "page 410"
   },
   {
    "title": "Executive Assistant - (Fandango, GolfNow, and GolfPass)",
    "company": "Versant",
-   "url": "https://jobs.smartrecruiters.com/Versant3/744000159335857-executive-assistant-fandango-golfnow-and-golfpass-",
+   "url": "https://jobs.smartrecruiters.com/Versant3/744000158595096-executive-assistant-fandango-golfnow-and-golfpass-",
    "why": "smartrecruiters inactive"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006394255/Executive-Assistant",
-   "why": "page 410"
+   "title": "Executive Assistant to the Chief Advancement Officer",
+   "company": "Success Academy Charter Schools",
+   "url": "https://job-boards.greenhouse.io/successacademycharterschool/jobs/5420086008",
+   "why": "greenhouse 404"
   },
   {
-   "title": "Office Manager - Administrative",
-   "company": "CentiMark Corporation",
-   "url": "https://centimark.applytojob.com/apply/xc6TrQVh2q/Office-Manager-Administrative",
-   "why": "page 410"
+   "title": "Senior Executive Assistant to the CFO",
+   "company": "Spring Health",
+   "url": "https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/1d2ee1e2-c8e6-4609-a3fc-e56ba4f131b1",
+   "why": "ashby not listed"
   },
   {
-   "title": "EXECUTIVE ASSISTANT I - 72001496",
-   "company": "State of Florida",
-   "url": "https://jobs.myflorida.com/job/TALLAHASSEE-EXECUTIVE-ASSISTANT-I-72001496-FL-32399/1446871000/",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006390682/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant (Onsite: Logan, UT or Marlborough, MA)",
-   "company": "Danaher",
-   "url": "https://jobs.danaher.com/global/en/job/DANAGLOBALR1321520EXTERNALENGLOBAL/Executive-Assistant-Onsite-Logan-UT-or-Marlborough-MA",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist - Endocrinology - Maplecrest Plaza",
-   "company": "Trinity Health",
-   "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/MOQ---Maplecrest-Plaza/Receptionist---Endocrinology---Maplecrest-Plaza_00703964",
+   "title": "Dental Office Manager",
+   "company": "Aspen Dental",
+   "url": "https://aspendental.wd1.myworkdayjobs.com/Careers_Aspen_Dental/job/Lawrence-Kansas/Dental-Office-Manager_R2026-013437",
    "why": "workday 404"
   },
   {
-   "title": "Administrative Assistant - 10th Judicial District",
-   "company": "Kansas Judicial Branch",
-   "url": "https://kscourts.applytojob.com/apply/CNRnuGCiC3/Administrative-Assistant-10th-Judicial-District",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Front Desk Receptionist - Patient Care Liaison FT",
-   "company": "Ally Psychiatry",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4531633",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Receptionist /Cashier Support Clerk",
-   "company": "L&F DISTRIBUTORS LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4624119",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Arizona Department of Administration",
-   "url": "https://careers.pageuppeople.com/1045/ci/en-us/job/544478/executive-assistant",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Front Desk Receptionist",
-   "company": "The Joint Chiropractic",
-   "url": "https://thejointchiropractic.applytojob.com/apply/SansxUiJd0/Front-Desk-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "Bartlett Tree Experts",
-   "url": "https://englishcareers-bartlett.icims.com/jobs/36512/administrative-coordinator/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator III",
-   "company": "Harvard University",
-   "url": "https://jobs.smartrecruiters.com/HarvardUniversity/3743990016453572-administrative-coordinator-iii",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant and Workplace Experience Manager",
-   "company": "Honeydew",
-   "url": "https://jobs.ashbyhq.com/honeydew/60134c67-d3da-4d18-8c9b-ef2b62e9e926",
+   "title": "Executive Assistant and Office Manager",
+   "company": "Concourse",
+   "url": "https://jobs.ashbyhq.com/concoursetech/d055049c-003a-412f-b189-a31cacf96939",
    "why": "ashby not listed"
-  },
-  {
-   "title": "Chief of Staff",
-   "company": "Magic",
-   "url": "https://jobs.ashbyhq.com/magic/80e3894e-266e-4d9b-99dd-d991c39e9af3",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Administrative Coordinator of Apprenticeships HV-NTP-8598",
-   "company": "Hudson Valley Community College",
-   "url": "https://hvcc.hire.trakstar.com/jobs/fk0zncv/",
-   "why": "page 404"
-  },
-  {
-   "title": "Sr Executive Assistant",
-   "company": "ServiceNow",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157504959-sr-executive-assistant",
-   "why": "smartrecruiters inactive"
   }
  ]
 }
