@@ -1,117 +1,120 @@
 {
- "checkedAt": "2026-11-17T17:00:56.969Z",
- "checked": 2465,
- "closed": 14,
+ "checkedAt": "2026-11-18T12:09:41.937Z",
+ "checked": 2546,
+ "closed": 15,
  "applied": true,
  "tally": {
-  "open: greenhouse": 115,
-  "open: ashby": 90,
-  "open: page ok": 783,
-  "open: smartrecruiters": 54,
+  "open: ashby": 93,
+  "unknown: page needs javascript": 859,
+  "open: greenhouse": 121,
+  "open: page ok": 797,
+  "open: smartrecruiters": 55,
+  "closed: page says closed": 1,
+  "unknown: workday 429": 570,
   "unknown: page 403": 8,
-  "unknown: page needs javascript": 824,
   "unknown: page 500": 6,
-  "unknown: workday 429": 471,
-  "open: workday": 55,
-  "unknown: workday 403": 28,
-  "closed: page 404": 2,
-  "closed: workday 404": 2,
+  "open: workday": 6,
   "unknown: ashby board": 1,
-  "closed: page 410": 2,
+  "closed: page 410": 5,
   "open: page has apply button": 6,
-  "closed: ashby not listed": 4,
-  "unknown: timeout": 7,
-  "closed: redirected to not-found": 2,
-  "unknown: page 503": 1,
-  "closed: smartrecruiters inactive": 1,
+  "unknown: workday 403": 4,
   "closed: greenhouse 404": 1,
-  "unknown: page 502": 1,
+  "closed: redirected to not-found": 3,
+  "closed: page 404": 4,
+  "unknown: timeout": 4,
+  "closed: smartrecruiters inactive": 1,
   "unknown: page 429": 1
  },
  "removed": [
   {
-   "title": "Administrative Assistant II",
-   "company": "Sarasota Memorial Health Care System",
-   "url": "https://careers.smh.com/careers/jobs/51079",
-   "why": "page 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "DaVita Kidney Care",
-   "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05566---Bay-Shore-Dialysis/Administrative-Assistant_R0486445",
-   "why": "workday 404"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "KBR",
-   "url": "https://careers.trinzic.com/us/en/job/R2128223/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Chief of Staff",
-   "company": "Handspring",
-   "url": "https://jobs.ashbyhq.com/handspring/1402c208-3fbe-4892-b7a0-1fbcc1215d11",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "FT Corporate Security Receptionist - $25/hr",
-   "company": "Sunstates Security",
-   "url": "https://careers.sunstatessecurity.com/us/en/job/SSKSSHUSP101660EXTERNALENUS/FT-Corporate-Security-Receptionist-25-hr",
-   "why": "page 410"
-  },
-  {
-   "title": "HUMAN RESOURCES & EXECUTIVE ASSISTANT",
-   "company": "BANK OF BRIDGER N A",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640393",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Chief of Staff",
-   "company": "Formulary Financial, Inc.",
-   "url": "https://jobs.ashbyhq.com/formulary/46f9e4c1-2f94-4702-bf2e-4e50d2189dee",
-   "why": "ashby not listed"
+   "title": "Chief of Staff, BioReliance Testing Services",
+   "company": "The businesses of Merck KGaA, Darmstadt, Germany",
+   "url": "https://careers.emdgroup.com/us/en/job/305852/Chief-of-Staff-BioReliance-Testing-Services",
+   "why": "page says: no longer accepting applications"
   },
   {
    "title": "Executive Assistant",
-   "company": "Capstone",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4630583",
-   "why": "redirected to not-found"
+   "company": "Charles Schwab Inc.",
+   "url": "https://career-schwab.icims.com/jobs/130052/executive-assistant/job",
+   "why": "page 410"
   },
   {
-   "title": "Senior Executive Assistant",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/69972e1c-1fa1-4070-9a34-7b907ac59f7c",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant - (Fandango, GolfNow, and GolfPass)",
-   "company": "Versant",
-   "url": "https://jobs.smartrecruiters.com/Versant3/744000158595096-executive-assistant-fandango-golfnow-and-golfpass-",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant to the Chief Advancement Officer",
-   "company": "Success Academy Charter Schools",
-   "url": "https://job-boards.greenhouse.io/successacademycharterschool/jobs/5420086008",
+   "title": "Executive Business Partner",
+   "company": "Faire",
+   "url": "https://boards.greenhouse.io/faire/jobs/8936206002?gh_jid=8936206002",
    "why": "greenhouse 404"
   },
   {
-   "title": "Senior Executive Assistant to the CFO",
-   "company": "Spring Health",
-   "url": "https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/1d2ee1e2-c8e6-4609-a3fc-e56ba4f131b1",
-   "why": "ashby not listed"
+   "title": "Office Manager",
+   "company": "SWE Solutions",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4650437",
+   "why": "redirected to not-found"
   },
   {
-   "title": "Dental Office Manager",
-   "company": "Aspen Dental",
-   "url": "https://aspendental.wd1.myworkdayjobs.com/Careers_Aspen_Dental/job/Lawrence-Kansas/Dental-Office-Manager_R2026-013437",
-   "why": "workday 404"
+   "title": "Executive Assistant",
+   "company": "Infleqtion",
+   "url": "https://jobs.workable.com/view/uZiRQjHtyamXajVU2x9va9/executive-assistant-in-louisville-at-infleqtion",
+   "why": "page 410"
   },
   {
-   "title": "Executive Assistant and Office Manager",
-   "company": "Concourse",
-   "url": "https://jobs.ashbyhq.com/concoursetech/d055049c-003a-412f-b189-a31cacf96939",
-   "why": "ashby not listed"
+   "title": "Executive Assistant to the CEO",
+   "company": "Habitat for Humanity of Dane County Inc.",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4636897",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Executive Assistant - Edinburg- South Texas Health System",
+   "company": "UHS",
+   "url": "https://jobs.uhsinc.com/careers/jobs/381565",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant To CEO",
+   "company": "Priority VA",
+   "url": "https://priorityva.applytojob.com/apply/TgtLpkX9bv/Executive-Assistant-To-CEO",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant to the Commissioner",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016518211-executive-assistant-to-the-commissioner",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Patient Care Specialist (Medical Receptionist)",
+   "company": "Fast Pace Health",
+   "url": "https://talent.fastpacehealth.com/jobs/25508",
+   "why": "page 404"
+  },
+  {
+   "title": "Night/Saturday Receptionist",
+   "company": "Edmond Hyundai",
+   "url": "https://careers.hireology.com/edmondhyundai/2918561/description",
+   "why": "page 404"
+  },
+  {
+   "title": "Receptionist",
+   "company": "Franciscan Ministries",
+   "url": "https://careers-franciscanministries.icims.com/jobs/7857/receptionist/job",
+   "why": "page 410"
+  },
+  {
+   "title": "Concierge (Administrative Assistant , Receptionist)",
+   "company": "LindenGrove Communities LLC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3244401",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Executive Assistant - Miami, FL",
+   "company": "Distro",
+   "url": "https://jobs.lever.co/distro/135db7d3-674d-4fa2-910e-b319da438c4f",
+   "why": "page 404"
+  },
+  {
+   "title": "Administrative Coordinator",
+   "company": "CEI Services",
+   "url": "https://ceisvcareers-mastec.icims.com/jobs/70913/administrative-coordinator/job",
+   "why": "page 410"
   }
  ]
 }

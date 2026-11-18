@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-17T17:00:57.092Z",
+ "generatedAt": "2026-11-18T12:09:42.289Z",
  "featured": [
+  {
+   "title": "Executive Assistant",
+   "company": "Engineers and Constructors International Inc.",
+   "city": "Houston",
+   "state": "TX",
+   "workplace": "On-site",
+   "payMin": 145600,
+   "payMax": 168480,
+   "posted": "2026-11-17T00:00:00",
+   "url": "https://engineersandconstructorsinternationalinc.applytojob.com/apply/wwxMc7mtxj/Executive-Assistant",
+   "source": "JazzHR",
+   "level": "ea",
+   "payText": "$146K–$168K"
+  },
   {
    "title": "Senior Executive Assistant",
    "company": "Tract Capital Management, LP",
@@ -28,20 +42,6 @@
    "source": "Oracle",
    "level": "senior",
    "payText": "$81K–$125K"
-  },
-  {
-   "title": "Executive Assistant to the CEO",
-   "company": "Southend Pharmacy",
-   "city": "Houston",
-   "state": "TX",
-   "workplace": "Hybrid",
-   "payMin": 85000,
-   "payMax": 90000,
-   "posted": "2026-11-05T21:41:38.12",
-   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4e7045bc-9c7f-4f9b-be17-00658ef8555a&jobId=561001",
-   "source": "ADP",
-   "level": "ea",
-   "payText": "$85K–$90K"
   }
  ],
  "post": [
@@ -72,6 +72,19 @@
    "level": "ea"
   },
   {
+   "title": "Executive Assistant",
+   "company": "Engineers and Constructors International Inc.",
+   "city": "Houston",
+   "state": "TX",
+   "workplace": "On-site",
+   "payMin": 145600,
+   "payMax": 168480,
+   "posted": "2026-11-17T00:00:00",
+   "url": "https://engineersandconstructorsinternationalinc.applytojob.com/apply/wwxMc7mtxj/Executive-Assistant",
+   "source": "JazzHR",
+   "level": "ea"
+  },
+  {
    "title": "Executive Assistant to the Co-Founder  (New York)",
    "company": "Conveo.ai",
    "city": "New York",
@@ -85,29 +98,16 @@
    "level": "ea"
   },
   {
-   "title": "Senior Executive Assistant",
-   "company": "Tract Capital Management, LP",
-   "city": "Seattle",
-   "state": "WA",
-   "workplace": "On-site",
-   "payMin": 130000,
-   "payMax": 160000,
-   "posted": "2026-11-16T22:39:10",
-   "url": "https://job-boards.greenhouse.io/tractcapitalmanagementlp/jobs/4507888009",
-   "source": "Greenhouse",
-   "level": "senior"
-  },
-  {
-   "title": "Executive Assistant, SVP, Corporate Strategy (Hybrid)",
-   "company": "Cisco",
-   "city": "San Jose",
-   "state": "CA",
+   "title": "Executive Assistant",
+   "company": "Flex",
+   "city": "New York",
+   "state": "NY",
    "workplace": "Hybrid",
-   "payMin": 125700,
-   "payMax": 159200,
-   "posted": "2026-11-16T00:00:00",
-   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2031487EXTERNALENGLOBAL/Executive-Assistant-SVP-Corporate-Strategy-Hybrid",
-   "source": "Phenom",
+   "payMin": 128000,
+   "payMax": 160000,
+   "posted": "2026-11-17T16:57:20",
+   "url": "https://job-boards.greenhouse.io/flex/jobs/4755060005",
+   "source": "Greenhouse",
    "level": "ea"
   }
  ]
