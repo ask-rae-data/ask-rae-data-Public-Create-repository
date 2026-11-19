@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T12:09:42.289Z",
+ "generatedAt": "2026-11-19T12:10:34.656Z",
  "featured": [
   {
    "title": "Executive Assistant",
@@ -45,6 +45,19 @@
   }
  ],
  "post": [
+  {
+   "title": "Executive Administrator IV B4",
+   "company": "Applied Materials",
+   "city": "Santa Clara",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 133500,
+   "payMax": 183500,
+   "posted": "2026-11-18T00:00:00",
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Executive-Administrator-IV-B4_R2633392",
+   "source": "Workday",
+   "level": "ea"
+  },
   {
    "title": "Senior Executive Assistant to CEO - Miami",
    "company": "SharkNinja",
@@ -95,19 +108,6 @@
    "posted": "2026-11-16T00:00:00",
    "url": "https://jobs.ashbyhq.com/conveo/c68a548d-aebe-4590-a9f9-0e6829bc7255",
    "source": "Ashby",
-   "level": "ea"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Flex",
-   "city": "New York",
-   "state": "NY",
-   "workplace": "Hybrid",
-   "payMin": 128000,
-   "payMax": 160000,
-   "posted": "2026-11-17T16:57:20",
-   "url": "https://job-boards.greenhouse.io/flex/jobs/4755060005",
-   "source": "Greenhouse",
    "level": "ea"
   }
  ]
