@@ -1,15 +1,15 @@
 {
  "summary": {
-  "generatedAt": "2026-11-19T12:09:02.568Z",
+  "generatedAt": "2026-11-20T12:06:54.350Z",
   "companiesChecked": 157,
-  "companiesWorking": 109,
-  "rawJobs": 21915,
-  "adminJobs": 56,
+  "companiesWorking": 107,
+  "rawJobs": 21801,
+  "adminJobs": 54,
   "dropped": {
-   "notAdmin": 21803,
+   "notAdmin": 21693,
    "notUS": 39,
    "old": 10,
-   "dup": 7
+   "dup": 5
   }
  },
  "companies": [
@@ -29,7 +29,7 @@
    "source": "Ashby",
    "company": "Harvey",
    "ok": true,
-   "openJobs": 393
+   "openJobs": 388
   },
   {
    "source": "Ashby",
@@ -53,19 +53,19 @@
    "source": "Ashby",
    "company": "Notion",
    "ok": true,
-   "openJobs": 168
+   "openJobs": 169
   },
   {
    "source": "Ashby",
    "company": "OpenAI",
    "ok": true,
-   "openJobs": 833
+   "openJobs": 854
   },
   {
    "source": "Ashby",
    "company": "Perplexity",
    "ok": true,
-   "openJobs": 147
+   "openJobs": 148
   },
   {
    "source": "Ashby",
@@ -77,7 +77,7 @@
    "source": "Ashby",
    "company": "Replit",
    "ok": true,
-   "openJobs": 36
+   "openJobs": 37
   },
   {
    "source": "Ashby",
@@ -89,19 +89,19 @@
    "source": "Ashby",
    "company": "Sierra",
    "ok": true,
-   "openJobs": 195
+   "openJobs": 194
   },
   {
    "source": "Ashby",
    "company": "Snowflake",
    "ok": true,
-   "openJobs": 377
+   "openJobs": 379
   },
   {
    "source": "Ashby",
    "company": "Supabase",
    "ok": true,
-   "openJobs": 76
+   "openJobs": 79
   },
   {
    "source": "Ashby",
@@ -113,13 +113,13 @@
    "source": "Greenhouse",
    "company": "Affirm",
    "ok": true,
-   "openJobs": 225
+   "openJobs": 224
   },
   {
    "source": "Greenhouse",
    "company": "Airbnb",
    "ok": true,
-   "openJobs": 197
+   "openJobs": 201
   },
   {
    "source": "Greenhouse",
@@ -131,37 +131,37 @@
    "source": "Greenhouse",
    "company": "Anduril",
    "ok": true,
-   "openJobs": 2619
+   "openJobs": 2624
   },
   {
    "source": "Greenhouse",
    "company": "Anthropic",
    "ok": true,
-   "openJobs": 638
+   "openJobs": 637
   },
   {
    "source": "Greenhouse",
    "company": "Asana",
    "ok": true,
-   "openJobs": 116
+   "openJobs": 113
   },
   {
    "source": "Greenhouse",
    "company": "Betterment",
    "ok": true,
-   "openJobs": 25
+   "openJobs": 26
   },
   {
    "source": "Greenhouse",
    "company": "Block",
    "ok": true,
-   "openJobs": 187
+   "openJobs": 184
   },
   {
    "source": "Greenhouse",
    "company": "Brex",
    "ok": true,
-   "openJobs": 260
+   "openJobs": 249
   },
   {
    "source": "Greenhouse",
@@ -173,19 +173,19 @@
    "source": "Greenhouse",
    "company": "Calendly",
    "ok": true,
-   "openJobs": 5
+   "openJobs": 4
   },
   {
    "source": "Greenhouse",
    "company": "Calm",
    "ok": true,
-   "openJobs": 2
+   "openJobs": 1
   },
   {
    "source": "Greenhouse",
    "company": "Carta",
    "ok": true,
-   "openJobs": 78
+   "openJobs": 79
   },
   {
    "source": "Greenhouse",
@@ -213,43 +213,43 @@
    "source": "Greenhouse",
    "company": "Coinbase",
    "ok": true,
-   "openJobs": 255
+   "openJobs": 253
   },
   {
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 906
+   "openJobs": 897
   },
   {
    "source": "Greenhouse",
    "company": "Datadog",
    "ok": true,
-   "openJobs": 379
+   "openJobs": 382
   },
   {
    "source": "Greenhouse",
    "company": "Discord",
    "ok": true,
-   "openJobs": 27
+   "openJobs": 29
   },
   {
    "source": "Greenhouse",
    "company": "DoorDash",
    "ok": true,
-   "openJobs": 418
+   "openJobs": 414
   },
   {
    "source": "Greenhouse",
    "company": "Dropbox",
    "ok": true,
-   "openJobs": 44
+   "openJobs": 47
   },
   {
    "source": "Greenhouse",
    "company": "Duolingo",
    "ok": true,
-   "openJobs": 54
+   "openJobs": 55
   },
   {
    "source": "Greenhouse",
@@ -261,31 +261,31 @@
    "source": "Greenhouse",
    "company": "Everlane",
    "ok": true,
-   "openJobs": 32
+   "openJobs": 31
   },
   {
    "source": "Greenhouse",
    "company": "Fanatics",
    "ok": true,
-   "openJobs": 32
+   "openJobs": 31
   },
   {
    "source": "Greenhouse",
    "company": "Figma",
    "ok": true,
-   "openJobs": 143
+   "openJobs": 146
   },
   {
    "source": "Greenhouse",
    "company": "Flatiron Health",
    "ok": true,
-   "openJobs": 21
+   "openJobs": 22
   },
   {
    "source": "Greenhouse",
    "company": "Flexport",
    "ok": true,
-   "openJobs": 207
+   "openJobs": 211
   },
   {
    "source": "Greenhouse",
@@ -313,13 +313,13 @@
    "source": "Greenhouse",
    "company": "GitLab",
    "ok": true,
-   "openJobs": 249
+   "openJobs": 246
   },
   {
    "source": "Greenhouse",
    "company": "Glossier",
    "ok": true,
-   "openJobs": 18
+   "openJobs": 17
   },
   {
    "source": "Greenhouse",
@@ -349,19 +349,19 @@
    "source": "Greenhouse",
    "company": "Jane Street",
    "ok": true,
-   "openJobs": 215
+   "openJobs": 216
   },
   {
    "source": "Greenhouse",
    "company": "Justworks",
    "ok": true,
-   "openJobs": 108
+   "openJobs": 107
   },
   {
    "source": "Greenhouse",
    "company": "Lyft",
    "ok": true,
-   "openJobs": 147
+   "openJobs": 144
   },
   {
    "source": "Greenhouse",
@@ -383,31 +383,31 @@
    "source": "Greenhouse",
    "company": "MongoDB",
    "ok": true,
-   "openJobs": 403
+   "openJobs": 412
   },
   {
    "source": "Greenhouse",
    "company": "Okta",
    "ok": true,
-   "openJobs": 366
+   "openJobs": 369
   },
   {
    "source": "Greenhouse",
    "company": "One Medical",
    "ok": true,
-   "openJobs": 361
+   "openJobs": 359
   },
   {
    "source": "Greenhouse",
    "company": "Oscar Health",
    "ok": true,
-   "openJobs": 194
+   "openJobs": 188
   },
   {
    "source": "Greenhouse",
    "company": "PagerDuty",
    "ok": true,
-   "openJobs": 48
+   "openJobs": 47
   },
   {
    "source": "Greenhouse",
@@ -419,13 +419,13 @@
    "source": "Greenhouse",
    "company": "Pinterest",
    "ok": true,
-   "openJobs": 172
+   "openJobs": 175
   },
   {
    "source": "Greenhouse",
    "company": "Point72",
    "ok": true,
-   "openJobs": 202
+   "openJobs": 203
   },
   {
    "source": "Greenhouse",
@@ -437,31 +437,31 @@
    "source": "Greenhouse",
    "company": "Reddit",
    "ok": true,
-   "openJobs": 145
+   "openJobs": 143
   },
   {
    "source": "Greenhouse",
    "company": "Rent the Runway",
    "ok": true,
-   "openJobs": 25
+   "openJobs": 24
   },
   {
    "source": "Greenhouse",
    "company": "Robinhood",
    "ok": true,
-   "openJobs": 164
+   "openJobs": 166
   },
   {
    "source": "Greenhouse",
    "company": "Roblox",
    "ok": true,
-   "openJobs": 265
+   "openJobs": 264
   },
   {
    "source": "Greenhouse",
    "company": "Samsara",
    "ok": true,
-   "openJobs": 311
+   "openJobs": 306
   },
   {
    "source": "Greenhouse",
@@ -473,19 +473,19 @@
    "source": "Greenhouse",
    "company": "SeatGeek",
    "ok": true,
-   "openJobs": 34
+   "openJobs": 36
   },
   {
    "source": "Greenhouse",
    "company": "SoFi",
    "ok": true,
-   "openJobs": 53
+   "openJobs": 54
   },
   {
    "source": "Greenhouse",
    "company": "SpaceX",
    "ok": true,
-   "openJobs": 2803
+   "openJobs": 2777
   },
   {
    "source": "Greenhouse",
@@ -497,31 +497,31 @@
    "source": "Greenhouse",
    "company": "Stripe",
    "ok": true,
-   "openJobs": 780
+   "openJobs": 773
   },
   {
    "source": "Greenhouse",
    "company": "Sweetgreen",
    "ok": true,
-   "openJobs": 74
+   "openJobs": 72
   },
   {
    "source": "Greenhouse",
    "company": "The Trade Desk",
    "ok": true,
-   "openJobs": 108
+   "openJobs": 114
   },
   {
    "source": "Greenhouse",
    "company": "Toast",
    "ok": true,
-   "openJobs": 329
+   "openJobs": 330
   },
   {
    "source": "Greenhouse",
    "company": "Twilio",
    "ok": true,
-   "openJobs": 109
+   "openJobs": 106
   },
   {
    "source": "Greenhouse",
@@ -533,7 +533,7 @@
    "source": "Greenhouse",
    "company": "Waymo",
    "ok": true,
-   "openJobs": 374
+   "openJobs": 368
   },
   {
    "source": "Greenhouse",
@@ -557,7 +557,7 @@
    "source": "Greenhouse",
    "company": "Zscaler",
    "ok": true,
-   "openJobs": 379
+   "openJobs": 376
   },
   {
    "source": "Lever",
@@ -581,7 +581,7 @@
    "source": "Lever",
    "company": "Match Group",
    "ok": true,
-   "openJobs": 69
+   "openJobs": 70
   },
   {
    "source": "Lever",
@@ -593,13 +593,13 @@
    "source": "Lever",
    "company": "Outreach",
    "ok": true,
-   "openJobs": 14
+   "openJobs": 17
   },
   {
    "source": "Lever",
    "company": "Palantir",
    "ok": true,
-   "openJobs": 306
+   "openJobs": 307
   },
   {
    "source": "Lever",
@@ -611,7 +611,7 @@
    "source": "Lever",
    "company": "Spotify",
    "ok": true,
-   "openJobs": 91
+   "openJobs": 94
   },
   {
    "source": "Lever",
@@ -635,7 +635,7 @@
    "source": "Lever",
    "company": "Zoox",
    "ok": true,
-   "openJobs": 249
+   "openJobs": 246
   },
   {
    "source": "SmartRecruiters",
@@ -653,7 +653,7 @@
    "source": "SmartRecruiters",
    "company": "Experian",
    "ok": true,
-   "openJobs": 150
+   "openJobs": 151
   },
   {
    "source": "SmartRecruiters",
@@ -665,13 +665,13 @@
    "source": "SmartRecruiters",
    "company": "Sodexo",
    "ok": true,
-   "openJobs": 143
+   "openJobs": 145
   },
   {
    "source": "SmartRecruiters",
    "company": "Ubisoft",
    "ok": true,
-   "openJobs": 151
+   "openJobs": 135
   },
   {
    "source": "SmartRecruiters",
@@ -820,12 +820,12 @@
   {
    "source": "Workday",
    "company": "Chevron",
-   "ok": true,
-   "openJobs": 9,
-   "fixedEntry": [
+   "ok": false,
+   "error": "HTTP 429",
+   "entry": [
     "chevron.wd5.myworkdayjobs.com",
     "chevron",
-    "Jobs",
+    "jobs",
     "Chevron"
    ]
   },
@@ -880,9 +880,9 @@
   {
    "source": "Workday",
    "company": "Fidelity Investments",
-   "ok": true,
-   "openJobs": 66,
-   "fixedEntry": [
+   "ok": false,
+   "error": "HTTP 429",
+   "entry": [
     "fmr.wd1.myworkdayjobs.com",
     "fmr",
     "FidelityCareers",

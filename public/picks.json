@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T12:10:34.656Z",
+ "generatedAt": "2026-11-20T12:08:03.517Z",
  "featured": [
   {
    "title": "Executive Assistant",
@@ -30,18 +30,18 @@
    "payText": "$120K–$140K"
   },
   {
-   "title": "Senior Executive Assistant",
-   "company": "JPMorgan Chase & Co.",
-   "city": "Houston",
-   "state": "TX",
+   "title": "Senior Executive Assistant to CEO - Miami",
+   "company": "SharkNinja",
+   "city": "Miami",
+   "state": "FL",
    "workplace": "On-site",
-   "payMin": 80746,
-   "payMax": 125008,
-   "posted": "2026-11-05T22:27:57",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803890",
-   "source": "Oracle",
+   "payMin": 130000,
+   "payMax": 175000,
+   "posted": "2026-11-16T13:30:45",
+   "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4729024006",
+   "source": "Greenhouse",
    "level": "senior",
-   "payText": "$81K–$125K"
+   "payText": "$130K–$175K"
   }
  ],
  "post": [
@@ -59,6 +59,19 @@
    "level": "ea"
   },
   {
+   "title": "Executive Assistant, CRO and VP of Growth",
+   "company": "Apollo.io",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 145000,
+   "payMax": 180000,
+   "posted": "2026-11-19T23:17:08",
+   "url": "https://job-boards.greenhouse.io/apolloio/jobs/6265871004",
+   "source": "Greenhouse",
+   "level": "ea"
+  },
+  {
    "title": "Senior Executive Assistant to CEO - Miami",
    "company": "SharkNinja",
    "city": "Miami",
@@ -70,19 +83,6 @@
    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4729024006",
    "source": "Greenhouse",
    "level": "senior"
-  },
-  {
-   "title": "Executive Assistant & Business Partner to the CEO",
-   "company": "FurtherAI",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 140000,
-   "payMax": 170000,
-   "posted": "2026-11-16T00:00:00",
-   "url": "https://jobs.ashbyhq.com/furtherai/5c1df35c-a022-4c40-97b5-ef27c1dc720d",
-   "source": "Ashby",
-   "level": "ea"
   },
   {
    "title": "Executive Assistant",
@@ -98,16 +98,16 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant to the Co-Founder  (New York)",
-   "company": "Conveo.ai",
-   "city": "New York",
-   "state": "NY",
+   "title": "Partner 6, Executive Assistant, Frontier",
+   "company": "a16z",
+   "city": "San Francisco",
+   "state": "CA",
    "workplace": "Hybrid",
-   "payMin": 145000,
-   "payMax": 167000,
-   "posted": "2026-11-16T00:00:00",
-   "url": "https://jobs.ashbyhq.com/conveo/c68a548d-aebe-4590-a9f9-0e6829bc7255",
-   "source": "Ashby",
+   "payMin": 149000,
+   "payMax": 165000,
+   "posted": "2026-11-19T00:35:35",
+   "url": "https://a16z.com/about/jobs/?gh_jid=8207800003",
+   "source": "Greenhouse",
    "level": "ea"
   }
  ]

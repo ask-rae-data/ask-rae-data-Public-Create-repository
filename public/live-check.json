@@ -1,218 +1,154 @@
 {
- "checkedAt": "2026-11-19T12:10:34.173Z",
- "checked": 2632,
- "closed": 31,
+ "checkedAt": "2026-11-20T12:08:03.376Z",
+ "checked": 2697,
+ "closed": 21,
  "applied": true,
  "tally": {
-  "unknown: page needs javascript": 877,
-  "open: greenhouse": 119,
-  "open: page ok": 821,
-  "unknown: workday 429": 544,
-  "open: smartrecruiters": 55,
-  "open: workday": 46,
-  "closed: page says closed": 5,
-  "open: ashby": 96,
-  "closed: greenhouse 404": 6,
-  "closed: page 404": 5,
-  "unknown: page 403": 8,
-  "unknown: page 500": 6,
-  "unknown: workday 422": 1,
+  "unknown: workday 429": 629,
+  "open: ashby": 100,
+  "unknown: page needs javascript": 896,
+  "open: greenhouse": 126,
+  "open: page ok": 840,
+  "open: smartrecruiters": 53,
+  "open: page has apply button": 7,
+  "unknown: page 403": 9,
   "closed: page 410": 9,
+  "open: workday": 6,
+  "closed: page says closed": 1,
+  "closed: redirected to not-found": 6,
+  "unknown: page 500": 6,
   "unknown: ashby board": 1,
-  "open: page has apply button": 6,
-  "unknown: workday 403": 18,
-  "closed: redirected to not-found": 4,
-  "closed: smartrecruiters inactive": 1,
-  "closed: workday 404": 1,
+  "closed: page 404": 3,
+  "closed: smartrecruiters inactive": 2,
   "unknown: page 429": 1,
   "unknown: timeout": 2
  },
  "removed": [
   {
-   "title": "Lead Associate Executive Assistant",
-   "company": "Merck",
-   "url": "https://jobs.merck.com/us/en/job/R428185/Lead-Associate-Executive-Assistant",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "University of Maryland Medical System",
-   "url": "https://careers.umms.org/us/en/job/UOJUOMUSP110202EXTERNALENUS/Executive-Assistant",
-   "why": "page says: job not found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Marketech International Corporation USA",
-   "url": "https://job-boards.greenhouse.io/marketechinternationalcorporationusa/jobs/4459270009",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant to the CTO & AI Enablement Coordinator",
-   "company": "NFP Corp",
-   "url": "https://jobs.aon.com/jobs/113359",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant III",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006423761/Executive-Assistant-III",
+   "title": "Executive Assistant, Sr Directors, Global Specialist Strategy & Planning (Remote)",
+   "company": "Cisco",
+   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2030689EXTERNALENGLOBAL/Executive-Assistant-Sr-Directors-Global-Specialist-Strategy-Planning-Remote",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant, Security Driver ",
-   "company": "Concentric",
-   "url": "https://job-boards.greenhouse.io/concentric/jobs/4682972006",
-   "why": "greenhouse 404"
+   "title": "Executive Assistant - Hybrid, St. Louis",
+   "company": "The Cigna Group",
+   "url": "https://jobs.thecignagroup.com/us/en/job/26013654/Executive-Assistant-Hybrid-St-Louis",
+   "why": "page says: no longer accepting applications"
+  },
+  {
+   "title": "EXECUTIVE ASSISTANT",
+   "company": "Trademark Property Company",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669974",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Union of Concerned Scientists",
+   "url": "https://jobs.workable.com/view/sCATTX3LXRfo53wmXgNQev/remote-executive-assistant-in-washington-at-union-of-concerned-scientists",
+   "why": "page 410"
   },
   {
    "title": "Administrative Assistant",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006415858/Administrative-Assistant",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006418953/Administrative-Assistant",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant (Contract Role)",
-   "company": "ParetoHealth",
-   "url": "https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4728517006",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "COP2026 - 47 Specialist Corporate Services - CAO Executive Assistant (Division Only)",
-   "company": "Hyundai Motor Company",
-   "url": "https://careers-americas.hyundai.com/hmma/job/Montgomery-COP2026-47-Specialist-Corporate-Services-CAO-Executive-Assistant-%28Division-Only%29-AL-36101/1449665400/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "UHS",
-   "url": "https://jobs.uhsinc.com/careers/jobs/384002",
+   "title": "Executive Administrative Assistant",
+   "company": "Jobgether",
+   "url": "https://jobs.lever.co/jobgether/3ab89712-d83d-4519-b01b-f354176418e1",
    "why": "page 404"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Central Jersey Family Health Consortium Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4652260",
+   "title": "Executive Assistant and Project Coordinator",
+   "company": "Serna Solutions",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4650196",
    "why": "redirected to not-found"
   },
   {
-   "title": "Executive Assistant AI Business Unit",
-   "company": "NetApp, Inc.",
-   "url": "https://jobs.netapp.com/job/Executive-Assistant-AI-Business-Unit/1448926400/",
-   "why": "page says: position is no longer"
-  },
-  {
-   "title": "Medical Receptionist / Scheduler Part-Time",
-   "company": "X-Ray Associates of New Mexico",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4649643",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Stanford Medicine Children's Health",
-   "url": "https://jobs.smartrecruiters.com/StanfordMedicineChildrensHealth/3743990016715096-executive-assistant",
+   "title": "Director, Global Portfolio Strategy R&D Aesthetics, Chief of Staff",
+   "company": "AbbVie",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990016739186-director-global-portfolio-strategy-r-d-aesthetics-chief-of-staff",
    "why": "smartrecruiters inactive"
   },
   {
-   "title": "Administrative Assistant – DOT",
-   "company": "S. A. Comunale Co., Inc.",
-   "url": "https://careers-emcorgroup.icims.com/jobs/54605/administrative-assistant-%e2%80%93-dot/job",
-   "why": "page 410"
+   "title": "Administrative Director- Oncology Administration -Mount Sinai Hospital Full Time",
+   "company": "Mount Sinai Health Systems",
+   "url": "https://careers.mountsinai.org/jobs/3043944",
+   "why": "page 404"
   },
   {
-   "title": "Receptionist",
-   "company": "Tyson & Mendes LLP",
-   "url": "https://job-boards.greenhouse.io/tysonmendesllp/jobs/5473973008",
-   "why": "greenhouse 404"
+   "title": "Executive Assistant, VP, Sales - LATAM (Hybrid)",
+   "company": "Cisco",
+   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2027735EXTERNALENGLOBAL/Executive-Assistant-VP-Sales-LATAM-Hybrid",
+   "why": "page 410"
   },
   {
    "title": "Executive Assistant II",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006400242/Executive-Assistant-II",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006401356/Executive-Assistant-II",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Shepherds College",
-   "url": "https://shepherdscollege.applytojob.com/apply/a72ZurXr6Z/Executive-Assistant",
-   "why": "page 410"
+   "title": "Receptionist / Secretary (Office-Wide)",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016543121-receptionist-secretary-office-wide-",
+   "why": "smartrecruiters inactive"
   },
   {
-   "title": "Executive Assistant to the Vice President and Chief of Staff",
-   "company": "California State University",
-   "url": "https://careers.pageuppeople.com/873/cw/en-us/job/563742/executive-assistant-to-the-vice-president-and-chief-of-staff",
+   "title": "Office Manager",
+   "company": "Zwicker & Associates, P.C.",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4629840",
    "why": "redirected to not-found"
   },
   {
-   "title": "Chief of Staff",
-   "company": "Lyft",
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8927265002?gh_jid=8927265002",
+   "title": "Quality Administrative Assistant",
+   "company": "Weber Specialties Company",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628071",
    "why": "redirected to not-found"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Clark Construction Group, LLC",
-   "url": "https://clark.wd503.myworkdayjobs.com/ClarkExternal/job/McLean-VA/Executive-Assistant_R5025508",
-   "why": "workday 404"
+   "title": "Administrative Assistant",
+   "company": "Advocare LLC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628125",
+   "why": "redirected to not-found"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Avalara",
-   "url": "https://careers.avalara.com/careers-home/jobs/17289",
+   "title": "Receptionist- Part time",
+   "company": "CHICAGOLAND EYE CONSULTANTS SC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4627571",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "SMG - MEDICAL RECEPTIONIST",
+   "company": "Sparrow",
+   "url": "https://careers.uofmhealthsparrow.org/job/SHSYUS14832/SMG-MEDICAL-RECEPTIONIST",
+   "why": "page 410"
+  },
+  {
+   "title": "Dental Office Manager - Redmond Art of Dentistry",
+   "company": "Mosaic Dental Collective, LLC",
+   "url": "https://jobs.workable.com/view/kmdMsyrvHFJZH3FhhuNdQN/dental-office-manager---redmond-art-of-dentistry-in-redmond-at-mosaic-dental-collective%2C-llc",
+   "why": "page 410"
+  },
+  {
+   "title": "Administrative Coordinator",
+   "company": "PepsiCo",
+   "url": "https://uscareers-pepsico.icims.com/jobs/470565/administrative-coordinator/job",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant, Department of Medical Imaging",
+   "company": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+   "url": "https://jobs.luriechildrens.org/us/en/job/JR2026-2729/Executive-Assistant-Department-of-Medical-Imaging",
+   "why": "page 410"
+  },
+  {
+   "title": "Administrative Assistant (On Site)",
+   "company": "Morley",
+   "url": "https://careers.morleycompanies.com/morley/jobs/6732",
    "why": "page 404"
-  },
-  {
-   "title": "FSS Chief of Staff",
-   "company": "Accenture Federal Services",
-   "url": "https://boards.greenhouse.io/accenturefederalservices/jobs/4726007006?gh_jid=4726007006",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Thedacare",
-   "url": "https://careers.thedacare.org/us/en/job/26-28457/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Office Manager Homestead FL",
-   "company": "HEALTHCARE RECRUITMENT COUNSELORS",
-   "url": "https://healthcarerecruitmentcounselors.applytojob.com/apply/wkL53g5f3K/Medical-Office-Manager-Homestead-FL",
-   "why": "page 410"
-  },
-  {
-   "title": "Patient Administrative Coordinator",
-   "company": "Team Rehabilitation Services, LLC",
-   "url": "https://careers-team-rehab.icims.com/jobs/5404/patient-administrative-coordinator/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Patient Care Specialist (Medical Receptionist)",
-   "company": "Fast Pace Health",
-   "url": "https://talent.fastpacehealth.com/jobs/25392",
-   "why": "page 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8919962002",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Dental Office Manager",
-   "company": "Smile Brands",
-   "url": "https://careers.smilebrands.com/jobs/39998",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant / Business Operations Coordinator",
-   "company": "Vironix AI",
-   "url": "https://jobs.workable.com/view/3ReC7XrUrECiaX5Z4m6GBn/hybrid-executive-assistant-%2F-business-operations-coordinator-in-austin-at-vironix-ai",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant (Medical Affairs)",
-   "company": "DBV Technologies",
-   "url": "https://careers.dbv-technologies.com/jobs/8592910-executive-assistant-medical-affairs",
-   "why": "page says: position is no longer"
   }
  ]
 }
