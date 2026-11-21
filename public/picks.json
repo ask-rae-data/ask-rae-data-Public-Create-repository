@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T12:08:03.517Z",
+ "generatedAt": "2026-11-21T11:55:49.467Z",
  "featured": [
   {
    "title": "Executive Assistant",
@@ -46,6 +46,19 @@
  ],
  "post": [
   {
+   "title": "Executive Assistant",
+   "company": "Checkr",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 168000,
+   "payMax": 198000,
+   "posted": "2026-11-20T19:19:34",
+   "url": "https://job-boards.greenhouse.io/checkr/jobs/8404642",
+   "source": "Greenhouse",
+   "level": "ea"
+  },
+  {
    "title": "Executive Administrator IV B4",
    "company": "Applied Materials",
    "city": "Santa Clara",
@@ -59,42 +72,16 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant, CRO and VP of Growth",
-   "company": "Apollo.io",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 145000,
-   "payMax": 180000,
-   "posted": "2026-11-19T23:17:08",
-   "url": "https://job-boards.greenhouse.io/apolloio/jobs/6265871004",
-   "source": "Greenhouse",
-   "level": "ea"
-  },
-  {
-   "title": "Senior Executive Assistant to CEO - Miami",
-   "company": "SharkNinja",
-   "city": "Miami",
-   "state": "FL",
+   "title": "Executive Assistant to the Vice President of Manufacturing",
+   "company": "Panthalassa",
+   "city": "Portland",
+   "state": "OR",
    "workplace": "On-site",
-   "payMin": 130000,
-   "payMax": 175000,
-   "posted": "2026-11-16T13:30:45",
-   "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4729024006",
+   "payMin": 100000,
+   "payMax": 165000,
+   "posted": "2026-11-21T02:07:26",
+   "url": "https://job-boards.greenhouse.io/panthalassa/jobs/6268231004",
    "source": "Greenhouse",
-   "level": "senior"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Engineers and Constructors International Inc.",
-   "city": "Houston",
-   "state": "TX",
-   "workplace": "On-site",
-   "payMin": 145600,
-   "payMax": 168480,
-   "posted": "2026-11-17T00:00:00",
-   "url": "https://engineersandconstructorsinternationalinc.applytojob.com/apply/wwxMc7mtxj/Executive-Assistant",
-   "source": "JazzHR",
    "level": "ea"
   },
   {
@@ -108,6 +95,19 @@
    "posted": "2026-11-19T00:35:35",
    "url": "https://a16z.com/about/jobs/?gh_jid=8207800003",
    "source": "Greenhouse",
+   "level": "ea"
+  },
+  {
+   "title": "Executive Assistant, Founder's Office",
+   "company": "Clera",
+   "city": "Los Angeles",
+   "state": "CA",
+   "workplace": "On-site",
+   "payMin": 120000,
+   "payMax": 160000,
+   "posted": "2026-11-21T00:00:00",
+   "url": "https://jobs.ashbyhq.com/Clera/e2a96e58-a495-44a1-8bec-33ba79a30292",
+   "source": "Ashby",
    "level": "ea"
   }
  ]

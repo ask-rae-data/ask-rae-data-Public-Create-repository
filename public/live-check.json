@@ -1,154 +1,225 @@
 {
- "checkedAt": "2026-11-20T12:08:03.376Z",
- "checked": 2697,
- "closed": 21,
+ "checkedAt": "2026-11-21T11:55:49.325Z",
+ "checked": 2765,
+ "closed": 32,
  "applied": true,
  "tally": {
-  "unknown: workday 429": 629,
+  "unknown: workday 429": 637,
+  "open: greenhouse": 129,
+  "open: page ok": 843,
   "open: ashby": 100,
-  "unknown: page needs javascript": 896,
-  "open: greenhouse": 126,
-  "open: page ok": 840,
-  "open: smartrecruiters": 53,
+  "unknown: page needs javascript": 920,
+  "closed: greenhouse 404": 3,
+  "unknown: page 503": 2,
+  "open: smartrecruiters": 51,
+  "closed: page 404": 7,
+  "open: workday": 17,
   "open: page has apply button": 7,
   "unknown: page 403": 9,
-  "closed: page 410": 9,
-  "open: workday": 6,
-  "closed: page says closed": 1,
-  "closed: redirected to not-found": 6,
+  "closed: page 410": 6,
+  "closed: smartrecruiters inactive": 4,
+  "unknown: workday 403": 6,
   "unknown: page 500": 6,
   "unknown: ashby board": 1,
-  "closed: page 404": 3,
-  "closed: smartrecruiters inactive": 2,
+  "unknown: timeout": 3,
+  "closed: redirected to not-found": 6,
+  "closed: page says closed": 5,
+  "closed: ashby not listed": 1,
   "unknown: page 429": 1,
-  "unknown: timeout": 2
+  "unknown: error": 1
  },
  "removed": [
   {
-   "title": "Executive Assistant, Sr Directors, Global Specialist Strategy & Planning (Remote)",
-   "company": "Cisco",
-   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2030689EXTERNALENGLOBAL/Executive-Assistant-Sr-Directors-Global-Specialist-Strategy-Planning-Remote",
-   "why": "page 410"
+   "title": "Senior Executive Assistant ",
+   "company": "ICONIQ",
+   "url": "https://job-boards.greenhouse.io/iconiq/jobs/8138925",
+   "why": "greenhouse 404"
   },
   {
-   "title": "Executive Assistant - Hybrid, St. Louis",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26013654/Executive-Assistant-Hybrid-St-Louis",
-   "why": "page says: no longer accepting applications"
-  },
-  {
-   "title": "EXECUTIVE ASSISTANT",
-   "company": "Trademark Property Company",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669974",
-   "why": "redirected to not-found"
+   "title": "Sr. Executive Assistant",
+   "company": "Okta",
+   "url": "https://www.okta.com/company/careers/opportunity/8334856?gh_jid=8334856",
+   "why": "page 404"
   },
   {
    "title": "Executive Assistant",
-   "company": "Union of Concerned Scientists",
-   "url": "https://jobs.workable.com/view/sCATTX3LXRfo53wmXgNQev/remote-executive-assistant-in-washington-at-union-of-concerned-scientists",
+   "company": "Aston Carter",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006430880/Executive-Assistant",
    "why": "page 410"
   },
   {
-   "title": "Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006418953/Administrative-Assistant",
+   "title": "Deputy Chief of Staff",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016898996-deputy-chief-of-staff",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Executive Assistant to the COO",
+   "company": "RIVO Holdings, LLC",
+   "url": "https://jobs.smartrecruiters.com/RIVOHoldingsLLC/744000161941798-executive-assistant-to-the-coo",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Nava PBC",
+   "url": "https://job-boards.greenhouse.io/navapbc/jobs/4509284009",
+   "why": "greenhouse 404"
+  },
+  {
+   "title": "Office Manager ",
+   "company": "VSC Internal Job Board",
+   "url": "https://job-boards.greenhouse.io/mobileinternal/jobs/5468724008",
+   "why": "greenhouse 404"
+  },
+  {
+   "title": "Administrative Assistant (Accountability)",
+   "company": "Jobgether",
+   "url": "https://jobs.lever.co/jobgether/fa9dcf5a-570e-4c33-8f6c-08dc17544fe5",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant, Facilities and Operations",
+   "company": "Philadelphia Museum of Art",
+   "url": "https://philamuseum.applytojob.com/apply/GyEJ2C08xT/Executive-Assistant-Facilities-And-Operations",
    "why": "page 410"
   },
   {
    "title": "Executive Administrative Assistant",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/3ab89712-d83d-4519-b01b-f354176418e1",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant and Project Coordinator",
-   "company": "Serna Solutions",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4650196",
+   "company": "Broward County Tax Collector",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4079699",
    "why": "redirected to not-found"
   },
   {
-   "title": "Director, Global Portfolio Strategy R&D Aesthetics, Chief of Staff",
-   "company": "AbbVie",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990016739186-director-global-portfolio-strategy-r-d-aesthetics-chief-of-staff",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Administrative Director- Oncology Administration -Mount Sinai Hospital Full Time",
-   "company": "Mount Sinai Health Systems",
-   "url": "https://careers.mountsinai.org/jobs/3043944",
+   "title": "Executive Assistant",
+   "company": "Auburn University",
+   "url": "https://jobs.auburn.edu/auburn-careers-home/jobs/11538",
    "why": "page 404"
   },
   {
-   "title": "Executive Assistant, VP, Sales - LATAM (Hybrid)",
-   "company": "Cisco",
-   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2027735EXTERNALENGLOBAL/Executive-Assistant-VP-Sales-LATAM-Hybrid",
+   "title": "Executive Assistant (Operational Excellence)",
+   "company": "company",
+   "url": "https://careers.excellusbcbs.com/us/en/job/EXBCUSJR104351EXTERNALENUS/Executive-Assistant-Operational-Excellence",
    "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant - CEO/CPCCO, New York",
+   "company": "Suntory Global Spirits",
+   "url": "https://careers.suntoryglobalspirits.com/job/New-York-Executive-Assistant-CEOCPCCO%2C-New-York-NY-10001/1449056600/",
+   "why": "page says: position has been filled"
+  },
+  {
+   "title": "Executive Assistant to CEO",
+   "company": "Impact Genome",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4647523",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Senior Executive Assistant, Medical and Scientific Affairs",
+   "company": "Olympus Corporation of the Americas",
+   "url": "https://careers.olympusamerica.com/job/Westborough-Senior-Executive-Assistant%2C-Medical-and-Scientific-Affairs-MA-01581/1448728800/",
+   "why": "page says: position has been filled"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Texas Health & Human Services Commission",
+   "url": "https://careers.hhs.texas.gov/hhscjobs/job/TERRELL-Executive-Assistant-TX-78209/1448517600/",
+   "why": "page says: no longer available"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Capgemini",
+   "url": "https://careers.capgemini.com/job/Kolkata-%28ex-Calcutta%29-Executive-Assistant/1455108033/",
+   "why": "page says: position has been filled"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Texas Health & Human Services Commission",
+   "url": "https://careers.hhs.texas.gov/hhscjobs/job/TERRELL-Executive-Assistant-TX-75160/1448517600/",
+   "why": "page says: no longer available"
   },
   {
    "title": "Executive Assistant II",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006401356/Executive-Assistant-II",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006399535/Executive-Assistant-II",
    "why": "page 410"
-  },
-  {
-   "title": "Receptionist / Secretary (Office-Wide)",
-   "company": "City of New York",
-   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016543121-receptionist-secretary-office-wide-",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Zwicker & Associates, P.C.",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4629840",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Quality Administrative Assistant",
-   "company": "Weber Specialties Company",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628071",
-   "why": "redirected to not-found"
   },
   {
    "title": "Administrative Assistant",
-   "company": "Advocare LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628125",
+   "company": "KEB AMERICA INC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4632731",
    "why": "redirected to not-found"
   },
   {
-   "title": "Receptionist- Part time",
-   "company": "CHICAGOLAND EYE CONSULTANTS SC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4627571",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "SMG - MEDICAL RECEPTIONIST",
-   "company": "Sparrow",
-   "url": "https://careers.uofmhealthsparrow.org/job/SHSYUS14832/SMG-MEDICAL-RECEPTIONIST",
+   "title": "Executive Assistant",
+   "company": "Boston Consulting Group",
+   "url": "https://careers.bcg.com/global/en/job/60335/Executive-Assistant",
    "why": "page 410"
   },
   {
-   "title": "Dental Office Manager - Redmond Art of Dentistry",
-   "company": "Mosaic Dental Collective, LLC",
-   "url": "https://jobs.workable.com/view/kmdMsyrvHFJZH3FhhuNdQN/dental-office-manager---redmond-art-of-dentistry-in-redmond-at-mosaic-dental-collective%2C-llc",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "PepsiCo",
-   "url": "https://uscareers-pepsico.icims.com/jobs/470565/administrative-coordinator/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant, Department of Medical Imaging",
-   "company": "Ann & Robert H. Lurie Children's Hospital of Chicago",
-   "url": "https://jobs.luriechildrens.org/us/en/job/JR2026-2729/Executive-Assistant-Department-of-Medical-Imaging",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant (On Site)",
-   "company": "Morley",
-   "url": "https://careers.morleycompanies.com/morley/jobs/6732",
+   "title": "Receptionist",
+   "company": "Yale New Haven Health",
+   "url": "https://jobs.ynhhs.org/jobs/92373",
    "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Centerstate Corporation for Economic Opportunity",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4627847",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Front Desk Receptionist",
+   "company": "Speaks Law Firm",
+   "url": "https://speakslawfirm.applytojob.com/apply/PzRtILPMqC/Front-Desk-Receptionist",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant ",
+   "company": "Docker",
+   "url": "https://jobs.ashbyhq.com/docker/6aa3ae03-ad79-4f3d-a930-1588be0ddec7",
+   "why": "ashby not listed"
+  },
+  {
+   "title": "Legal Executive Assistant",
+   "company": "In-N-Out Burger",
+   "url": "https://talent.innout.com/en_US/careers/JobDetail/Legal-Executive-Assistant/8927",
+   "why": "page 404"
+  },
+  {
+   "title": "Medical Receptionist",
+   "company": "Aylo Health",
+   "url": "https://aylohealth.com/greenhouse-redirects/6236742004?gh_jid=6236742004",
+   "why": "page 404"
+  },
+  {
+   "title": "Business Office Manager",
+   "company": "Genesis Administrative Services LLC",
+   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/57089",
+   "why": "page 404"
+  },
+  {
+   "title": "Senior Executive Assistant",
+   "company": "M JAMES DO PC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4616998",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Legal Administrative Assistant - Bankruptcy & Energy Litigation",
+   "company": "Jones Walker LLP",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4620369",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Chief of Staff & Head of Platform",
+   "company": "Rypples Ltd",
+   "url": "https://jobs.smartrecruiters.com/RypplesLtd/744000157893010-chief-of-staff-head-of-platform",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Chief of Staff, AI / Head of Platform",
+   "company": "Rypples Ltd",
+   "url": "https://jobs.smartrecruiters.com/RypplesLtd/744000157772654-chief-of-staff-ai-head-of-platform",
+   "why": "smartrecruiters inactive"
   }
  ]
 }
