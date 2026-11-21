@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generatedAt": "2026-11-21T11:54:32.359Z",
+  "generatedAt": "2026-11-21T13:31:32.678Z",
   "companiesChecked": 157,
   "companiesWorking": 107,
-  "rawJobs": 21854,
+  "rawJobs": 21857,
   "adminJobs": 56,
   "dropped": {
-   "notAdmin": 21745,
+   "notAdmin": 21748,
    "notUS": 37,
    "old": 11,
    "dup": 5
@@ -137,7 +137,7 @@
    "source": "Greenhouse",
    "company": "Anthropic",
    "ok": true,
-   "openJobs": 633
+   "openJobs": 635
   },
   {
    "source": "Greenhouse",
@@ -219,7 +219,7 @@
    "source": "Greenhouse",
    "company": "Databricks",
    "ok": true,
-   "openJobs": 897
+   "openJobs": 896
   },
   {
    "source": "Greenhouse",
@@ -461,7 +461,7 @@
    "source": "Greenhouse",
    "company": "Samsara",
    "ok": true,
-   "openJobs": 288
+   "openJobs": 290
   },
   {
    "source": "Greenhouse",

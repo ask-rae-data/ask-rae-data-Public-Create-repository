@@ -1,32 +1,29 @@
 {
- "checkedAt": "2026-11-21T11:55:49.325Z",
- "checked": 2765,
- "closed": 32,
+ "checkedAt": "2026-11-21T13:33:01.397Z",
+ "checked": 2741,
+ "closed": 5,
  "applied": true,
  "tally": {
-  "unknown: workday 429": 637,
+  "unknown: workday 429": 634,
   "open: greenhouse": 129,
-  "open: page ok": 843,
-  "open: ashby": 100,
-  "unknown: page needs javascript": 920,
-  "closed: greenhouse 404": 3,
-  "unknown: page 503": 2,
+  "open: ashby": 101,
+  "closed: greenhouse 404": 1,
+  "open: page ok": 853,
+  "unknown: page needs javascript": 914,
   "open: smartrecruiters": 51,
-  "closed: page 404": 7,
-  "open: workday": 17,
+  "closed: page 404": 1,
   "open: page has apply button": 7,
   "unknown: page 403": 9,
-  "closed: page 410": 6,
-  "closed: smartrecruiters inactive": 4,
-  "unknown: workday 403": 6,
+  "open: workday": 13,
   "unknown: page 500": 6,
+  "unknown: page 302": 1,
   "unknown: ashby board": 1,
-  "unknown: timeout": 3,
-  "closed: redirected to not-found": 6,
-  "closed: page says closed": 5,
-  "closed: ashby not listed": 1,
+  "unknown: workday 403": 13,
+  "closed: smartrecruiters inactive": 2,
+  "closed: page 410": 1,
+  "unknown: page 503": 1,
   "unknown: page 429": 1,
-  "unknown: error": 1
+  "unknown: timeout": 2
  },
  "removed": [
   {
@@ -42,184 +39,22 @@
    "why": "page 404"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006430880/Executive-Assistant",
-   "why": "page 410"
+   "title": "Executive Assistant to the COO",
+   "company": "RIVO Holdings, LLC",
+   "url": "https://jobs.smartrecruiters.com/RIVOHoldingsLLC/744000160451418-executive-assistant-to-the-coo",
+   "why": "smartrecruiters inactive"
   },
   {
    "title": "Deputy Chief of Staff",
    "company": "City of New York",
-   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016898996-deputy-chief-of-staff",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016717076-deputy-chief-of-staff",
    "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant to the COO",
-   "company": "RIVO Holdings, LLC",
-   "url": "https://jobs.smartrecruiters.com/RIVOHoldingsLLC/744000161941798-executive-assistant-to-the-coo",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Nava PBC",
-   "url": "https://job-boards.greenhouse.io/navapbc/jobs/4509284009",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Office Manager ",
-   "company": "VSC Internal Job Board",
-   "url": "https://job-boards.greenhouse.io/mobileinternal/jobs/5468724008",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Administrative Assistant (Accountability)",
-   "company": "Jobgether",
-   "url": "https://jobs.lever.co/jobgether/fa9dcf5a-570e-4c33-8f6c-08dc17544fe5",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant, Facilities and Operations",
-   "company": "Philadelphia Museum of Art",
-   "url": "https://philamuseum.applytojob.com/apply/GyEJ2C08xT/Executive-Assistant-Facilities-And-Operations",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Administrative Assistant",
-   "company": "Broward County Tax Collector",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4079699",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Auburn University",
-   "url": "https://jobs.auburn.edu/auburn-careers-home/jobs/11538",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant (Operational Excellence)",
-   "company": "company",
-   "url": "https://careers.excellusbcbs.com/us/en/job/EXBCUSJR104351EXTERNALENUS/Executive-Assistant-Operational-Excellence",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant - CEO/CPCCO, New York",
-   "company": "Suntory Global Spirits",
-   "url": "https://careers.suntoryglobalspirits.com/job/New-York-Executive-Assistant-CEOCPCCO%2C-New-York-NY-10001/1449056600/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant to CEO",
-   "company": "Impact Genome",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4647523",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Senior Executive Assistant, Medical and Scientific Affairs",
-   "company": "Olympus Corporation of the Americas",
-   "url": "https://careers.olympusamerica.com/job/Westborough-Senior-Executive-Assistant%2C-Medical-and-Scientific-Affairs-MA-01581/1448728800/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Texas Health & Human Services Commission",
-   "url": "https://careers.hhs.texas.gov/hhscjobs/job/TERRELL-Executive-Assistant-TX-78209/1448517600/",
-   "why": "page says: no longer available"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Capgemini",
-   "url": "https://careers.capgemini.com/job/Kolkata-%28ex-Calcutta%29-Executive-Assistant/1455108033/",
-   "why": "page says: position has been filled"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Texas Health & Human Services Commission",
-   "url": "https://careers.hhs.texas.gov/hhscjobs/job/TERRELL-Executive-Assistant-TX-75160/1448517600/",
-   "why": "page says: no longer available"
   },
   {
    "title": "Executive Assistant II",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006399535/Executive-Assistant-II",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006399046/Executive-Assistant-II",
    "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "KEB AMERICA INC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4632731",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Boston Consulting Group",
-   "url": "https://careers.bcg.com/global/en/job/60335/Executive-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Receptionist",
-   "company": "Yale New Haven Health",
-   "url": "https://jobs.ynhhs.org/jobs/92373",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Centerstate Corporation for Economic Opportunity",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4627847",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Front Desk Receptionist",
-   "company": "Speaks Law Firm",
-   "url": "https://speakslawfirm.applytojob.com/apply/PzRtILPMqC/Front-Desk-Receptionist",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant ",
-   "company": "Docker",
-   "url": "https://jobs.ashbyhq.com/docker/6aa3ae03-ad79-4f3d-a930-1588be0ddec7",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Legal Executive Assistant",
-   "company": "In-N-Out Burger",
-   "url": "https://talent.innout.com/en_US/careers/JobDetail/Legal-Executive-Assistant/8927",
-   "why": "page 404"
-  },
-  {
-   "title": "Medical Receptionist",
-   "company": "Aylo Health",
-   "url": "https://aylohealth.com/greenhouse-redirects/6236742004?gh_jid=6236742004",
-   "why": "page 404"
-  },
-  {
-   "title": "Business Office Manager",
-   "company": "Genesis Administrative Services LLC",
-   "url": "https://careers.powerbackrehab.com/powerbackrehab/jobs/57089",
-   "why": "page 404"
-  },
-  {
-   "title": "Senior Executive Assistant",
-   "company": "M JAMES DO PC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4616998",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Legal Administrative Assistant - Bankruptcy & Energy Litigation",
-   "company": "Jones Walker LLP",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4620369",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Chief of Staff & Head of Platform",
-   "company": "Rypples Ltd",
-   "url": "https://jobs.smartrecruiters.com/RypplesLtd/744000157893010-chief-of-staff-head-of-platform",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Chief of Staff, AI / Head of Platform",
-   "company": "Rypples Ltd",
-   "url": "https://jobs.smartrecruiters.com/RypplesLtd/744000157772654-chief-of-staff-ai-head-of-platform",
-   "why": "smartrecruiters inactive"
   }
  ]
 }
