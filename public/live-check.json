@@ -1,59 +1,55 @@
 {
- "checkedAt": "2026-11-21T13:33:01.397Z",
- "checked": 2741,
+ "checkedAt": "2026-11-22T11:55:19.608Z",
+ "checked": 2812,
  "closed": 5,
  "applied": true,
  "tally": {
-  "unknown: workday 429": 634,
-  "open: greenhouse": 129,
+  "open: greenhouse": 134,
+  "unknown: page needs javascript": 950,
+  "unknown: workday 429": 636,
+  "open: smartrecruiters": 53,
+  "open: page ok": 868,
   "open: ashby": 101,
-  "closed: greenhouse 404": 1,
-  "open: page ok": 853,
-  "unknown: page needs javascript": 914,
-  "open: smartrecruiters": 51,
-  "closed: page 404": 1,
+  "closed: page 410": 5,
+  "open: workday": 23,
   "open: page has apply button": 7,
   "unknown: page 403": 9,
-  "open: workday": 13,
   "unknown: page 500": 6,
-  "unknown: page 302": 1,
+  "unknown: timeout": 3,
   "unknown: ashby board": 1,
-  "unknown: workday 403": 13,
-  "closed: smartrecruiters inactive": 2,
-  "closed: page 410": 1,
-  "unknown: page 503": 1,
-  "unknown: page 429": 1,
-  "unknown: timeout": 2
+  "unknown: workday 403": 11,
+  "unknown: page 502": 4,
+  "unknown: page 429": 1
  },
  "removed": [
   {
-   "title": "Senior Executive Assistant ",
-   "company": "ICONIQ",
-   "url": "https://job-boards.greenhouse.io/iconiq/jobs/8138925",
-   "why": "greenhouse 404"
+   "title": "Deputy Chief of Staff to the Lieutenant Governor",
+   "company": "Building Colorado's Future Together",
+   "url": "https://jobs.workable.com/view/7f9XNFM88bQ2DNKfV7JF1o/deputy-chief-of-staff-to-the-lieutenant-governor-in-denver-at-building-colorado's-future-together",
+   "why": "page 410"
   },
   {
-   "title": "Sr. Executive Assistant",
-   "company": "Okta",
-   "url": "https://www.okta.com/company/careers/opportunity/8334856?gh_jid=8334856",
-   "why": "page 404"
+   "title": "Chief of Staff to the Lieutenant Governor",
+   "company": "Building Colorado's Future Together",
+   "url": "https://jobs.workable.com/view/4e88hsMC5pobghJ6zqJjSm/chief-of-staff-to-the-lieutenant-governor-in-denver-at-building-colorado's-future-together",
+   "why": "page 410"
   },
   {
-   "title": "Executive Assistant to the COO",
-   "company": "RIVO Holdings, LLC",
-   "url": "https://jobs.smartrecruiters.com/RIVOHoldingsLLC/744000160451418-executive-assistant-to-the-coo",
-   "why": "smartrecruiters inactive"
+   "title": "Executive Assistant",
+   "company": "Virgin Galactic",
+   "url": "https://vgcareers.virgingalactic.com/global/en/job/2251/Executive-Assistant",
+   "why": "page 410"
   },
   {
-   "title": "Deputy Chief of Staff",
-   "company": "City of New York",
-   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016717076-deputy-chief-of-staff",
-   "why": "smartrecruiters inactive"
+   "title": "Executive Assistant, SVP, Corporate Strategy (Hybrid)",
+   "company": "Cisco",
+   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2031487EXTERNALENGLOBAL/Executive-Assistant-SVP-Corporate-Strategy-Hybrid",
+   "why": "page 410"
   },
   {
    "title": "Executive Assistant II",
    "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006399046/Executive-Assistant-II",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006399044/Executive-Assistant-II",
    "why": "page 410"
   }
  ]

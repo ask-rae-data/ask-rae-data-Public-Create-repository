@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T13:33:01.817Z",
+ "generatedAt": "2026-11-22T11:55:19.778Z",
  "featured": [
   {
    "title": "Executive Assistant",
@@ -59,19 +59,6 @@
    "level": "ea"
   },
   {
-   "title": "Executive Administrator IV B4",
-   "company": "Applied Materials",
-   "city": "Santa Clara",
-   "state": "CA",
-   "workplace": "On-site",
-   "payMin": 133500,
-   "payMax": 183500,
-   "posted": "2026-11-18T00:00:00",
-   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Executive-Administrator-IV-B4_R2633392",
-   "source": "Workday",
-   "level": "ea"
-  },
-  {
    "title": "Executive Assistant to the Vice President of Manufacturing",
    "company": "Panthalassa",
    "city": "Portland",
@@ -81,19 +68,6 @@
    "payMax": 165000,
    "posted": "2026-11-21T02:07:26",
    "url": "https://job-boards.greenhouse.io/panthalassa/jobs/6268231004",
-   "source": "Greenhouse",
-   "level": "ea"
-  },
-  {
-   "title": "Partner 6, Executive Assistant, Frontier",
-   "company": "a16z",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 149000,
-   "payMax": 165000,
-   "posted": "2026-11-19T00:35:35",
-   "url": "https://a16z.com/about/jobs/?gh_jid=8207800003",
    "source": "Greenhouse",
    "level": "ea"
   },
@@ -109,6 +83,32 @@
    "url": "https://jobs.ashbyhq.com/Clera/e2a96e58-a495-44a1-8bec-33ba79a30292",
    "source": "Ashby",
    "level": "ea"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Dolby",
+   "city": "San Francisco",
+   "state": "CA",
+   "workplace": "Hybrid",
+   "payMin": 116000,
+   "payMax": 154000,
+   "posted": "2026-11-20T17:34:37",
+   "url": "https://jobs.dolby.com/careers/job/45600359-executive-assistant-san-francisco-california-united-states",
+   "source": "Eightfold",
+   "level": "ea"
+  },
+  {
+   "title": "Senior Executive Assistant",
+   "company": "JPMorgan Chase & Co.",
+   "city": "New York",
+   "state": "NY",
+   "workplace": "On-site",
+   "payMin": 85509,
+   "payMax": 150010,
+   "posted": "2026-11-19T13:14:56",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210810146",
+   "source": "Oracle",
+   "level": "senior"
   }
  ]
 }
