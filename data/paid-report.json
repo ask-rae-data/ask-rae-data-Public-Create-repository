@@ -1,14 +1,16 @@
 {
  "summary": {
   "mode": "full",
-  "at": "2026-11-22T11:54:00.735Z",
+  "at": "2026-11-23T22:40:02.174Z",
   "endpoint": "https://active-jobs-db.p.rapidapi.com/active-ats",
   "probes": [],
-  "calls": 15,
-  "raw": 100,
-  "keptThisRun": 94,
-  "storeTotal": 2896,
-  "errors": []
+  "calls": 11,
+  "raw": 110,
+  "keptThisRun": 110,
+  "storeTotal": 2990,
+  "errors": [
+   "Stopped at 110 jobs to stay inside the plan limit"
+  ]
  },
  "sample": null
 }
