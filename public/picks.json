@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T22:41:29.796Z",
+ "generatedAt": "2026-11-24T21:13:56.503Z",
  "featured": [
   {
    "title": "Executive Assistant",
@@ -46,17 +46,17 @@
  ],
  "post": [
   {
-   "title": "Executive Assistant",
-   "company": "Checkr",
+   "title": "Executive Assistant to the Principal | Private Family Office",
+   "company": "Concentric",
    "city": "San Francisco",
    "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 168000,
-   "payMax": 198000,
-   "posted": "2026-11-20T19:19:34",
-   "url": "https://job-boards.greenhouse.io/checkr/jobs/8404642",
+   "workplace": "On-site",
+   "payMin": 175000,
+   "payMax": 175000,
+   "posted": "2026-11-23T18:29:21",
+   "url": "https://job-boards.greenhouse.io/concentric/jobs/4608040006",
    "source": "Greenhouse",
-   "level": "ea"
+   "level": "senior"
   },
   {
    "title": "Executive Assistant to the Vice President of Manufacturing",
@@ -98,16 +98,16 @@
    "level": "ea"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Dolby",
-   "city": "San Francisco",
-   "state": "CA",
-   "workplace": "Hybrid",
-   "payMin": 116000,
-   "payMax": 154000,
-   "posted": "2026-11-20T17:34:37",
-   "url": "https://jobs.dolby.com/careers/job/45600359-executive-assistant-san-francisco-california-united-states",
-   "source": "Eightfold",
+   "title": "Executive Administrator",
+   "company": "FTI Consulting",
+   "city": "Washington",
+   "state": "DC",
+   "workplace": "On-site",
+   "payMin": 93000,
+   "payMax": 158000,
+   "posted": "2026-11-24T00:00:00",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/Washington-DC/Executive-Administrator_JR261924",
+   "source": "Workday",
    "level": "ea"
   }
  ]

@@ -1,34 +1,40 @@
 {
- "checkedAt": "2026-11-23T22:41:29.669Z",
- "checked": 2907,
- "closed": 28,
+ "checkedAt": "2026-11-24T21:13:56.372Z",
+ "checked": 2968,
+ "closed": 36,
  "applied": true,
  "tally": {
-  "unknown: workday 429": 649,
-  "unknown: page needs javascript": 975,
-  "open: greenhouse": 143,
-  "open: page ok": 891,
-  "closed: greenhouse 404": 5,
-  "open: smartrecruiters": 52,
-  "open: ashby": 104,
-  "open: workday": 25,
-  "closed: page 410": 9,
-  "closed: workday 404": 2,
-  "closed: ashby not listed": 4,
+  "unknown: page needs javascript": 1002,
+  "open: greenhouse": 149,
+  "open: smartrecruiters": 53,
+  "open: page ok": 898,
+  "unknown: page 403": 10,
+  "unknown: workday 429": 661,
+  "open: workday": 29,
+  "open: ashby": 102,
+  "closed: greenhouse 404": 2,
+  "closed: page 410": 11,
+  "closed: smartrecruiters inactive": 4,
+  "closed: page 404": 9,
+  "closed: redirected to not-found": 5,
   "open: page has apply button": 7,
-  "unknown: page 403": 9,
-  "closed: page 404": 3,
+  "unknown: workday 403": 8,
   "unknown: page 500": 6,
-  "unknown: workday 422": 3,
-  "unknown: workday 403": 10,
+  "unknown: workday 422": 1,
   "unknown: ashby board": 1,
-  "closed: smartrecruiters inactive": 3,
-  "closed: redirected to not-found": 2,
-  "unknown: page 503": 1,
+  "closed: ashby not listed": 4,
+  "unknown: page 502": 1,
+  "closed: page says closed": 1,
   "unknown: page 429": 1,
-  "unknown: timeout": 2
+  "unknown: timeout": 3
  },
  "removed": [
+  {
+   "title": "Executive Assistant (E) - Office of Well-Being",
+   "company": "ECU Health Medical Center",
+   "url": "https://careers.ecuhealth.org/us/en/job/EBSEHSUS986134EXTERNALENUS/Executive-Assistant-E-Office-of-Well-Being",
+   "why": "page 410"
+  },
   {
    "title": "Executive Assistant",
    "company": "True Anomaly",
@@ -37,165 +43,207 @@
   },
   {
    "title": "Executive Assistant",
-   "company": "Flatiron Construction Corp",
-   "url": "https://careers-fdcorp.icims.com/jobs/9697/executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant (Remote Central or West Coast)",
-   "company": "Veeam Software",
-   "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4997622101",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Saint Joseph Hospital - Lexington",
-   "url": "https://careers-commonspirit.icims.com/jobs/509854/executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "DAVITA",
-   "url": "https://careers.davita.com/job/R0487150/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant - EVP Chief Marketing & Content officer",
-   "company": "Cinemark",
-   "url": "https://cinemark.wd1.myworkdayjobs.com/cinemark/job/CORP---Cinemark-Service-Center-Plano-TX/Executive-Assistant---Marketing_R40408",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Aurelius Systems",
-   "url": "https://jobs.ashbyhq.com/aureliussystems/54977858-393b-46ad-a7fa-93053854ad80",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "TQL",
-   "url": "https://careers.tql.com/en_US/TQLexternalcareers/JobDetail/United-States-Executive-Assistant/19477",
-   "why": "page 404"
-  },
-  {
-   "title": "Executive Assistant, VP, Strategy & Standards (Hybrid)",
-   "company": "Cisco",
-   "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2030267EXTERNALENGLOBAL/Executive-Assistant-VP-Strategy-Standards-Hybrid",
-   "why": "page 410"
-  },
-  {
-   "title": "Administrative Assistant",
-   "company": "Aston Carter",
-   "url": "https://careers.astoncarter.com/us/en/job/JP-006418058/Administrative-Assistant",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "David Weekley Homes",
-   "url": "https://jobs.smartrecruiters.com/wgc/744000161309499-executive-assistant",
+   "company": "NBCUniversal",
+   "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000163258300-executive-assistant",
    "why": "smartrecruiters inactive"
   },
   {
-   "title": "Executive Assistant Div of Enrollment Mgmt",
-   "company": "Eastern Michigan University",
-   "url": "https://careers.pageuppeople.com/1092/cw/en-us/job/495825/executive-assistant-div-of-enrollment-mgmt",
-   "why": "redirected to not-found"
+   "title": "Executive Assistant, Selling Partner Support Experience ",
+   "company": "Amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10612180",
+   "why": "page 404"
   },
   {
-   "title": "Executive Assistant To CEO (Florida-based)",
-   "company": "Partners Federal Credit Union",
-   "url": "https://partnersfcu.applytojob.com/apply/7X4oPPGWi6/Executive-Assistant-To-CEO-Floridabased",
+   "title": "Executive Assistant",
+   "company": "Northwestern Memorial Healthcare",
+   "url": "https://jobs.smartrecruiters.com/NorthwesternMedicine/744000162781549-executive-assistant",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Executive Assistant - Office of EX/GSD",
+   "company": "Cayuse Holdings",
+   "url": "https://careers-cayuseholdings.icims.com/jobs/4107/executive-assistant---office-of-ex-gsd/job",
    "why": "page 410"
   },
   {
-   "title": "Business Office Manager",
-   "company": "Aegis Living",
-   "url": "https://careers2-aegisliving.icims.com/jobs/20836/business-office-manager/job",
+   "title": "Executive Assistant & Project Manager",
+   "company": "COFREIGHT INC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4678610",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Administrative Assistant (AA)",
+   "company": "DAVITA",
+   "url": "https://careers.davita.com/job/R0485469/Administrative-Assistant-AA",
+   "why": "page 410"
+  },
+  {
+   "title": "Chief Administrative Officer",
+   "company": "Jobgether",
+   "url": "https://jobs.lever.co/jobgether/8ab10db6-6ba4-4241-9027-b31dc8bf23d3",
+   "why": "page 404"
+  },
+  {
+   "title": "Technical Chief of Staff to the CTO",
+   "company": "Jobgether",
+   "url": "https://jobs.lever.co/jobgether/6d7c8f49-2fab-489c-bd53-4d6dca9afd24",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Administrative Assistant",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016861756-executive-administrative-assistant",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Chief of Staff (Strategic Initiatives), People Team",
+   "company": "GitHub, Inc.",
+   "url": "https://githubinc.jibeapply.com/jobs/7144",
+   "why": "page 404"
+  },
+  {
+   "title": "ADMINISTRATIVE ASSISTANT - Nursing Administration",
+   "company": "Gila Regional Medical Center",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4659989",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Chief of Staff (Legal)",
+   "company": "OpenLoop Health",
+   "url": "https://jobs.ashbyhq.com/openloophealth/25c98f55-b555-4c50-a1a4-67e11243b9fc",
+   "why": "ashby not listed"
+  },
+  {
+   "title": "Executive Assistant (US Citizen, On-Site)",
+   "company": "POWERHOUSE INSTITUTE INC",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4648345",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Accenture Federal Services",
+   "url": "https://boards.greenhouse.io/accenturefederalservices/jobs/4725628006?gh_jid=4725628006",
+   "why": "greenhouse 404"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "BPCM",
+   "url": "https://jobs.workable.com/view/dPdQZ8AcNjxB9x4WydsBqB/hybrid-executive-assistant-in-new-york-at-bpcm",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant to CEO/CFO (Start-up)",
+   "company": "Andromeda Robotics",
+   "url": "https://jobs.workable.com/view/oBVcBimKJm3t5Pr2SZL5K8/executive-assistant-to-ceo%2Fcfo-(start-up)-in-san-francisco-at-andromeda-robotics",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant - Office Management",
+   "company": "Tic Solutions",
+   "url": "https://join.acuren.com/jobs/26050",
+   "why": "page 404"
+  },
+  {
+   "title": "Event Coordinator & Executive Assistant",
+   "company": "HowGood",
+   "url": "https://jobs.lever.co/HowGood/6fad6b13-0790-4b11-991a-c5d75e4885b6",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant - Office Management",
+   "company": "Acuren Inspection, Inc.",
+   "url": "https://uscareers-acuren.icims.com/jobs/26050/executive-assistant---office-management/job",
    "why": "page 410"
   },
   {
    "title": "Executive Assistant",
-   "company": "ENTEK INTERNATIONAL LLC",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/2767679",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Validation Chief of Staff",
-   "company": "Graphcore",
-   "url": "https://job-boards.greenhouse.io/graphcore/jobs/8928985002",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant & Creative Coordinator",
-   "company": "DAYBREAKER",
-   "url": "https://jobs.workable.com/view/1BgneXcyYvpkzPs8rfqkxa/executive-assistant-%26-creative-coordinator-in-brooklyn-at-daybreaker",
+   "company": "The Hatch Group, Inc.",
+   "url": "https://thehatchgroupinc.applytojob.com/apply/xPPC6nZMBo/Executive-Assistant",
    "why": "page 410"
   },
   {
-   "title": "Clinical Staff & Office Manager",
-   "company": "Silverado",
-   "url": "https://job-boards.greenhouse.io/silverado/jobs/5280762007",
-   "why": "greenhouse 404"
+   "title": "Office Assistant / Executive Assistant",
+   "company": "Youthnet",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4630724",
+   "why": "redirected to not-found"
   },
   {
-   "title": "Chief of Staff",
-   "company": "Devotion",
-   "url": "https://jobs.ashbyhq.com/devotion/9396dbd0-be64-4bfc-95ef-7af114194d8b",
+   "title": "Business Office Manager",
+   "company": "HallKeen Assisted Living Communities",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4629961",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Weekend Receptionist",
+   "company": "Devlin Manor Nursing and Rehabilitation Center",
+   "url": "https://devlinmanornursingandrehab-careers-fundltc.icims.com/jobs/7533/weekend-receptionist/job",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant",
+   "company": "Rowan Digital Infrastructure",
+   "url": "https://jobs.ashbyhq.com/rowan/db12e0e7-4b3c-4178-8a66-b615ba38fd31",
    "why": "ashby not listed"
   },
   {
-   "title": "Receptionist",
-   "company": "Ebenezer",
-   "url": "https://careers.fairview.org/jobs/178276",
-   "why": "page 404"
+   "title": "Executive Assistant",
+   "company": "Docker",
+   "url": "https://jobs.ashbyhq.com/docker/ae36c575-cf76-46d5-b9be-3226333debb4",
+   "why": "ashby not listed"
   },
   {
    "title": "Medical Business Associate (Receptionist) - Gaylord Ambulatory Surgery Center",
    "company": "Munson Healthcare",
-   "url": "https://jobs.smartrecruiters.com/MunsonHealthcare1/3743990016505146-medical-business-associate-receptionist-gaylord-ambulatory-surgery-center-",
+   "url": "https://jobs.smartrecruiters.com/MunsonHealthcare1/3743990016498816-medical-business-associate-receptionist-gaylord-ambulatory-surgery-center-",
    "why": "smartrecruiters inactive"
   },
   {
-   "title": "Office Manager",
-   "company": "Milum Express LLC",
-   "url": "https://jobs.smartrecruiters.com/MilumExpressLLC/3743990016498066-office-manager",
-   "why": "smartrecruiters inactive"
-  },
-  {
-   "title": "Administrative Coordinator",
-   "company": "Sonoco",
-   "url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers/job/Charlotte-NC-USA/Administrative-Coordinator_JR-161240",
-   "why": "workday 404"
-  },
-  {
-   "title": "Office Manager",
-   "company": "Modern Dental of Kernersville",
-   "url": "https://jobs-mb2dental.icims.com/jobs/27330/office-manager/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Helion",
-   "url": "https://jobs.ashbyhq.com/helion/50bc51cd-4ec3-4d32-822e-5c7621840eda",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Labor & Employment Legal Administrative Assistant",
-   "company": "Barnes & Thornburg LLP",
-   "url": "https://jobs.ashbyhq.com/barnes/3a30b2cb-7373-4ef6-8eb8-4b250e92bf89",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Administrative Coordinator I",
-   "company": "Consumer Direct Care Network",
-   "url": "https://cdcn.avature.net/careers/JobDetail/Administrative-Coordinator-I/9037",
+   "title": "Receptionist",
+   "company": "Ebenezer",
+   "url": "https://careers.fairview.org/jobs/178253",
    "why": "page 404"
   },
   {
-   "title": "Senior Executive Assistant, Legal, Public Policy & ESG",
-   "company": "PlayStation Global",
-   "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6232159004",
-   "why": "greenhouse 404"
+   "title": "Sr. Executive Assistant",
+   "company": "OBXtek Inc.",
+   "url": "https://careers-obxtek.icims.com/jobs/6396/sr.-executive-assistant/job",
+   "why": "page 410"
+  },
+  {
+   "title": "Principal, Strategy & Chief of Staff - ISR",
+   "company": "L3Harris Technologies",
+   "url": "https://jobs.l3harris.com/job/Greenville-Principal%2C-Strategy-&-Chief-of-Staff-ISR-TX-75402/1444700000/",
+   "why": "page says: position has been filled"
+  },
+  {
+   "title": "Administrative Coordinator - Medical Education",
+   "company": "Mount Sinai Health Systems",
+   "url": "https://careers.mountsinai.org/jobs/3043841",
+   "why": "page 404"
+  },
+  {
+   "title": "Office Administrative Coordinator",
+   "company": "Elliott-Lewis | Sautter Crane | AA Duckett",
+   "url": "https://elliottlewis.hire.trakstar.com/jobs/fk0zn4m/",
+   "why": "page 404"
+  },
+  {
+   "title": "Executive Assistant - Marketing",
+   "company": "Marvin",
+   "url": "https://talent-marvin.icims.com/jobs/11300/executive-assistant---marketing/job",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant ",
+   "company": "Chamber Cardio",
+   "url": "https://jobs.ashbyhq.com/ChamberCardio/c1b84272-c9ba-4a18-921d-da4f86d3655b",
+   "why": "ashby not listed"
+  },
+  {
+   "title": "Office Manager & Executive Assistant",
+   "company": "Hybron Inc",
+   "url": "https://hybroninc.applytojob.com/apply/hiqMwCfWMT/Office-Manager-Executive-Assistant",
+   "why": "page 410"
   }
  ]
 }
