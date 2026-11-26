@@ -5,6 +5,10 @@ name: Update Ask RAE jobs
 on:
   schedule:
     - cron: "17 11 * * *"   # every day around 6:17 a.m. Central
+    # Backups: GitHub sometimes runs scheduled jobs hours late or skips them.
+    # These only do work if today's list isn't live on the site yet.
+    - cron: "17 16 * * *"   # around 10:17 a.m. Central
+    - cron: "17 21 * * *"   # around 3:17 p.m. Central
   workflow_dispatch:
     inputs:
       mode:
@@ -29,13 +33,28 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Skip if today's list is already live
+        id: guard
+        run: |
+          TODAY=$(TZ=America/Chicago date +%F)
+          LIVE=$(curl -fsSL "${{ steps.pages.outputs.base_url }}/jobs.json?nocache=$(date +%s)" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const g=JSON.parse(s).generatedAt;console.log(new Date(g).toLocaleDateString("en-CA",{timeZone:"America/Chicago"}))}catch(e){console.log("none")}})' || echo none)
+          echo "Live list date: $LIVE, today: $TODAY"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$LIVE" = "$TODAY" ]; then
+            echo "Today's list is already live. Nothing to do."; echo "skip=true" >> "$GITHUB_OUTPUT"
+          else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
       - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           node-version: 22
       - name: Pull admin jobs from company career sites (free sources)
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/fetch-free.mjs
       - name: Add jobs from the paid career-site feed
+        if: steps.guard.outputs.skip != 'true'
         continue-on-error: true
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
@@ -47,12 +66,15 @@ jobs:
           echo "Paid mode: $MODE"
           MODE="$MODE" node scripts/fetch-paid.mjs
       - name: Remove closed or expired postings
+        if: steps.guard.outputs.skip != 'true'
         continue-on-error: true
         run: node scripts/check-live.mjs
       - name: Choose Ask RAE picks (featured roles and the LinkedIn post)
+        if: steps.guard.outputs.skip != 'true'
         continue-on-error: true
         run: node scripts/picks.mjs
       - name: Save today's list
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "ask-rae-bot"
           git config user.email "ask-rae-bot@users.noreply.github.com"
@@ -61,8 +83,16 @@ jobs:
           git diff --cached --quiet || git commit -m "Update jobs $(date -u +%F)"
           git pull --rebase origin main
           git push
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        if: steps.guard.outputs.skip != 'true'
         with:
           path: public
       - uses: actions/deploy-pages@v4
+        if: steps.guard.outputs.skip != 'true'
+        id: deploy1
+        continue-on-error: true
+      - name: Wait before retrying the site update
+        if: steps.guard.outputs.skip != 'true' && steps.deploy1.outcome == 'failure'
+        run: sleep 90
+      - uses: actions/deploy-pages@v4
+        if: steps.guard.outputs.skip != 'true' && steps.deploy1.outcome == 'failure'
