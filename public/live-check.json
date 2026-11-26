@@ -1,35 +1,44 @@
 {
- "checkedAt": "2026-11-25T20:31:45.961Z",
- "checked": 2924,
- "closed": 22,
+ "checkedAt": "2026-11-26T19:39:01.745Z",
+ "checked": 2890,
+ "closed": 21,
  "applied": true,
  "tally": {
-  "closed: greenhouse 404": 2,
-  "open: page ok": 870,
-  "unknown: page needs javascript": 992,
-  "unknown: page 500": 7,
-  "open: greenhouse": 152,
-  "unknown: workday 429": 674,
-  "open: ashby": 100,
   "open: smartrecruiters": 52,
-  "open: workday": 8,
-  "unknown: page 403": 26,
-  "closed: page says closed": 1,
-  "closed: page 410": 9,
-  "closed: redirected to not-found": 4,
-  "closed: ashby not listed": 2,
+  "unknown: page needs javascript": 992,
+  "open: page ok": 879,
+  "open: workday": 63,
+  "open: greenhouse": 157,
+  "closed: page 410": 8,
+  "closed: greenhouse 404": 4,
+  "unknown: page 500": 7,
+  "unknown: workday 429": 572,
+  "open: ashby": 98,
+  "unknown: workday 403": 25,
+  "unknown: page 403": 10,
+  "closed: page 404": 2,
   "open: page has apply button": 7,
-  "unknown: workday 422": 1,
-  "closed: workday 404": 2,
-  "unknown: timeout": 5,
+  "unknown: workday 422": 3,
   "unknown: ashby board": 1,
-  "unknown: workday 403": 5,
-  "closed: page 404": 1,
-  "unknown: page 502": 1,
-  "closed: smartrecruiters 404": 1,
-  "unknown: page 429": 1
+  "closed: page says closed": 3,
+  "closed: redirected to not-found": 1,
+  "unknown: timeout": 3,
+  "closed: smartrecruiters inactive": 1,
+  "closed: workday 404": 2
  },
  "removed": [
+  {
+   "title": "Administrative Assistant",
+   "company": "BEMA3 Partners",
+   "url": "https://jobs.workable.com/view/kaeYiVznEeyWNNK8HYQ91d/remote-administrative-assistant-in-dallas-at-bema3-partners",
+   "why": "page 410"
+  },
+  {
+   "title": "Executive Assistant to the Lieutenant Governor",
+   "company": "Building Colorado's Future Together",
+   "url": "https://jobs.workable.com/view/wyHUzt2r1D4FLSL5L5wmBu/executive-assistant-to-the-lieutenant-governor-in-denver-at-building-colorado's-future-together",
+   "why": "page 410"
+  },
   {
    "title": "Executive Assistant",
    "company": "Hearst",
@@ -37,130 +46,112 @@
    "why": "greenhouse 404"
   },
   {
-   "title": "Sr. Executive Assistant to Chief Medical Officer, The Cigna Group",
-   "company": "The Cigna Group",
-   "url": "https://jobs.thecignagroup.com/us/en/job/26014566/Sr-Executive-Assistant-to-Chief-Medical-Officer-The-Cigna-Group",
-   "why": "page says: no longer accepting applications"
-  },
-  {
-   "title": "Administrative Manager",
-   "company": "Proficio Therapy Services",
-   "url": "https://proficiotherapyservicesllc.applytojob.com/apply/et3vUsweoY/Administrative-Manager",
+   "title": "Administrative Assistant - Nuclear Power Group",
+   "company": "Sargent & Lundy",
+   "url": "https://careers-sargentlundy.icims.com/jobs/30580/administrative-assistant---nuclear-power-group/job",
    "why": "page 410"
   },
   {
-   "title": "Administrative Assistant",
-   "company": "Appalachian Regional Healthcare, Inc.",
-   "url": "https://careers-arh.icims.com/jobs/37859/administrative-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Medical Assistant - Administrative Assistant Day Shift",
-   "company": "PrimeCare Medical, Inc.",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4685770",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant (NYC)",
-   "company": "Tempo",
-   "url": "https://jobs.ashbyhq.com/tempo-xyz/2867a747-02ca-4656-9dfe-5e77634c0966",
-   "why": "ashby not listed"
-  },
-  {
-   "title": "Executive Assistant, Payment Integrity",
-   "company": "CVS Health",
-   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Plymouth-1405-Xenium-Lane-Nort/Executive-Assistant--Payment-Integrity_R1086890",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Galapagos Federal Systems LLC.",
-   "url": "https://careers-galapagos.icims.com/jobs/3670/executive-assistant/job",
-   "why": "page 410"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "CVS Health",
-   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Executive-Assistant_R1106875",
-   "why": "workday 404"
-  },
-  {
-   "title": "Executive Assistant 1, Administration-BHM, FT, 8A-4:30P",
-   "company": "Baptist Health South Florida",
-   "url": "https://careers.baptisthealth.net/us/en/job/164260/Executive-Assistant-1-Administration-BHM-FT-8A-4-30P",
-   "why": "page 410"
-  },
-  {
-   "title": "Bilingual Front Desk Receptionist",
-   "company": "Wecare Home Care",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4490383",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Child Care of the Berkshires Inc",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4644222",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Executive Assistant",
-   "company": "Odyssey House Inc.",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4630244",
-   "why": "redirected to not-found"
-  },
-  {
-   "title": "Lead Club Receptionist - Soho Beach House Miami",
-   "company": "Soho House & Co.",
-   "url": "https://job-boards.eu.greenhouse.io/sohohouseco/jobs/5020006101",
-   "why": "greenhouse 404"
-  },
-  {
-   "title": "Executive Assistant I, AI at Work",
-   "company": "Amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10593800",
+   "title": "Food and Beverage Administrative Assistant, TD Garden",
+   "company": "Delaware North",
+   "url": "https://internalcareers.delawarenorth.com/jobs/62577",
    "why": "page 404"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Trivium",
-   "url": "https://jobs.workable.com/view/13vBtXcs83E5JGJMq2buMv/executive-assistant-in-miami-gardens-at-trivium",
+   "title": "Senior Manager & Chief of Staff (SMB Go-to-Market & Strategic Initiatives)",
+   "company": "Lenovo",
+   "url": "https://jobs.lenovo.com/en_US/careers/JobDetail/Senior-Manager-Chief-of-Staff-SMB-Go-to-Market-Strategic-Initiatives/84271",
+   "why": "page 404"
+  },
+  {
+   "title": "Automotive Service Cashier / Receptionist",
+   "company": "DARCARS Automotive Group",
+   "url": "https://jobsatdarcars.applytojob.com/apply/sxuqoRwB7n/Automotive-Service-Cashier-Receptionist",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Trivium",
-   "url": "https://jobs.workable.com/view/9uxb6S1nGN4ZsGSN4AVyAT/executive-assistant-in-miami-beach-at-trivium",
+   "title": "Automotive Service Cashier / Receptionist",
+   "company": "DARCARS Automotive Group",
+   "url": "https://jobsatdarcars.applytojob.com/apply/2NpPQzdxEy/Automotive-Service-Cashier-Receptionist",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Trivium",
-   "url": "https://jobs.workable.com/view/jcuTWTjVikuV8e5eH9PJ7Y/executive-assistant-in-miami-at-trivium",
+   "title": "Administrative Assistant 2",
+   "company": "Aston Carter",
+   "url": "https://careers.astoncarter.com/us/en/job/JP-006415937/Administrative-Assistant-2",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant",
-   "company": "Hyperbolic",
-   "url": "https://jobs.ashbyhq.com/hyperbolic/7ac3f3d8-c1a9-4c0f-b100-536341a9c922",
-   "why": "ashby not listed"
+   "title": "Sr. Administrative Assistant ",
+   "company": "The City of Fort Worth",
+   "url": "https://boards.greenhouse.io/cityoffortworth/jobs/8201762003?gh_jid=8201762003",
+   "why": "greenhouse 404"
   },
   {
-   "title": "Receptionist / Office Coordinator-Leominster - Great Pay, Great Benefits & M-F 8.30 -5:00 PM",
-   "company": "Fallon Health",
-   "url": "https://jobs-fchp.icims.com/jobs/8487/receptionist----office-coordinator-leominster---great-pay%2c-great-benefits-%26-m-f-8.30--5%3a00-pm/job",
+   "title": "Executive Assistant to the CEO",
+   "company": "Baselayer",
+   "url": "https://job-boards.greenhouse.io/baselayer/jobs/5469407008",
+   "why": "greenhouse 404"
+  },
+  {
+   "title": "Executive Assistant to the Director of Nursing and Midwifery",
+   "company": "SA Health",
+   "url": "https://careers.pageuppeople.com/532/caw/en/job/955474/executive-assistant-to-the-director-of-nursing-and-midwifery",
+   "why": "redirected to not-found"
+  },
+  {
+   "title": "Chief of Staff & Executive Assistant MEA (m/f/d)",
+   "company": "KARL STORZ",
+   "url": "https://career.karlstorz.com/job/Dubai-Chief-of-Staff-&-Executive-Assistant-MEA-%28mfd%29-54983/1456277633/",
+   "why": "page says: position has been filled"
+  },
+  {
+   "title": "Executive Assistant I",
+   "company": "Texas Health & Human Services Commission",
+   "url": "https://careers.hhs.texas.gov/hhscjobs/job/DENTON-Executive-Assistant-I-TX-76201/1449457500/",
+   "why": "page says: no longer available"
+  },
+  {
+   "title": "Executive Assistant I",
+   "company": "Texas Health & Human Services Commission",
+   "url": "https://careers.hhs.texas.gov/hhscjobs/job/DENTON-Executive-Assistant-I-TX-76210/1449457500/",
+   "why": "page says: no longer available"
+  },
+  {
+   "title": "Office Manager - Infectious Diseases",
+   "company": "Hartford HealthCare Medical Group",
+   "url": "https://www.hhccareers.org/us/en/job/HHKHHEUS26166173EXTERNALENUS/Office-Manager-Infectious-Diseases",
    "why": "page 410"
   },
   {
-   "title": "Executive Assistant - Banking/Finance (Max $40/hr W2)",
-   "company": "Lenmar Consulting Inc.",
-   "url": "https://jobs.smartrecruiters.com/LenmarConsultingInc/744000158370569-executive-assistant-banking-finance-max-40-hr-w2-",
-   "why": "smartrecruiters 404"
+   "title": "Receptionist",
+   "company": "Franciscan Ministries",
+   "url": "https://careers-franciscanministries.icims.com/jobs/7858/receptionist/job",
+   "why": "page 410"
   },
   {
-   "title": "Administrative Coordinator",
-   "company": "Accord",
-   "url": "https://jobs.workable.com/view/sCZT53XQVLsQHCieV54P1y/hybrid-administrative-coordinator-in-saint-paul-at-accord",
-   "why": "page 410"
+   "title": "Executive Assistant ",
+   "company": "Climate Lead",
+   "url": "https://job-boards.greenhouse.io/climatelead/jobs/5467463008",
+   "why": "greenhouse 404"
+  },
+  {
+   "title": "Executive Assistant in the Administrative Division",
+   "company": "City of New York",
+   "url": "https://jobs.smartrecruiters.com/CityOfNewYork/3743990016489086-executive-assistant-in-the-administrative-division",
+   "why": "smartrecruiters inactive"
+  },
+  {
+   "title": "Receptionist",
+   "company": "WellNow Urgent Care",
+   "url": "https://aspendental.wd1.myworkdayjobs.com/WellNowUrgentCareCareers/job/Amherst-New-York/Receptionist_R2026-013464",
+   "why": "workday 404"
+  },
+  {
+   "title": "Assistant Dental Office Manager",
+   "company": "Aspen Dental",
+   "url": "https://aspendental.wd1.myworkdayjobs.com/Careers_Aspen_Dental/job/Lexington-North-Carolina/Assistant-Dental-Office-Manager_R2026-013457",
+   "why": "workday 404"
   }
  ]
 }
